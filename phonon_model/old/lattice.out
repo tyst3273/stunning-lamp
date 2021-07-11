@@ -1,0 +1,77 @@
+
+-------------------------------------------------------
+
+
+*** primitive to supercell transformation (A=a*T) ***
+
+! transformation matrix (T):
+   2.000  0.000  0.000
+   0.000  2.000  0.000
+   0.000  0.000  2.000
+! inverse of transformation matrix (T^-1):
+   0.500  0.000  0.000
+   0.000  0.500  0.000
+   0.000  0.000  0.500
+
+-------------------------------------------------------
+
+
+*** primitive cell (a) ***
+ there are 1 atoms in the primitive cell
+
+! basis positions (lattice coords)
+  [1]    type: 1    pos:  0.000  0.000  0.000
+! basis positions (cartesian coords, Angstrom)
+  [1]    type: 1    pos:  0.000  0.000  0.000
+
+! real space lattice (a) (Angstrom):
+   0.000  1.989  1.989
+   1.989  0.000  1.989
+   1.989  1.989  0.000
+! reciprocal space lattice (1/Angstrom)):
+  -1.579  1.579  1.579
+   1.579 -1.579  1.579
+   1.579  1.579 -1.579
+
+! inverse of primitive lattice vectors (a^-1)
+  -0.251  0.251  0.251
+   0.251 -0.251  0.251
+   0.251  0.251 -0.251
+
+-------------------------------------------------------
+
+
+*** supercell (A) ***
+ there are 8 atoms in the supercell
+! sc basis positions (lattice coords)
+  [1]    type: 1    pos:  0.000  0.000  0.000
+  [2]    type: 2    pos:  0.000  0.000  0.500
+  [3]    type: 1    pos:  0.000  0.500  0.000
+  [4]    type: 2    pos:  0.000  0.500  0.500
+  [5]    type: 1    pos:  0.500  0.000  0.000
+  [6]    type: 2    pos:  0.500  0.000  0.500
+  [7]    type: 1    pos:  0.500  0.500  0.000
+  [8]    type: 2    pos:  0.500  0.500  0.500
+! sc basis positions (cartesian coords, Angstrom)
+  [1]    type: 1    pos:  0.000  0.000  0.000
+  [2]    type: 2    pos:  1.989  1.989  0.000
+  [3]    type: 1    pos:  1.989  0.000  1.989
+  [4]    type: 2    pos:  3.978  1.989  1.989
+  [5]    type: 1    pos:  0.000  1.989  1.989
+  [6]    type: 2    pos:  1.989  3.978  1.989
+  [7]    type: 1    pos:  1.989  1.989  3.978
+  [8]    type: 2    pos:  3.978  3.978  3.978
+
+! sc real space lattice (A) (Angstrom):
+   0.000  3.978  3.978
+   3.978  0.000  3.978
+   3.978  3.978  0.000
+! sc reciprocal space lattice (1/Angstrom)):
+  -0.790  0.790  0.790
+   0.790 -0.790  0.790
+   0.790  0.790 -0.790
+
+! inverse of supercell lattice vectors (A^-1)
+  -0.126  0.126  0.126
+   0.126 -0.126  0.126
+   0.126  0.126 -0.126
