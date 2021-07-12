@@ -1,5 +1,5 @@
 import mod_lattice
-import mod_potential
+import mod_forceconstants
 import mod_dynmat 
 
 # ---------------------------------------------------------------------------------------------------
@@ -69,7 +69,7 @@ fc units = eV/(Angst*Angstr)
 
 """
 
-fc_mats = mod_potential.force_constant_matrices(lattice)
+fc_mats = mod_forceconstants.force_constant_matrices(lattice)
 
 
 # set fc between atoms
@@ -329,9 +329,18 @@ fc = [[ -0.407391,  0.000000,  0.000000],
       [  0.000000,  0.000000, -0.407391]]
 fc_mats.set_force_constant(basis_ind,sc_ind_i,sc_ind_j,fc,lattice)
 
+print(fc_mats.fc_matrices[0,:,:])
+
 # ---------------------------------------------------------------------------------------------------
 
+"""
+Fourier transform the fc matrices to get the dynamical matrices. impose acoustic sum rules etc 
+either here or to the fc mats.
+"""
 
+dyn_mats = mod_dynmat.dynamical_matrices()
+
+# ---------------------------------------------------------------------------------------------------
 
 
 
