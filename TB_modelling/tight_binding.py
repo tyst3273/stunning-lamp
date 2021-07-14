@@ -60,8 +60,8 @@ lattice.find_nearest_neighbors(basis_inds)
 
 
 ### print lattice info to screen
-#lattice.print_lattice()
-#lattice.print_neighbors()
+lattice.print_lattice()
+lattice.print_neighbors()
 
 # -------------------------------------------------------------------------------------------------
 

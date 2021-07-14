@@ -7,9 +7,6 @@ class force_constant_matrices:
 
     def __init__(self,lattice):
 
-        # position vector (in cart coords.) between each atom and the atoms in the SC
-        self.rel_pos = np.zeros((lattice.num_basis,lattice.num_sc,3))
-
         # fc matrices between each atom and the atoms in the SC
         self.fc_matrices = np.zeros((lattice.num_basis,lattice.num_sc*3,3))
 
@@ -26,10 +23,6 @@ class force_constant_matrices:
 
         fc units = eV/(Angst*Angstr)
         """
-
-        # for phi(i,j)_a,b; R_ij = R(j)-R(i). may need to check sign of this
-        self.rel_pos[basis_ind,sc_ind_j,:] = lattice.sc_pos_cart[sc_ind_j,:]-\
-                lattice.sc_pos_cart[sc_ind_i,:]
 
         fc = np.array(fc)
         if fc.shape[0] != 3 or fc.shape[1] != 3:
