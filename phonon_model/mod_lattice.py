@@ -5,170 +5,143 @@ from mod_utils import print_stdout, raise_error
 class lattice:
 
     # ------------------------------------------------------------------------------------------------
-
+        
     def __init__(self):
 
         pass
-
-    # ------------------------------------------------------------------------------------------------
-
-    def set_atom_data(self,atom_masses=[51.9961],atomic_numbers=[24]):
-
-        """
-        set data for atoms. atomic masses, atomic numbers, etc.
-        should be lists with 1 entry for each type given in set_*_pos() methods. 
-        """
-    
-        self.atom_masses = atom_masses
-        self.atomic_numbers = atomic_numbers
-
-    # ------------------------------------------------------------------------------------------------
         
-    # ================================================================================================
-    # ----------------------------------- primitive cell ---------------------------------------------
-    # ================================================================================================
+    # ------------------------------------------------------------------------------------------------
+
+    def set_atom_data(self,atom_masses):
+
+        """
+        set data for atoms. 
+        """
+        self.atom_masses = np.array(atom_masses) # atomic mass in amu
 
     # ------------------------------------------------------------------------------------------------
 
-    def set_prim_vecs(self,prim_vecs=[[1,0,0],[0,1,0],[0,0,1]],prim_scale=2.8525):
+    def set_primitive_cell(self,prim_cell_file='prim_cell'):
 
         """
-        set primitive lattice vectors. prim_vecs should be a 3x3 matrix in Angstrom, 
-        prim_scale is just a scaling factor that multiplies prim_vecs
+        parse file with atom data in it and set up primitive cell
         """
 
-        # set the primitive lattice vectors
-        self.prim_vecs = np.array(prim_vecs)
-        if self.prim_vecs.shape[0] != 3 or self.prim_vecs.shape[1] != 3:
-            message = 'prim_vecs should be a 3x3 list of floats'
-            raise_error(message)
-        self.prim_vecs = self.prim_vecs*prim_scale
+        # parse the file
+        lat, nat, pos, types = self._parse_cell_file(prim_cell_file)
+
+        # set the data
+        self.prim_vecs = lat
+        self.num_basis = nat
+        self.basis_pos = pos
+        self.basis_types = types
 
         # get the reciprocal lattice vectors
         self.r_prim_vecs, self.prim_vol = self._compute_reciprocal_lattice(self.prim_vecs)
 
-    # -----------------------------------------------------------------------------------------------
-
-    def set_basis_pos(self,basis_pos=[[0.0,0.0,0.0],[0.5,0.5,0.5]],basis_types=[1,1]):
-
-        # basis pos in crystal coords
-        self.basis_pos = np.array(basis_pos)
-        if self.basis_pos.shape[1] != 3:
-            message = 'basis positions should be 3D'
-            raise_error(message)
-        self.basis_pos_cart = self._transform_pos(self.prim_vecs,self.basis_pos)
-
-        # check that number of atoms matches number of given types
-        self.num_basis = self.basis_pos.shape[0]
-        if self.num_basis != len(basis_types):
-            message = 'number of positions doenst match number of basis types'
-            raise_error(message)
-        self.basis_types = basis_types
+        # get basis pos in cartesian coords
+        self.basis_pos_cart = self._crystal_to_cart(self.prim_vecs,self.basis_pos)
 
         # check number of types mathces number of masses and number of atomic numbers
         self.num_types = np.unique(self.basis_types).shape[0]
-        if self.num_types != len(self.atom_masses):
-            message = 'number of unique basis types doesnt match number of masses'
-            raise_error(message)
-        if self.num_types != len(self.atomic_numbers):
-            message = 'number of unique basis types doesnt match number of atomic numbers'
+        if self.num_types != self.atom_masses.shape[0]:
+            message = 'number of basis types doesnt match number of masses'
             raise_error(message)
 
-        # set the masses and atomic numbers for the atoms
-        self.basis_masses = np.zeros(self.num_basis)
-        for atom in range(self.num_basis):
-            self.basis_masses[atom] = self.atom_masses[basis_types[atom]-1]
-        self.basis_z = np.zeros(self.num_basis)
-        for atom in range(self.num_basis):
-            self.basis_z[atom] = self.atomic_numbers[basis_types[atom]-1]
+    # ------------------------------------------------------------------------------------------------
 
-    # -----------------------------------------------------------------------------------------------
-
-    # ================================================================================================
-    # -------------------------------------- supercell -----------------------------------------------
-    # ================================================================================================
-
-    # -----------------------------------------------------------------------------------------------
-
-    def set_sc_vecs(self,sc_vecs=[[1,0,0],[0,1,0],[0,0,1]],sc_scale=5.7049):
+    def set_super_cell(self,super_cell_file='super_cell'):
 
         """
-        set supercell lattice vectors. sc_vecs should be a 3x3 matrix in Angstrom,
-        sc_scale is just a scaling factor that multiplies sc_vecs
+        parse file with atom data in it and set up super cell
         """
 
-        # set the supercell lattice vectors
-        self.sc_vecs = np.array(sc_vecs)
-        if self.sc_vecs.shape[0] != 3 or self.sc_vecs.shape[1] != 3:
-            message = 'sc_vecs should be a 3x3 list of floats'
-            raise_error(message)
-        self.sc_vecs = self.sc_vecs*sc_scale
+        # parse the file
+        lat, nat, pos, types = self._parse_cell_file(super_cell_file)
 
-        # get the supercell reciprocal lattice vectors
+        # set the data
+        self.sc_vecs = lat
+        self.num_sc = nat
+        self.sc_pos = pos
+        self.sc_types = types
+
+        # get the reciprocal lattice vectors
         self.r_sc_vecs, self.sc_vol = self._compute_reciprocal_lattice(self.sc_vecs)
 
-    # -----------------------------------------------------------------------------------------------
+        # get sc pos in cartesian coords
+        self.sc_pos_cart = self._crystal_to_cart(self.sc_vecs,self.sc_pos)
 
-    def set_sc_pos(self,sc_pos=[[0.0,0.0,0.0],[0.5,0.5,0.5]],sc_types=[1,1]):
-
-        # supercell pos in crystal coords
-        self.sc_pos = np.array(sc_pos)
-        if self.sc_pos.shape[1] != 3:
-            message = 'supercell positions should be 3D'
-            raise_error(message)
-        self.sc_pos_cart = self._transform_pos(self.sc_vecs,self.sc_pos)
-
-        # check that number of atoms matches number of given type
-        self.num_sc = self.sc_pos.shape[0]
-        if self.num_sc != len(sc_types):
-            message = 'number of sc positions doenst match number of sc types'
-            raise_error(message)
-        self.sc_types = sc_types
-
-        # check number of types mathces number of types in basis 
+        # check number of types mathces number of masses and number of atomic numbers
         num_types = np.unique(self.sc_types).shape[0]
-        if num_types != self.num_types:
-            message = 'number of unique sc types doesnt match number of basis types'
+        if num_types != self.atom_masses.shape[0]:
+            message = 'number of sc types doesnt match number of masses'
             raise_error(message)
-
-        # set the masses and atomic numbers for the atoms
-        self.sc_masses = np.zeros(self.num_sc)
-        for atom in range(self.num_sc):
-            self.sc_masses[atom] = self.atom_masses[sc_types[atom]-1]
-        self.sc_z = np.zeros(self.num_sc)
-        for atom in range(self.num_sc):
-            self.sc_z[atom] = self.atomic_numbers[sc_types[atom]-1]
 
     # -----------------------------------------------------------------------------------------------
 
-    def find_nearest_neighbors(self,basis_inds=None):
+    def _parse_cell_file(self,cell_file):
 
         """
-        get relative position vectors (using minimum image) between basis atoms and supercell atoms
+        read a cell file
+        """
+
+        # read file
+        with open(cell_file,'r') as f_cell:
+            lines = f_cell.readlines()
+
+        # get scale of lattice vectors
+        try:
+            lat_scale = float(lines[0].strip())
+        except:
+            message = f'the lattice scale factor in  \'{cell_file}\' seems wrong'
+            raise_error(message)
+
+        # get lattice vectors
+        lat = np.zeros((3,3))
+        try:
+            for ii in range(3):
+                vec = lines[ii+1].strip().split()
+                lat[ii,:] = [float(x) for x in vec]
+        except:
+            message = f'the lattice vectors in \'{cell_file}\' seem wrong'
+            raise_error(message)
+
+        # get number of atoms to read
+        try:
+            nat = int(lines[4].strip())
+        except:
+            message = f'number of atoms line in \'{cell_file}\' should be an integer'
+            raise_error(message)
+
+        # get positions and types
+        pos = np.zeros((nat,3))
+        types = np.zeros(nat,dtype=int)
+        try:
+            for ii in range(nat):
+                line = lines[ii+5].strip().split()
+                types[ii] = line[0]
+                pos[ii,:] = [float(x) for x in line[1:]]
+        except:
+            message = f'positions or type data in \'{cell_file}\' seem wrong'
+            raise_error(message)
+
+        # return it all
+        return lat*lat_scale, nat, pos, types
+
+    # -------------------------------------------------------------------------------------------------
+
+    def find_neighbors(self):
+
+        """
+        get relative position vectors (using minimum image) between atoms in supercell
         and convert those to cartesian and spherical coords
         """
-
-        # indices of basis atoms in the supercell positions
-        if basis_inds == None:
-            self.basis_inds = np.arange(self.num_basis)
-        else:
-            self.basis_inds = np.array(basis_inds)
-            if self.basis_inds.min() < 0 or self.basis_inds.max() >= self.num_sc:
-                message = 'basis_inds should be integers in range [0,number of atoms in supercell]'
-                raise_error(message)
-
         # relative pos vectors. same vector, different coordinate basis
-        self.sc_rel = np.zeros((self.num_basis,self.num_sc,3)) # crystal coords
-        self.sc_rel_cart = np.zeros((self.num_basis,self.num_sc,3)) # cartesian coords
-        self.sc_rel_sph = np.zeros((self.num_basis,self.num_sc,3)) # spherical coords
+        self.sc_rel = np.zeros((self.num_sc,self.num_sc,3)) # crystal coords
+        self.sc_rel_cart = np.zeros((self.num_sc,self.num_sc,3)) # cartesian coords
+        self.sc_rel_sph = np.zeros((self.num_sc,self.num_sc,3)) # spherical coords
 
-        message = 'check sign of relative position vectors'
-        print_stdout(message,msg_type='WARNING')
-
-        for ii in range(self.num_basis):
-
-            # index of basis atom
-            atom = self.basis_inds[ii]
+        for atom in range(self.num_sc):
 
             pos = self.sc_pos[atom,:] # position of this basis atom in the supercell crystal coords
             rel_pos = np.copy(self.sc_pos) # relative positions
@@ -191,13 +164,13 @@ class lattice:
 
             # shift relative positions to minimum image
             rel_pos = rel_pos+shift
-            self.sc_rel[ii,:,:] = rel_pos
+            self.sc_rel[atom,:,:] = rel_pos
 
             # convert relative position in crystal coords to cartesian
-            self.sc_rel_cart[ii,:,:] = self._transform_pos(self.sc_vecs,self.sc_rel[ii,:,:])
+            self.sc_rel_cart[atom,:,:] = self._crystal_to_cart(self.sc_vecs,self.sc_rel[atom,:,:])
 
             # convert relative position from cartesian to spherical coords
-            self.sc_rel_sph[ii,:,:] = self._cart_to_spherical(self.sc_rel_cart[ii,:,:])
+            self.sc_rel_sph[atom,:,:] = self._cart_to_spherical(self.sc_rel_cart[atom,:,:])
 
     # -----------------------------------------------------------------------------------------------
 
@@ -216,7 +189,7 @@ class lattice:
         # need to handle r == 0 correctly. set arg == 1 so that theta = 0
         ind = np.argwhere(r == 0).flatten()
         r[ind] = 1
-        cart_pos[ind,2]
+        cart_pos[ind,2] = 1
         sph_coords[:,1] = np.arccos(cart_pos[:,2]/r)  # theta
 
         # atan is defined for arg -> inf
@@ -224,28 +197,7 @@ class lattice:
 
         return sph_coords
 
-    # -----------------------------------------------------------------------------------------------
-    
-    # ===============================================================================================
-    # ------------------------------------ helper methods -------------------------------------------
-    # ===============================================================================================
-
-    # -----------------------------------------------------------------------------------------------
-
-    def _transform_pos(self,t_mat,old_pos):
-
-        """
-        wrapper to just matrix multiply each atoms vector by the fiven transformation matrix.
-        """
-
-        nat = old_pos.shape[0]
-        new_pos = np.zeros((nat,3))
-        for atom in range(nat):
-            new_pos[atom,:] = np.matmul(t_mat,old_pos[atom,:])
-
-        return new_pos
-
-    # -----------------------------------------------------------------------------------------------
+    # ------------------------------------------------------------------------------------------------
 
     def _compute_reciprocal_lattice(self,lat_vecs):
 
@@ -263,20 +215,33 @@ class lattice:
 
     # -----------------------------------------------------------------------------------------------
 
-    # ===============================================================================================
-    # ---------------------------------- printing to screen -----------------------------------------
-    # ===============================================================================================
+    def _crystal_to_cart(self,lat_vecs,crystal_coords):
+
+        """
+        wrapper to just matrix multiply each atoms vector by the fiven transformation matrix.
+        """
+
+        nat = crystal_coords.shape[0]
+        cart_coords = np.zeros((nat,3))
+        for atom in range(nat):
+            cart_coords[atom,:] = np.matmul(lat_vecs,crystal_coords[atom,:])
+
+        return cart_coords
 
     # -----------------------------------------------------------------------------------------------
+    # ---------------------------------- write info to files ----------------------------------------
+    # -----------------------------------------------------------------------------------------------
 
-    def print_lattice(self):
+    def write_lattice(self):
 
         """
         print all of the stuff setup in this class to screen for diagnostics
         """
 
+        fout = open('LATTICE.OUT','w')
+
         # print primitive cell
-        message = 'real space primitive cell (Angstrom):\n'
+        message = ' ** PRIMITIVE CELL **\n real space primitive cell (Angstrom):\n'
         for ii in range(3):
             message = message+f'  {self.prim_vecs[ii,0]: 2.4f} {self.prim_vecs[ii,1]: 2.4f}' \
                     f' {self.prim_vecs[ii,2]: 2.4f}\n'
@@ -295,10 +260,10 @@ class lattice:
         for ii in range(self.num_basis):
             message = message+f'   {ii}, {self.basis_types[ii]},  {self.basis_pos_cart[ii,0]: 2.3f}' \
                     f' {self.basis_pos_cart[ii,1]: 2.3f} {self.basis_pos_cart[ii,2]: 2.3f}\n'
-        print_stdout(message,msg_type='PRIMITIVE CELL')
+        fout.write(message)
 
         # print supercell
-        message = 'real space supercell (Angstrom):\n'
+        message = ' ** SUPER CELL **\n real space supercell (Angstrom):\n'
         for ii in range(3):
             message = message+f'  {self.sc_vecs[ii,0]: 2.4f} {self.sc_vecs[ii,1]: 2.4f}' \
                     f' {self.sc_vecs[ii,2]: 2.4f}\n'
@@ -317,23 +282,26 @@ class lattice:
         for ii in range(self.num_sc):
             message = message+f'   {ii}, {self.sc_types[ii]},  {self.sc_pos_cart[ii,0]: 2.3f}' \
                     f' {self.sc_pos_cart[ii,1]: 2.3f} {self.sc_pos_cart[ii,2]: 2.3f}\n'
-        print_stdout(message,msg_type='SUPERCELL')
+        fout.write(message)
+
+        fout.close()
 
     # -----------------------------------------------------------------------------------------------
 
-    def print_neighbors(self):
+    def write_neighbors(self):
 
         """
         print neighbor vectors to screen for diagnostics
         """
+        
+        fout = open('NEIGHBORS.OUT','w')
 
         # print relative pos
-        message = f' there are {self.num_basis} atoms in the primitive cell\n'
-        for ii in range(self.num_basis):
-            atom = self.basis_inds[ii]
-            message = message+f'  basis atom index: {atom},  type: {self.sc_types[atom]},'\
-                    f' pos (Angstrom): {self.sc_pos_cart[atom,0]: 2.3f}'\
-                    f' {self.sc_pos_cart[atom,1]: 2.3f} {self.sc_pos_cart[atom,2]: 2.3f}\n'
+        message = f' ** NEIGHBORS **\n there are {self.num_basis} atoms in the primitive cell\n'
+        for ii in range(self.num_sc):
+            message = message+f'  sc atom index: {ii},  type: {self.sc_types[ii]},'\
+                    f' pos (Angstrom): {self.sc_pos_cart[ii,0]: 2.3f}'\
+                    f' {self.sc_pos_cart[ii,1]: 2.3f} {self.sc_pos_cart[ii,2]: 2.3f}\n'
             message = message+'  vector from basis atom to atoms in supercell (crystal coords):\n'
             message = message+f'   ind, type,   x  y  z\n'
             for jj in range(self.num_sc):
@@ -349,12 +317,16 @@ class lattice:
             for jj in range(self.num_sc):
                 message = message+f'   {jj}, {self.sc_types[jj]},  {self.sc_rel_sph[ii,jj,0]: 2.3f}' \
                     f' {self.sc_rel_sph[ii,jj,1]: 2.3f} {self.sc_rel_sph[ii,jj,2]: 2.3f}\n'
-        print_stdout(message,msg_type='NEIGHBORS')
+        fout.write(message)
+
+        fout.close()
 
     # -----------------------------------------------------------------------------------------------
 
-
-
+# ===================================================================================================
+# ---------------------------------------------------------------------------------------------------
+# ===================================================================================================
+   
 
 
 
