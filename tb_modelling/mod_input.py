@@ -17,21 +17,16 @@ class invars:
         """
         
         # list of variables with defaults or that arent required
-        self.optional_variables = ['task', # default
-                                   '_symmetric_to'] # optional
+        self.optional_variables = ['task'] # default
 
         # list of mandatory variables
-        self.mandatory_variables = ['lattice_scale',
-                                    'lattice_vectors',
-                                    'number_of_atoms',
-                                    'atom_positions',
-                                    'number_of_orbitals',
-                                    'orbital_atoms',
-                                    'orbital_labels',
-                                    'orbital_params',
-                                    '_orbital_i',
-                                    '_orbital_j',
-                                    '_symmetric_to']
+        self.mandatory_variables = ['prim_scale',
+                                    'prim_vectors',
+                                    'num_basis_atoms',
+                                    'basis_atom_positions']
+
+        # allowed variables is union of optional and mandatory variables
+        self.allowed_variables = self.optional_variables+self.mandatory_variables
 
         # default variables go below here
         self.task = 'solve_k_grid' # what the code is gonna do
@@ -56,9 +51,12 @@ class invars:
         # now format the lines and check that all mandatory variables exist
         self._preprocess_input()
 
-        # now get the variables. if new vars are added, be careful to add them in the logical order
+        # -----------------------------------------------------------------------------------------
+        # now get the variables. if new vars are added that depend on previous variables, be careful
+        # to add them in the logical order
+        # -----------------------------------------------------------------------------------------
 
-        task = self._parse_str('task')
+    # -----------------------------------------------------------------------------------------------
 
     # -----------------------------------------------------------------------------------------------
     # private methods go below here 
@@ -67,34 +65,57 @@ class invars:
     def _preprocess_input(self):
 
         """
-        strip all the blank lines, comments, and check that all mandatory variables are defined
+        strip all the blank lines, comments, and check that all mandatory variables are defined. 
         """
 
         duplicates = [] # store duplicate variables
         trimmed_text = [] # stripped of comments and blank lines
         for line in self.input_text:
 
-            # if comment line or blank
+            # if comment line or blank, skip. otherwise, process it further
             if len(line.split()) == 0 or line.strip().startswith('#'):
                 continue
-            else:
-                
+            else: 
+     
                 # strip comment off end of line
                 tmp_line = line.split('#')[0].strip()
 
                 # get the key word from the lines
-                key_word = tmp_line.split('=')[0].split(':')[0].strip()
+                key_word = tmp_line.split('=')
 
-                # check if key_word is duplicated
-                if key_word in duplicates:
-                    message = f'key word \'{key_word}\' appears more than once in the input file'
-                    raise_error(message)
+                # see if it is a key word of a variable definition broken on another line
+                if len(key_word) != 1:
 
-                # append to what we want to keep
+                    # get the keyword from the list
+                    key_word = key_word[0].strip()
+                    
+                    # see if it is an allowed keyword
+                    if key_word not in self.allowed_variables:
+                        message = f'key word \'{key_word}\' is not one of the allowed keywords'
+                        raise_error(message)
+
+                    # if it is mandatory, pop it out of mandatory list
+                    if key_word in self.mandatory_variables:
+                        index = self.mandatory_variables.index(key_word)
+                        self.mandatory_variables.pop(index)
+
+                    # check if key_word is duplicated
+                    if key_word in duplicates:
+                        message = f'key word \'{key_word}\' appears more than once in the input file'
+                        raise_error(message)
+
+                    # add to list to check for duplicates
+                    duplicates.append(key_word)
+
+                # append line of txt to what we want to keep
                 trimmed_text.append(tmp_line)
-
-        # overwrite the input txt and with trimmed data
-        self.input_text = trimmed_text
+        
+        # now check that all mandatory variables are specified
+        if len(self.mandatory_variables) != 0:
+            message = 'the following mandatory variables are not in the input file:\n'
+            for variable in self.mandatory_variables:
+                message = message+f'  \'{variable}\'\n'
+            raise_error(message)
 
     # -----------------------------------------------------------------------------------------------
 
@@ -103,154 +124,15 @@ class invars:
         """
         do necessary manipulations and and post-checking here
         """ 
-        pass
+        pass 
+
+    # -----------------------------------------------------------------------------------------------
 
     # -----------------------------------------------------------------------------------------------
     # these are methods to get the variables from the input text
     # -----------------------------------------------------------------------------------------------
 
-    def _parse_str(self,key_word):
-
-        """
-        get str varaible from file
-        """
-
-        return_value = None
-        for line in self.input_txt:
-            if line.split('=')[0].strip() == key_word:
-                return_value = line.split('=')[-1]
-                return_value = return_value.split('#')[0].strip()
-                return_value = str(return_value)
-        return return_value
-
     # -----------------------------------------------------------------------------------------
-
-    def _parse_float(self,key_word):
-
-        """
-        get float varible from file
-        """
-
-        return_value = None
-        for line in self.input_txt:
-            if line.split('=')[0].strip() == key_word:
-                return_value = line.split('=')[-1]
-                return_value = return_value.split('#')[0].strip()
-                try:
-                    return_value = float(return_value)
-                except:
-                    message = f'key word \'{key_word}\' seems wrongs.'
-                    raise PSF_exception(message)
-        return return_value
-
-    # -----------------------------------------------------------------------------------------
-
-    def _parse_int(self,key_word):
-
-        """
-        get int variable from file
-        """
-
-        return_value = None
-        for line in self.input_txt:
-            if line.split('=')[0].strip() == key_word:
-                return_value = line.split('=')[-1]
-                return_value = return_value.split('#')[0].strip()
-                try:
-                    return_value = int(return_value)
-                except:
-                    message = f'key word \'{key_word}\' seems wrongs.'
-                    raise PSF_exception(message)
-        return return_value
-
-    # -----------------------------------------------------------------------------------------
-
-    def _parse_bool(self,key_word):
-
-        """
-        get bool variable from file
-        """
-
-        return_value = None
-        for line in self.input_txt:
-            if line.split('=')[0].strip() == key_word:
-                return_value = line.split('=')[-1]
-                return_value = return_value.split('#')[0].strip()
-                try:
-                    return_value = bool(int(return_value))
-                except:
-                    message = f'key word \'{key_word}\' seems wrongs.'
-                    raise PSF_exception(message)
-        return return_value
-
-    # -----------------------------------------------------------------------------------------
-
-    def _parse_int_list(self,key_word):
-
-        """
-        get list of ints from file
-        """
-
-        return_value = None
-        for line in self.input_txt:
-            if line.split('=')[0].strip() == key_word:
-                return_value = line.split('=')[-1]
-                return_value = return_value.split('#')[0].strip()
-                return_value = return_value.split()
-                try:
-                    return_value = [int(x) for x in return_value]
-                except:
-                    message = f'key word \'{key_word}\' seems wrongs.'
-                    raise PSF_exception(message)
-        return return_value
-
-    # -----------------------------------------------------------------------------------------
-
-    def _parse_float_list(self,key_word):
-
-        """
-        get list of floats from file
-        """
-
-        return_value = None
-        for line in self.input_txt:
-            if line.split('=')[0].strip() == key_word:
-                return_value = line.split('=')[-1]
-                return_value = return_value.split('#')[0].strip()
-                return_value = return_value.split()
-                try:
-                    return_value = [float(x) for x in return_value]
-                except:
-                    message = f'key word \'{key_word}\' seems wrongs.'
-                    raise PSF_exception(message)
-        return return_value
-
-    # ------------------------------------------------------------------------------------------
-
-    def _parse_str_list(self,key_word):
-
-        """
-        get list of ints from file
-        """
-
-        return_value = None
-        for line in self.input_txt:
-            if line.split('=')[0].strip() == key_word:
-                return_value = line.split('=')[-1]
-                return_value = return_value.split('#')[0].strip()
-                return_value = return_value.split()
-                try:
-                    return_value = [str(x) for x in return_value]
-                except:
-                    message = f'key word \'{key_word}\' seems wrongs.'
-                    raise PSF_exception(message)
-        return return_value
-
-    # -----------------------------------------------------------------------------------------
-
-
-
-
 
 
 
