@@ -7,7 +7,7 @@ import mod_input
 
 # get input file from command line or use default
 if len(sys.argv) == 1:
-    input_file = 'tb_modelling.in'
+    input_file = 'input_params'
 else:
     input_file = sys.argv[1]
 

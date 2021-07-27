@@ -33,7 +33,7 @@ class invars:
 
     # ----------------------------------------------------------------------------------------------
 
-    def parse_input_file(self,input_file='tb_modelling.in'):
+    def parse_input_file(self,input_file='input_params'):
 
         """
         read the input file 
@@ -65,47 +65,40 @@ class invars:
     def _preprocess_input(self):
 
         """
-        strip all the blank lines, comments, and check that all mandatory variables are defined. 
+        strip all the blank lines, comments, and check that all mandatroy variables are defined. 
         """
 
         duplicates = [] # store duplicate variables
         trimmed_text = [] # stripped of comments and blank lines
         for line in self.input_text:
 
-            # if comment line or blank, skip. otherwise, process it further
+            # if comment line or blank, skip. 
             if len(line.split()) == 0 or line.strip().startswith('#'):
                 continue
+
+            # otherwise, process the line further
             else: 
      
                 # strip comment off end of line
                 tmp_line = line.split('#')[0].strip()
 
-                # get the key word from the lines
-                key_word = tmp_line.split('=')
+                print(tmp_line)
 
-                # see if it is a key word of a variable definition broken on another line
-                if len(key_word) != 1:
-
-                    # get the keyword from the list
-                    key_word = key_word[0].strip()
-                    
-                    # see if it is an allowed keyword
-                    if key_word not in self.allowed_variables:
-                        message = f'key word \'{key_word}\' is not one of the allowed keywords'
-                        raise_error(message)
+                # see if it is an allowed keyword
+                if tmp_line in self.allowed_variables:
 
                     # if it is mandatory, pop it out of mandatory list
-                    if key_word in self.mandatory_variables:
-                        index = self.mandatory_variables.index(key_word)
+                    if tmp_line in self.mandatory_variables:
+                        index = self.mandatory_variables.index(tmp_line)
                         self.mandatory_variables.pop(index)
 
-                    # check if key_word is duplicated
-                    if key_word in duplicates:
-                        message = f'key word \'{key_word}\' appears more than once in the input file'
+                    # check if tmp_line is duplicated
+                    if tmp_line in duplicates:
+                        message = f'key word \'{tmp_line}\' appears more than once in the input file'
                         raise_error(message)
 
                     # add to list to check for duplicates
-                    duplicates.append(key_word)
+                    duplicates.append(tmp_line)
 
                 # append line of txt to what we want to keep
                 trimmed_text.append(tmp_line)
@@ -116,6 +109,23 @@ class invars:
             for variable in self.mandatory_variables:
                 message = message+f'  \'{variable}\'\n'
             raise_error(message)
+
+        # -------------------------------------------------------------------------------------------
+        # now go put all the variables and thier params into a dictionary
+        # -------------------------------------------------------------------------------------------
+
+        self.input_dict = {} # holds the input variables 
+        kw_inds = [] # holds inds of key words in the trimmed_text list
+
+        # go get the inds of the key words from the file
+        for ii in range(len(trimmed_text)):
+            line = trimmed_text[ii]
+            if line in self.allowed_variables:
+                kw_inds.append(ii)
+
+        # now put the variables in the dictionary
+        for ii in range(len(kw_inds)-1):
+            ind = kw_inds[ii]
 
     # -----------------------------------------------------------------------------------------------
 
