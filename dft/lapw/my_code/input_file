@@ -23,10 +23,10 @@ lattice_vectors: # row vectors
 lattice_scale: # scales the lattice vectors
  1.92
 
-#kpoint_grid:
-# 12 12 12
+kpoints:
+ 12 12 12
 
-#kpoint_symmetry:
-# full
+kpoints_type: # full_grid, reduced_grid, or band_path
+ full_grid
 
  
