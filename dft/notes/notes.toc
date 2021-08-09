@@ -6,8 +6,9 @@
 \contentsline {section}{\numberline {I}Introduction}{1}{section*.4}%
 \contentsline {section}{\numberline {II}scattering from atoms}{5}{section*.5}%
 \contentsline {subsection}{\numberline {A}The Angular Equation}{6}{section*.6}%
-\contentsline {subsection}{\numberline {B}The Radial Equation}{6}{section*.7}%
+\contentsline {subsection}{\numberline {B}The Radial Equation}{7}{section*.7}%
 \contentsline {subsection}{\numberline {C}Example of Spherical Potentials}{7}{section*.8}%
 \contentsline {subsection}{\numberline {D}Numerical Solution to the Radial Schr\"odinger's Equation}{8}{section*.9}%
-\contentsline {subsection}{\numberline {E}Further reading}{8}{section*.10}%
-\contentsline {section}{\numberline {}References}{8}{section*.11}%
+\contentsline {subsubsection}{\numberline {1}Numerical Quadrature}{8}{section*.10}%
+\contentsline {subsection}{\numberline {E}Further reading}{8}{section*.11}%
+\contentsline {section}{\numberline {}References}{8}{section*.12}%
