@@ -148,16 +148,50 @@ As $\rho \rightarrow 0$, $j_l(\rho)\rightarrow \rho^l$ and $n_l(\rho)\rightarrow
 
 We could go on to solve the hydrogen atom and other wacky potentials by hand like is done in quantum textbooks, or we could move on to something that isn't boring and solve the radial equation on a computer. Let's do that!
 
+There are apparently many different numerical integration methods for solving the radial Schr\"odinger's equation(let's call it the SE from now). Generally, these methods assume that space can be discretized into a finite grid and, assuming initial conditions at a few points, the solution can be solved by integrating across the domain. The method I keep coming across is \emph{Numerov's method}, which is allegedly pretty accurate while being very simple. Another one I have seen is the \emph{Runge-Kutta method} (well actually it's a class of methods) that is attractive because the discretized grid can be adjusted willy-nilly. This is an example of an 'adaptive grid' that can be adjusted on-the-fly to be fine in regions where the solutions vary rapidly, but coarse in regions where the solutions are smooth.
 
-\subsubsection{Numerical Quadrature}
+Numerov's method is applicate to (among others) differential equations of the form 
+\begin{equation}
+    \frac{d^2y}{dx^2} = -g(x)y(x)+s(x)
+\end{equation}
+The SE is an example of this with $s(x)=0$ and $g(x)=2m/\hbar^2 \left[ E-V(x) \right]$. For the radial equation in 3D, $V(x)=V^l_{eff}(x)$, but this is valid for any 1D SE with well behaved $V$. Poisson's equation from electricity and magnetism is another example: $d^2\phi(x)/dx^2=-4\pi\rho(x)$ with $\phi$ the electrostatic potential and $\rho$ the charge density. In this case, $s(x)=-4\pi\rho(x)$ and $g(x)=0$.
+
+Suppose our differential equation is defined over some finite regions $x_{min}\leq x \leq x_{max}$. We further assume that the solution decays to negligibly small at $x_{max}$. We then divide the interval into $N$ points of equal spacing that are $\Delta x$ wide (it is possible and even useful to use \emph{unevenly} spaced grids, but we will get to that later). We label each point $x_i$ and the corresponding solution etc. by $y_i=y(x_i)$, $g_i=g(x_i)$, and $s_i=s(x_i)$. Then to discretize the differential equation, we Taylor expand the solution around a particular point $x_n$:
+\begin{equation}
+    y_{n-1}=y_n-y^{(1)}_n\Delta x + \frac{1}{2} y^{(2)}_n(\Delta x)^2 - \frac{1}{6} y^{(3)}_n(\Delta x)^3 + \frac{1}{24} y^{(4)}_n(\Delta x)^4 - \frac{1}{120} y^{(5)}_n(\Delta x)^5+\mathcal{O}\left[ (\Delta x)^6 \right]
+\end{equation}
+\begin{equation}
+    y_{n+1}=y_n+y^{(1)}_n\Delta x - \frac{1}{2} y^{(2)}_n(\Delta x)^2 + \frac{1}{6} y^{(3)}_n(\Delta x)^3 - \frac{1}{24} y^{(4)}_n(\Delta x)^4 + \frac{1}{120} y^{(5)}_n(\Delta x)^5+\mathcal{O}\left[ (\Delta x)^6 \right]
+\end{equation}
+Adding $y_{n+1}+y_{n-1}$, we get 
+\begin{equation}
+    y_{n+1}+y_{n-1}=2y_n+y^{(2)}(\Delta x)^2 + \frac{1}{12} y^{(4)}_n(\Delta x)^4 + \mathcal{O}\left[ (\Delta x)^6 \right]
+    \label{eq:numerov_1}
+\end{equation}
+But we know that $y^{(2)}_n=-g_ny_n+s_n\equiv z_n$. Note that eq. \ref{eq:numerov_1} is applicatble to $z_n$ too if replace $y$ by $z$. If we plug $z_n$ into \ref{eq:numerov_1}, we get:
+\begin{equation}
+    y^{(4)}_n=\equiv z^{(2)}_n = \frac{z_{n+1}+z_{n-1}-2z_n}{(\Delta x)^2}+\mathcal{O}\left[ (\Delta x)^2 \right]
+\end{equation}
 
 
+Plugging this back into \ref{eq:numerov_1}, we get 
+\begin{multline}
+    y_{n+1}=2y_n - y_{n-1} + (-g_n y_n+s_n)(\Delta x)^2 + \\ \frac{1}{12} (-g_{n+1}y_{n+1} + s_{n+1} - g_{n-1}y_{n-1}+s_{n-1}+2g_n y_n -2s_n)(\Delta x)^2 + \mathcal{O}[(\Delta x)^6]
+\end{multline}
+and after some manipulation we arrive at \emph{Numerov's formula}:
+\begin{multline}
+    y_{n+1}\left[1+g_{n+1}\frac{(\Delta x)^2}{12} \right]= 2y_n \left[ 1 - 5 g_n \frac{(\Delta x)^2}{12} \right] - y_{n-1} \left[1+g_{n-1}\frac{(\Delta x)^2}{12} \right] + \\ (s_{n+1}+10 s_n +s_{n-1})\frac{(\Delta x)^2}{12}+\mathcal{O}[(\Delta x)^6]
+    \label{eq:numerov}
+\end{multline}
+
+Apparently the error in our integration is order $\mathcal{O}[(\Delta x)^6]$ in the step size. Staring at this equation for little while, we see that if we know $y_n$ and $y_n+1$, we can iteratively determine the solution at other $y_i$. Importantly, we can integrate in both the positive and negative $x$ directions. Recall that in the SE, the $s_n$ terms are missing and Numerov's formula is somewhat simpler. 
 
 
 
 \subsection{Further reading}
 
 \begin{itemize}
+  \item \emph{Numerical Methods in Quantum Mechanics (2019/2020)} by Paolo Gianozzi
   \item \emph{Introduction to Quantum Mechanics} by David Griffiths
   \item \emph{Modern Quantum Mechanics} by Jun Sakurai
   \item \emph{Computational Physics} by Jos Thijssen
