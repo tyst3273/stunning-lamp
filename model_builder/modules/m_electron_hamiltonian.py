@@ -2,7 +2,7 @@
 import numpy as np
 
 # custom modules
-from mod_utils import raise_error, print_message
+from m_utils import raise_error, print_message
 
 # --------------------------------------------------------------------------------------------------
 # (electronic) hamiltonian class
@@ -15,35 +15,44 @@ class hamiltonian:
     eigenvectors etc.
     """
 
-    def __init__(self,lattice):
+    def __init__(self,lattice,orbitals):
 
         """
         save the classes needed to build the hamiltonian
         """
         
         self.lattice = lattice
+        self.orbitals = orbitals
 
     # ----------------------------------------------------------------------------------------------
 
-    def get_hamiltonian(self,k_point=[0,0,0]):
+    def get_hamiltonian_k(self,k_point=[0,0,0]):
 
         """
         return the hamiltonian matrix at a given k-point
         """
 
+        # this should do the space FT and return the hamiltonian at a given k-point
+        # do something like this
+        #ham_k = self._do_space_ft(k_point)
+        #return ham_k
+
         pass
 
     # ----------------------------------------------------------------------------------------------
 
-    def get_eigenvals(self,k_point=[0,0,0]):
+    def get_eigenvals_k(self,k_point=[0,0,0]):
 
         """
         return the eigenvalues and eigenvectors at a given k-point
         """
 
-        ham_k = self.get_hamitonian(k_point)
-        eigvals, eigvecs = np.linalg.eigh(ham_k)
+        # do something like this
+        #ham_k = self.get_hamitonian_k(k_point)
+        #eigvals, eigvecs = np.linalg.eigh(ham_k)
         
+        pass
+
     # ----------------------------------------------------------------------------------------------
 
 

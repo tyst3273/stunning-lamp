@@ -2,7 +2,7 @@
 import numpy as np
 
 # custom modules
-from mod_utils import raise_error
+from m_utils import raise_error
 
 # --------------------------------------------------------------------------------------------------
 # the lattice class
