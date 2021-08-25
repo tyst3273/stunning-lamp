@@ -1,0 +1,61 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[prb,aps,11pt,superscriptaddress,floatfix]{revtex4-2} 
+\usepackage{graphicx}
+\usepackage{color} 
+\usepackage{amsmath}
+\usepackage{amssymb} 
+\usepackage{natmove}
+\usepackage{natbib}
+\usepackage{hyperref} 
+\usepackage{bm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\title{Mixed-basis (semi-empirical) pseudopotential method}
+
+\author{Tyler C. Sterling}
+\email{ty.sterling@colorado.edu}
+\affiliation{Department of Physics, University of Colorado at Boulder, Boulder, Colorado 80309, USA}
+\affiliation{Center for Experiments on Quantum Materials, University of Colorado at Boulder, Boulder, Colorado 80309, USA}
+
+\author{Dmitry Reznik}
+\affiliation{Department of Physics, University of Colorado at Boulder, Boulder, Colorado 80309, USA}
+\affiliation{Center for Experiments on Quantum Materials, University of Colorado at Boulder, Boulder, Colorado 80309, USA}
+
+
+\date{\today}
+
+\begin{abstract}
+	This is a \textbf{work-in-progess} document where I am keeping notes for a project I am working on. I am writing a density functional theory (DFT) package that will use a combination of atom-centered Gaussian functions and plane-waves (PW) as the basis-set. The atom-cores will be replaced with a \emph{semi-empirical} pseudopotential. Semi-empirical, in this context, means that I will treat the pseudopotentials as fitting parameters. I plan to fit bands calculated from my code to all-electron (or other high quality) DFT calculations. This is really no more 'empirical' than the typical ab-initio pseudopotential method which involves fitting the pseudopotential for the isolated atom to all-electron calculations. The ab-initio pseudopotential is more ab-initio in the sense that it does not depend on the atom's environment and can be 'plugged-in' to any crystal. (Well, not really: there has been considerable effort in making them as \emph{transferrable} as possible). In my case, the \emph{semi-empirical} pseudopotentials will be fit so that the smallest basis set possible can be used in a particular configuration and still reproduce the ab-intio band structure. Think of it like a tight-binding method, but instead of throwing away all the bonus multi-center integrals, I keep everything and work in reciprocal space. The are 2 primary reasons behind this project: (1) I want to learn more about writing a DFT code and there is no better way than writing a DFT code. (2) If this works well and is efficient, the pseudopotentials and even the SCF potential can be plugged into to larger supercell models that include electron-phonon coupling explicity. I hope this works ... 
+\end{abstract}
+
+\maketitle
+
+%\listoffigures
+%\listoftables
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Introduction}
+
+This is a \textbf{work-in-progess} document where I am keeping notes for a project I am working on. I am writing a density functional theory (DFT) package that will use a combination of atom-centered Gaussian functions and plane-waves (PW) as the basis-set. This is the so called \emph{mixed-basis pseudopotential method} \cite{louie1979self}. 
+
+The atom-cores will be replaced with a \emph{semi-empirical} pseudopotential. Semi-empirical, in this context, means that I will treat the pseudopotentials as fitting parameters. I plan to fit bands calculated from my code to all-electron (or other high quality) DFT calculations. This is really no more 'empirical' than the typical ab-initio pseudopotential method which involves fitting the pseudopotential for the isolated atom to all-electron calculations. The ab-initio pseudopotential is more ab-initio in the sense that it does not depend on the atom's environment and can be 'plugged-in' to any crystal. (Well, not really: there has been considerable effort in making them as \emph{transferrable} as possible). In my case, the \emph{semi-empirical} pseudopotentials will be fit so that the smallest basis set possible can be used in a particular configuration and still reproduce the ab-intio band structure. Think of it like a tight-binding method, but instead of throwing away all the bonus multi-center integrals, I keep everything and work in reciprocal space. 
+
+The pseudpotentials will be non-local (i.e. angular momentum $l \neq 0$). Non-local pseudopotentials usually look like:
+\begin{equation}
+	\hat{V}^{pp}_{\tau} = V_{\tau,0}(|\pmb{r}|)+\sum_{l=1}^{l_c} V_{\tau,l}(|\pmb{r}|) \hat{P}_l
+\end{equation}
+
+Here, $l$ denotes the orbital angular momentum quantum number, $\tau$ denotes the atom in the unitcell, and $\hat{P}_l$ is a projector onto angular momentum character $l$. The radial functions $V_{\tau,l}(|\pmb{r}|)$ are spherically symetric. I will probably pick them to be Gaussians too since the matrix elements will be simple. Maybe this will be a bad idea, I don't know yet. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliography{ref}
+
+\end{document}

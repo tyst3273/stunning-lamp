@@ -1,0 +1,7 @@
+\contentsline {title}{Mixed-basis (semi-empirical) pseudopotential method}{1}{section*.2}%
+\contentsline {abstract}{Abstract}{1}{section*.1}%
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{1}{section*.3}%
+\tocdepth@restore 
+\contentsline {section}{\numberline {I}Introduction}{2}{section*.4}%
+\contentsline {section}{\numberline {}References}{2}{section*.5}%
