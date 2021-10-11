@@ -1,0 +1,53 @@
+# all text after a '#' are ignored. 
+# keyword names end with ':' and all following lines up to the next keyword are read
+# and assigned to the former. blank and comment lines indise a keyword block are allowed
+# N in the comments below is the task number
+# '*' means to use the default, whatever it may be
+
+tasks:
+ 'scf'
+
+verbosity:
+ 2
+
+atom_pos:
+ 0.0 0.0 0.0
+ 0.25 0.25 0.25
+
+lat_vecs: # row vectors in angstrom
+ 1.0 0.0 0.0
+ 0.0 1.0 0.0
+ 0.0 0.0 1.0
+ 
+lat_scale: # uniform scale for lattice vectors
+ 2.91
+ 
+pw_cutoff:
+ 100
+
+lo_cutoff:
+ 500
+
+# --------------------------------------------
+# developer variables below here 
+
+#xc_type:
+# 'pbe'
+
+#kpoints:
+# 'from_file'
+
+#wf_out: # default is wf_N.hdf5
+# '*'
+
+#wf_in: # default is to read from wf_N-1.hdf5 file
+# '*'
+# 'wf_1'
+ 
+#den_out: # default is den_N.hdf5
+# '*'
+
+#den_in: # default is den_N-1.hdf5
+# '*'
+
+
