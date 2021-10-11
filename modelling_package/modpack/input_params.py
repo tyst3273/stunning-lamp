@@ -191,7 +191,7 @@ class params:
 
         """
         if not all required variables or any unkown variables are given, or if any variables
-        are duplicated crash. print a warned about all developer variables
+        are duplicated, crash. print a warning about all developer variables
         """
 
         unknown = []
@@ -204,7 +204,7 @@ class params:
         for kw in self.raw_keywords:    
             if kw not in self.allowed:
                 unknown.append(kw)
-            elif kw in self.required:
+            if kw in self.required:
                 ind = self.required.index(kw)
                 self.required.pop(ind)
             if kw in self.developer:
