@@ -4,4 +4,4 @@ pdflatex *.tex
 bibtex *.aux
 pdflatex *.tex
 pdflatex *.tex
-rifle notes.pdf
+rifle paper.pdf
