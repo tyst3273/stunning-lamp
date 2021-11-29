@@ -1,8 +1,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[prb,aps,12pt,superscriptaddress,floatfix]{revtex4-2} 
+\documentclass[prb,aps,11pt,superscriptaddress,floatfix]{revtex4-2} 
 \usepackage{graphicx}
-\usepackage{color} 
+\usepackage{xcolor} 
 \usepackage{amsmath}
 \usepackage{amssymb} 
 \usepackage{natmove}
@@ -40,6 +40,61 @@
 \end{figure}
 
  
+\newpage
+
+\emph{some abbreviations}
+\begin{itemize}
+    \item SL: sonoluminescence
+    \item SBSL: single-bubble sonoluminesence
+    \item MBSL: multi-bubble sonoluminescence
+    \item EOM: equation(s) of motion
+\end{itemize}
+
+
+\section{rough-outline}
+\begin{itemize}
+    \item start the introduction with captivating example, i.e. shrimpoluminescence. describe what it is, how it was found, then transition into sonolouminescence. move on to explain how its not understood, various theories try. highlight these. then move on to discuss the experimental situation etc. 
+    \item Section: experiment. basically layout what actually is known (by observation) to happen during sonoluminescence. facts only, not trying to explain.
+    \item explanations: then move on to theories that try to explain it: thermal, electrical. cover each of these, highlighting thier sucesses and failures.
+    \item QED theory: breifly cover this one
+\end{itemize}
+
+\section{random notes}
+apparently a shitty movie called 'Chain Reaction' with Keanu Reeves was centered around the premise of MBSL as a means of clean energy production. it was based on the speculation that temperatures inside the bubbles ciould reach up to millions of Kelvin and lead to fusion. this was debunked by Prosperetti (see the pop sci article \cite{chainreaction}). He points out that the temp is speculative and is based on assumptions of a perfect sphere collapsing. he notes that its probably not spherical when light is produced and even points out that groups have tried to produce fusion power by intentionally collapsing gas filled micro baloons with lasers... and failed. Tatartcheceko also shows that this is horsehit \cite{tatartchenko2017sonoluminescence}. in this article, Prosperetti also explains how a 'jet' of water whooshing across the bubble could be going faster that 4000 mph, fast enough to cause non-netwownian fracturing of the water leading to light producuction through (apparently) the same mechanism of light emession when ice or wint-o-green mints are snapped in half... huh. this is good introduction fodder. need to find the primary lit.
+
+\emph{heurestic explanation of bubble trapping given by Brenner in \cite{chainreaction}.}: the bonds between molecules in a fluid are very strong, so instead of 'tearing', the fluid stretches. however, if there is a bubble present, the local dialation of the fluid can change the bubbles diameter by $\sim$ 1000 times to avoid breaking bonds at the interface between bubble and fluid. But when the compression waves comes by, the 'gas' in the bubble, which has boiled due to low pressure, offers very little resistance to compression. the wave compresses the bubble rapidly, which spikes the temp in the gas to incandescent temperatueres. this heuristic explanation is on-track with Crum \cite{crum1994sonoluminescence} below.
+
+\section{1st discovery}
+MBSL was discovered first. its (obviously) hard to create and control single bubbles so this wasnt feasible until the 1990s, attributed to Gaitan (see below). allegedly, it was Marinesco et al \cite{marinesco1933actions} that discovered MBSL in 1933 (according to \cite{gaitan1990experimental} below and to \cite{tatartchenko2017sonoluminescence}) but I cant find this paper (or understand it since its in french). Other sources (e.g.. wikipedia, \cite{tatartchenko2017sonoluminescence,crum1994sonoluminescence}) credit Frenzel et al \cite{frenzel1934luminescenz} as the discoverers. I cant German or find this paper either, but in anycase, Tatartchenko summarized thier discovery: Freznel and coworkers were trying to speed up photo development by 'insonating' i.e. subjected developer-fluid to sound. they found that when they immersed photo-plates or whatever in the fluid, it became 'foggy' and overexposed, as if subjected to diffuse light. A bunch of other papers followed up on this. get the deets from \cite{gaitan1990experimental} below. 
+
+Update: Brenner \cite{brenner2002single} consisely summarizes the history: Marinesco notes the photographic plates fogs in an ultrasonic bath \cite{marinesco1933actions} and Frenzel et al \cite{frenzel1934luminescenz} deliberately studied the light emission. According to brenner, no one was surprised by this since it was already known that cavitating bubbles fuck shit up.
+
+SBSL was discovered by Gaitan \cite{gaitan1990experimental,gaitan1992sonoluminescence} etc. who trapped a single air bubble in a water filled flask using piezoacoutics stuck to the outside. (note: the trapping force is called \emph{Bjerknes force}, refs in \cite{lohse2018bubble}).
+
+\section{notes from \cite{crum1994sonoluminescence}}
+pop sci type of magazine article. Gives heurestic expanation: When an intense sound field is produced within a liquid, microscopic cavities of gas or vapor can be generated when the liquid fails under tensile stress. The subsequent acoustic compression cycle forces these cavities to collapse violently, which results in a remarkable concentration of mechanical energy, estimated to be as high as 12orders of magnitude (refs are given too). Also notes that MBSL is very hard to study since the bubbles occur randomly and transiently. Describes SBSL as the \emph{hydrogen atom of sonoluminescence}.also discusses that attempts to measure the (time) interval over which light is produced have found it be less than $\sim$50 ps which is 1/1000 times smaller than theory predicts. They also found the light to be more 'stable' than the acoustic generator, i.e. more regular with more controlled intervals. an old but probably still relevant result. mentions a neat claim that the conditions of the gas at the center of the bubble are probably more like a metal than a gas. \textcolor{red}{hell, this article basically summarizes all of the anomalies present in 1994. a very good resource.}
+
+\section{notes from ref \cite{lohse2018bubble}} 
+SBSL was discovered by Giatan et. al. in 1990s at U. Mississippi \cite{gaitan1990experimental,crum1994sonoluminescence,gaitan1992sonoluminescence} (note, \cite{ggaitan1992sonoluminescence} has $\sim$1000 citations..). The SBSL experiments were done by sticking peizoacoustic transducers to the outside of a water filled glass. the 'Bjerknes' force trapps the bubble and the acoustic wave drives its expansion/collapse. What Gaitan saw was that even the single bubble emits light. Wow! This was baffling since 'acoustic energy' \textcolor{red}{(i dont understand this)} is on the order of $\sim10^{-12}$ eV/molecule while visible light is $\sim1$ eV. NVM: I do get this. Typical acoustic waves, e.g. in air, only displace molecules on the order of nanometers, which aquires an elastic energy gaine between molecules of $\sim10^{-12}$ eV/molecule: certainly not enough to excite an electronic transition. 
+
+This paper refs the review by Propsperetti: \cite{plesset1977bubble}. This paper gives EOM for the bubbles radius, the so called \emph{Plesset-Rayleight} equation which I have seen everywhere related to bubbles. Talks about solving it, some other crap related to bubble dynamics. this requires a detailed re-read.
+
+Later in the paper, also revisists snapping shrimp.
+
+\section{notes from ref \cite{prosperetti2004bubbles}}
+has shit tons of relevant math. take a look. a pretty paper overall
+
+
+\section{notes from \cite{gaitan1990experimental}}
+disseration by Giatan who is credited with discovering SBSL. says apparently SL was discovered in 1933. need to go read this crap. Apparently this was by Marinesco et. al. in 1933. Zimakov tried to explain it in 1934 and concluded that the light was due to electric discharge between vapor cavities and the glass container. Frenzel and Schultes in 1935 instead claimed it was from friction between cavitating bubbles and the water. Chamber in 1936 studied SL in other nonwater liquids. Chamber also postulated the light was from 'tribolumiscence' which occurs when the crystalline structure of the liquid-bubble lattice collapses? Apparently somthing similar occurs in real crystals. ... shit, a bunch more models are given. give this dis. a lot of attention.
+
+also says caviation was predicted by 'Euler' in 1754: \emph{if the velocity of a fluid is high enouhg, negative pressures can form and the liquid can 'break'.} the 'breaking' was called cavitation in 895 by R.E. Froude, whoever the fuck this is, when studying bubbles near propellers. Rayleigh, unsurpisingly, was the first to give a rigorous theoretical treatment of cavitation in 1917.
+
+\section{notes from \cite{brenner2002single}}
+defines SBSL as ``Single-bubble sonoluminescence occurs when an acoustically trapped and periodically driven gas
+bubble collapses so strongly that the energy focusing at collapse leads to light emission". 
+
+
 \newpage
 
 \section{QED}
