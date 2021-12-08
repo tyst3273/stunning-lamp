@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[rmp,aps,superscriptaddress,floatfix]{revtex4-2} 
+\documentclass[rmp,aps,nofootinbib,superscriptaddress,floatfix]{revtex4-2} 
 \usepackage{graphicx}
 \usepackage{xcolor} 
 \usepackage{amsmath}
@@ -9,6 +9,8 @@
 \usepackage{natbib}
 \usepackage{hyperref} 
 \usepackage{bm}
+\bibliographystyle{apsrev4-2}
+\setcitestyle{numbers,square}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -55,27 +57,47 @@ The shrimp were not patriots helping the war-effort, however; they snapped for f
 
 Sonoluminescence (SL) is more precisely defined as the process by which a ``driven gas bubble collapses so strongly that the energy focusing at collapse leads to light emission" \cite{brenner2002single}. Sonoluminescence comes in two forms: (i) single-bubble sonoluminescence and (ii) multi-bubble sonolumiscence. The disticntion is self-explanatory: multi-bubble sonolumiscence (MBSL) consists of  ``the simultaneous creation and destruction of many seperate, individual cavitation bubbles" \cite{crum1994sonoluminescence,brenner2002single}, whereas in single-bubble sonoluminescence (SBSL), rather obviously, only a single bubble is present \cite{gaitan1992sonoluminescence}. The discovery of MBSL predates SBSL by $\sim$60 years but due to the more-or-less random and fleeting nature of the bubbles, SL in general wasn't well studied until the early 1990's when it was discovered that single bubbles could be created and periodically driven to produce light very high precisions \cite{crum1994sonoluminescence,gaitan1990experimental,gaitan1992sonoluminescence,brenner2002single}. We will discuss MBSL breifly later, but for now it suffices to say that nearly all theoretical and experimental progress has been made using SBSL, with some authors even calling it ``the hydrogen atom of sonoluminescence" \cite{lohse2018bubble,crum1994sonoluminescence}.
 
-The discovery of SBSL created a rush of effort to explain the phenomena with arguments ranging from the simplest models \cite{} to more exotic explanations based of quantum field theory \cite{schwinger1993casimir,eberlein1996sonoluminescence,liberati2000sonoluminescence}.
+The discovery of SBSL created a rush of effort to explain the phenomena with arguments ranging from the simplest models \footnote{There are far too many to try list and we will not be interested in the vast majority of early models which are now irrelevant. References to these can be found in Gaitan \cite{gaitan1990experimental} and Brenner et al. \cite{brenner2002single}.} to more exotic explanations based of quantum field theory \cite{schwinger1993casimir,eberlein1996sonoluminescence,liberati2000sonoluminescence}.
 
 
-But besides shrimpoluminescence, why is SL interesting? Well, at a glance, it is not obvious why SL occurs. The acoustic wave in the liquid displaces molecules on the order of nanometers, costing an elastic energy of  $\sim1\times 10^{-12}$ eV/molecule while emitting visible light (through e.g. electronic transitions) costs an energy $\sim1$ eV/molecule \cite{lohse2018bubble,crum1994sonoluminescence}... there is a 12-orders-of-magnitude concentration of energy. That is huge! After a moments thought, however, the massive energy focusing is not that surprising. For example, the energy in the shock wave produced by a cavitating bubble, regardless of the light production, has been known to damage ship propellers since atleast 1917 when Lord Rayleigh's gave the first rigorous treatment of caviating bubbles \cite{gaitan1990experimental}. A heurestic argument goes like this: \cite{plesset1949dynamics}. 
-
-So again, why is the light emmission interesting? In short, after 3 decades of studying SBSL, the mechanism of light production is still not understood. 
-
-The excitment wasn't restricted to academics however, with SBSL catching Hollywood's attention leading to an unpopular movie called \emph{Chain Reaction} where t
+But besides the obvious case of shrimpoluminescence, why is SL interesting? Well, at a glance, it is not obvious why SL occurs. The acoustic wave in the liquid displaces molecules on the order of nanometers, costing an elastic energy of  $\sim1\times 10^{-12}$ eV/molecule while emitting visible light (through e.g. electronic transitions) costs an energy $\sim1$ eV/molecule \cite{lohse2018bubble,crum1994sonoluminescence}... there is a 12-orders-of-magnitude concentration of energy. That is huge! Estimates of the temperature at the center bubble are ...
 
 
-So again, why is the light emmission interesting? After 3 decades of studying SBSL, the physical mechanism of light production in SL is still not understood. This can be seen by glancing at the literature and noticing that there are many recent papers with different arguments for \emph{where} the light comes from \cite{borisenok2020mechanisms,flannigan2013non,flannigan2012temperature,tatartchenko2017sonoluminescence}. We emphasive ``where" since it's not even certain if the light is \emph{surface} or \emph{volumetric} emission, i.e. it is literally not known \emph{where} the light comes from \cite{}. 
+%After a moments thought, however, the massive energy focusing is not that surprising. For example, the energy in the shock wave produced by a cavitating bubble, regardless of the light production, has been known to damage ship propellers since atleast 1917 when Lord Rayleigh's gave the first rigorous treatment of caviating bubbles \cite{gaitan1990experimental}. 
 
-... and others stating that ``SBSL has become a rather sophisticated testing ground for the ability of mathematical models and numerical simulations to explain detailed experimental data from a complicated physical process" \cite{brenner2002single}.
+%So again, why is the light emmission interesting? In short, after 3 decades of studying SBSL, the mechanism of light production is still not understood. 
+
+%The excitment wasn't restricted to academics however, with SBSL catching Hollywood's attention leading to an unpopular movie called \emph{Chain Reaction} where t
 
 
-The goal of this paper is to catch the reader up on recent efforts to explain SBSL. While the author of this paper is particularly excited about shrimpoluminescence, it is important to stress that this work will focus on SBSL in general. It is apparently simpler to create and characterize SBSL in the laboratory without involving shrimp (for example, using shrimp involves convinving them to snap by tickling them \cite{lohse2001snapping,versluis2000snapping,lohse2018bubble}), so practically all work to study SL has not involved shrimp ( ... with notable exceptions \cite{tang2019bioinspired}).
+After 3 decades of studying SBSL, the physical mechanism of light production in SL is still not understood. This can be seen by glancing at the literature and noticing that there are many recent papers with different arguments for \emph{where} \footnote{We emphasive ``where" since it's not even certain if the light is \emph{surface} or \emph{volumetric} emission, i.e. it is literally not known \emph{where} the light comes from \cite{}.} the light comes from \cite{borisenok2020mechanisms,flannigan2013non,flannigan2012temperature,tatartchenko2017sonoluminescence}. Numerous aspects of the process are conveniently accessible to the experimentalist, while at the same time the theory of the bubble's interior is quite mature. Many theories require experimental inputs as parameters, while in other cases experimental results are indirectly \emph{inferred} by fitting to a theory. Put simply, the history of studying SBSL is a rather beautiful example of the scientific process of explaining nature. Accorind to Brenner ``SBSL has become a rather sophisticated testing ground for the ability of mathematical models and numerical simulations to explain detailed experimental data from a complicated physical process" \cite{brenner2002single}.
+
+
+The goal of this paper is to catch the reader up on recent efforts to explain SBSL. While the author of this paper is particularly excited about shrimpoluminescence, it is important to stress that this work will focus on SBSL in general. It is apparently simpler to create and characterize SBSL in the laboratory without involving shrimp (for example, convincing the shrimp to snap requires tickling them \cite{lohse2001snapping,versluis2000snapping,lohse2018bubble}), so practically all work to study SL has not involved shrimp \footnote{ With notable exceptions \cite{tang2019bioinspired}}. Also notably absent will be any detailed discussion of MBSL since this will take us too far afield. Instead, we will summarize the history of SBSL research up to now starting at the discovery of MBSL leading to the subsequent discovery of SBSL and a rush of effort to explain it. We will explore both the experimental and theoretical discoveries along the way. Finally, we will review the current state of agreement between what is known experimentally and theoretically about SBSL. 
 
 \section{Historical Overview}
 
+SL was discovered by accident in 1933 (in the form of MBSL) by Marinesco and Trillat \cite{marinesco1933actions} and was subsequently characterized by Frenzel and Schultes \cite{frenzel1934luminescenz} \footnote{Neither the paper due to Marinesco et al. nor the one due to Frenzel et al. can be found by the author; in any case he can't read French or German so having the papers wouldn't be much use. As such, the story of how the effect was discovered is taken from more recent sources whose authors hopefully could read French and German \cite{brenner2002single,gaitan1990experimental,crum1994sonoluminescence}} Marinesco et al. were trying to accelerate photo development by \emph{insonating} developing fluid. They discovered that a photosensitive plate immersed in the insonated fluid became ``foggy" which they attributed to exposure to light. Shortly after, Frenzel et al. repeated the experiment and confirmed that the insonated fluid emits light in the form of a faintly glowing cloud of bubbles. 
+
+This result was not particularly surprising to the community since it had been known for a while that cavitating bubbles could do tremendous damage to e.g. ships propellers. The discovery's impact is consicesly summarized by Brenner: ``if the cloud [of cavitating bubbles] collapses violently enough to break molecular bonds in a solid, why should it \emph{not} emit photons" \cite{brenner2002single}. In fact, cavitating bubbles had been of interest to engineers working on fluid mechanics for a while. The discovery of cavitation is credited to Euler (as early as 1754) who hypothesized that if the velocity in a fluid was large enough, negative pressures coud become so large as to ``break the fluid" \cite{li2015introduction,gaitan1992sonoluminescence} and was confirmed to exist (and named ``cavitation") in 1895 by engineers studying the failure of a British Navy ship's propeller \cite{li2015introduction}. Shortly after, Lord Rayliegh wrote down and solved the differential equation for a vapor filled cavity collapsing in water (the so-called Rayleigh equation), giving the first rigoruous theoretical treatment of cavitation \cite{rayleigh1917pressure}. Rayleigh found that, for a bubble at a lower pressure than the surrounding fluid (and both pressures held constant), the bubble wall diverges during collapse. Still, very little information was accessible about the light emission until the 1990's when stable, single bubbles could be created and driven to emit light \cite{gaitan1990experimental,gaitan1992sonoluminescence,crum1994sonoluminescence}. With this discovery, serious interest took root. 
+
+Details of a typical SBSL experiment will be given later, but for now it suffices to note that SBSL, unlike previous studies on MBSL, allowed very precise control and measurment of the SL process. With unprecidented experimental control, many discrepencies in previous assumptions about SL were discovered. Experiments measuring the duration of the light pulse found that it was orders or magnitude smaller than the time in which the bubble was compressed to its smallest radius \cite{barber1992resolving,barber1991observation}. This discovery implied that SL was nearly decoupled from the bubble's dynamics, contradicting models based on Rayleigh's equation. New models were proposed based on \emph{converging shock waves} at the bubble's center with estimates of the temperature at the center of bubbles $\sim10^8$ K \cite{wu1993shock,greenspan1993sonoluminescence}. At the same time, experimentalists fit the bubble's light emission spectra as a \emph{black body emitter} and concluded that the temperature in the bubble was atleast 25,000 K \cite{hiller1992spectrum}.
+
+These very high estimates for the temperature in the bubbles lead to a spark of interest more broadly: if the temerature in the bubble were really that large, then it should be possible for nuclear \emph{fusion} to occur \cite{}. \textcolor{red}{ talk about the stupid ass movie and that asshole that faked science data.} 
+Now talk about sonochemistry etc.
+
+
+
+
 \section{What do we know?}
 \subsection{The Bubble Wall}
+As it turns out, the dynamics of the bubble in SBSL (regardless of the light emission) are quite well described both qualitatively and \emph{quantitatively} by the classical theory of bubble dynamics. This isn't particularly surprising since the light emission and bubble collapse occur at different timescales \cite{}. The starting point for any theory of the bubble dynamics is Rayleigh's original expounded upon by many others \cite{}: the so called ``the Rayleigh-Plesset" (RP) equation \footnote{The RP equation is derived from the Navier-Stokes equation in the appendix}:
+\begin{equation}
+B=D lololol
+\label{eq:RP}
+\end{equation}
+
+
 \subsection{Experimental Results}
 what conditions are necessary for light emission (i.e. what is the phase space \cite{lohse2018bubble}):
 \begin{itemize}
@@ -102,6 +124,11 @@ what conditions are necessary for light emission (i.e. what is the phase space \
 
 \section{Acknowledgments}
 
+\appendix
+
+
+\section{The Rayleigh-Plesset Equation}
+Derive the RP equation here
 
 
 

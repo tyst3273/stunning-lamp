@@ -1,12 +1,12 @@
-%apsrmp4-2.bst 2018-12-27 (MD) hand-edited version of apsrmp4-1.bst
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
 %Control: key (0)
-%Control: author (3) reversed first dotless
-%Control: editor formatted (0) differently from author
-%Control: production of article title (0) allowed
-%Control: page (1) range
-%Control: year (0) verbatim
+%Control: author (72) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{24}%
+\begin{thebibliography}{30}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,252 +50,264 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
-\bibitem [{\citenamefont {Borisenok}\ and\ \citenamefont
-  {Sedov}(2020)}]{borisenok2020mechanisms}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Borisenok},
-  \bibfnamefont {VA}}, and\ \bibinfo {author} {\bibfnamefont {S~Yu}\
-  \bibnamefont {Sedov}}} (\bibinfo {year} {2020}),\ \bibfield  {title}
-  {\enquote {\bibinfo {title} {On the mechanisms of sonoluminescence in polar
-  and nonpolar liquids},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
-  {journal} {Physics of Atomic Nuclei}\ }\textbf {\bibinfo {volume}
-  {83}}~(\bibinfo {number} {11}),\ \bibinfo {pages} {1575--1584}}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Brenner}\ \emph {et~al.}(2002)\citenamefont
-  {Brenner}, \citenamefont {Hilgenfeldt},\ and\ \citenamefont
-  {Lohse}}]{brenner2002single}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Brenner}, \bibfnamefont
-  {Michael~P}}, \bibinfo {author} {\bibfnamefont {Sascha}\ \bibnamefont
-  {Hilgenfeldt}}, and\ \bibinfo {author} {\bibfnamefont {Detlef}\ \bibnamefont
-  {Lohse}}} (\bibinfo {year} {2002}),\ \bibfield  {title} {\enquote {\bibinfo
-  {title} {Single-bubble sonoluminescence},}\ }\href@noop {} {\bibfield
-  {journal} {\bibinfo  {journal} {Reviews of modern physics}\ }\textbf
-  {\bibinfo {volume} {74}}~(\bibinfo {number} {2}),\ \bibinfo {pages}
-  {425}}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Crum}\ and\ \citenamefont
-  {Roy}(1994)}]{crum1994sonoluminescence}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Crum}, \bibfnamefont
-  {Lawrence~A}}, and\ \bibinfo {author} {\bibfnamefont {Ronald~A}\ \bibnamefont
-  {Roy}}} (\bibinfo {year} {1994}),\ \bibfield  {title} {\enquote {\bibinfo
-  {title} {Sonoluminescence},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
-  {journal} {Science}\ }\textbf {\bibinfo {volume} {266}}~(\bibinfo {number}
-  {5183}),\ \bibinfo {pages} {233--234}}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Didenko}\ \emph {et~al.}(2000)\citenamefont
-  {Didenko}, \citenamefont {McNamara~III},\ and\ \citenamefont
-  {Suslick}}]{didenko2000molecular}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Didenko}, \bibfnamefont
-  {Yuri~T}}, \bibinfo {author} {\bibfnamefont {William~B}\ \bibnamefont
-  {McNamara~III}}, and\ \bibinfo {author} {\bibfnamefont {Kenneth~S}\
-  \bibnamefont {Suslick}}} (\bibinfo {year} {2000}),\ \bibfield  {title}
-  {\enquote {\bibinfo {title} {Molecular emission from single-bubble
-  sonoluminescence},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
-  {journal} {nature}\ }\textbf {\bibinfo {volume} {407}}~(\bibinfo {number}
-  {6806}),\ \bibinfo {pages} {877--879}}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Eberlein}(1996)}]{eberlein1996sonoluminescence}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Eberlein},
-  \bibfnamefont {Claudia}}} (\bibinfo {year} {1996}),\ \bibfield  {title}
-  {\enquote {\bibinfo {title} {Sonoluminescence as quantum vacuum radiation},}\
-  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
-  Letters}\ }\textbf {\bibinfo {volume} {76}}~(\bibinfo {number} {20}),\
-  \bibinfo {pages} {3842}}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Everest}\ \emph {et~al.}(1948)\citenamefont
-  {Everest}, \citenamefont {Young},\ and\ \citenamefont
-  {Johnson}}]{everest1948acoustical}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Everest}, \bibfnamefont
-  {F~Alton}}, \bibinfo {author} {\bibfnamefont {Robert~W}\ \bibnamefont
-  {Young}}, and\ \bibinfo {author} {\bibfnamefont {Martin~W}\ \bibnamefont
-  {Johnson}}} (\bibinfo {year} {1948}),\ \bibfield  {title} {\enquote {\bibinfo
-  {title} {Acoustical characteristics of noise produced by snapping shrimp},}\
-  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {The Journal of the
-  Acoustical Society of America}\ }\textbf {\bibinfo {volume} {20}}~(\bibinfo
-  {number} {2}),\ \bibinfo {pages} {137--142}}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Flannigan}\ and\ \citenamefont
-  {Suslick}(2012)}]{flannigan2012temperature}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Flannigan},
-  \bibfnamefont {David~J}}, and\ \bibinfo {author} {\bibfnamefont {Kenneth~S}\
-  \bibnamefont {Suslick}}} (\bibinfo {year} {2012}),\ \bibfield  {title}
-  {\enquote {\bibinfo {title} {Temperature nonequilibration during
-  single-bubble sonoluminescence},}\ }\href@noop {} {\bibfield  {journal}
-  {\bibinfo  {journal} {The journal of physical chemistry letters}\ }\textbf
-  {\bibinfo {volume} {3}}~(\bibinfo {number} {17}),\ \bibinfo {pages}
-  {2401--2404}}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Flannigan}\ and\ \citenamefont
-  {Suslick}(2013)}]{flannigan2013non}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Flannigan},
-  \bibfnamefont {David~J}}, and\ \bibinfo {author} {\bibfnamefont {Kenneth~S}\
-  \bibnamefont {Suslick}}} (\bibinfo {year} {2013}),\ \bibfield  {title}
-  {\enquote {\bibinfo {title} {Non-boltzmann population distributions during
-  single-bubble sonoluminescence},}\ }\href@noop {} {\bibfield  {journal}
-  {\bibinfo  {journal} {The Journal of Physical Chemistry B}\ }\textbf
-  {\bibinfo {volume} {117}}~(\bibinfo {number} {49}),\ \bibinfo {pages}
-  {15886--15893}}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Frenzel}\ and\ \citenamefont
-  {Schultes}(1934)}]{frenzel1934luminescenz}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Frenzel}, \bibfnamefont
-  {H}}, and\ \bibinfo {author} {\bibfnamefont {H}~\bibnamefont {Schultes}}}
-  (\bibinfo {year} {1934}),\ \bibfield  {title} {\enquote {\bibinfo {title}
-  {Luminescenz im ultraschallbeschickten wasser},}\ }\href@noop {} {\bibfield
-  {journal} {\bibinfo  {journal} {Zeitschrift f{\"u}r Physikalische Chemie}\
-  }\textbf {\bibinfo {volume} {27}}~(\bibinfo {number} {1}),\ \bibinfo {pages}
-  {421--424}}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Gaitan}\ \emph {et~al.}(1992)\citenamefont {Gaitan},
-  \citenamefont {Crum}, \citenamefont {Church},\ and\ \citenamefont
-  {Roy}}]{gaitan1992sonoluminescence}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Gaitan}, \bibfnamefont
-  {D~Felipe}}, \bibinfo {author} {\bibfnamefont {Lawrence~A}\ \bibnamefont
-  {Crum}}, \bibinfo {author} {\bibfnamefont {Charles~C}\ \bibnamefont
-  {Church}}, and\ \bibinfo {author} {\bibfnamefont {Ronald~A}\ \bibnamefont
-  {Roy}}} (\bibinfo {year} {1992}),\ \bibfield  {title} {\enquote {\bibinfo
-  {title} {Sonoluminescence and bubble dynamics for a single, stable,
-  cavitation bubble},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
-  {journal} {The Journal of the Acoustical Society of America}\ }\textbf
-  {\bibinfo {volume} {91}}~(\bibinfo {number} {6}),\ \bibinfo {pages}
-  {3166--3183}}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Gaitan}(1990)}]{gaitan1990experimental}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Gaitan}, \bibfnamefont
-  {Dario~Felipe}}} (\bibinfo {year} {1990}),\ \emph {\bibinfo {title} {An
-  experimental investigation of acoustic cavitation in gaseous liquids}},\
-  \href@noop {} {Ph.D. thesis}\ (\bibinfo  {school} {The University of
-  Mississippi})\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Liberati}\ \emph {et~al.}(2000)\citenamefont
-  {Liberati}, \citenamefont {Visser}, \citenamefont {Belgiorno},\ and\
-  \citenamefont {Sciama}}]{liberati2000sonoluminescence}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Liberati},
-  \bibfnamefont {Stefano}}, \bibinfo {author} {\bibfnamefont {Matt}\
-  \bibnamefont {Visser}}, \bibinfo {author} {\bibfnamefont {F}~\bibnamefont
-  {Belgiorno}}, and\ \bibinfo {author} {\bibfnamefont {DW}~\bibnamefont
-  {Sciama}}} (\bibinfo {year} {2000}),\ \bibfield  {title} {\enquote {\bibinfo
-  {title} {Sonoluminescence as a qed vacuum effect: probing schwinger's
-  proposal},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Journal of Physics A: Mathematical and General}\ }\textbf {\bibinfo {volume}
-  {33}}~(\bibinfo {number} {11}),\ \bibinfo {pages} {2251}}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Lohse}(2018)}]{lohse2018bubble}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Lohse}, \bibfnamefont
-  {Detlef}}} (\bibinfo {year} {2018}),\ \bibfield  {title} {\enquote {\bibinfo
-  {title} {Bubble puzzles: From fundamentals to applications},}\ }\href@noop {}
-  {\bibfield  {journal} {\bibinfo  {journal} {Physical review fluids}\ }\textbf
-  {\bibinfo {volume} {3}}~(\bibinfo {number} {11}),\ \bibinfo {pages}
-  {110504}}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Lohse}\ \emph {et~al.}(2001)\citenamefont {Lohse},
-  \citenamefont {Schmitz},\ and\ \citenamefont {Versluis}}]{lohse2001snapping}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Lohse}, \bibfnamefont
-  {Detlef}}, \bibinfo {author} {\bibfnamefont {Barbara}\ \bibnamefont
-  {Schmitz}}, and\ \bibinfo {author} {\bibfnamefont {Michel}\ \bibnamefont
-  {Versluis}}} (\bibinfo {year} {2001}),\ \bibfield  {title} {\enquote
-  {\bibinfo {title} {Snapping shrimp make flashing bubbles},}\ }\href@noop {}
-  {\bibfield  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo
-  {volume} {413}}~(\bibinfo {number} {6855}),\ \bibinfo {pages}
-  {477--478}}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Marinesco}\ and\ \citenamefont
-  {Trillat}(1933)}]{marinesco1933actions}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Marinesco},
-  \bibfnamefont {N}}, and\ \bibinfo {author} {\bibfnamefont {J.J.}\
-  \bibnamefont {Trillat}}} (\bibinfo {year} {1933}),\ \bibfield  {title}
-  {\enquote {\bibinfo {title} {Actions des ultrasons sur les plaques
-  photographiques},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Proceedings of the Royal Academy of Science}\ }\textbf {\bibinfo {volume}
-  {196}},\ \bibinfo {pages} {858--860}}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Plesset}(1949)}]{plesset1949dynamics}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Plesset}, \bibfnamefont
-  {Milton~S}}} (\bibinfo {year} {1949}),\ \bibfield  {title} {\enquote
-  {\bibinfo {title} {The dynamics of cavitation bubbles},}\ }\href@noop {} {\
-  }\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Plesset}\ and\ \citenamefont
-  {Prosperetti}(1977)}]{plesset1977bubble}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Plesset}, \bibfnamefont
-  {Milton~S}}, and\ \bibinfo {author} {\bibfnamefont {Andrea}\ \bibnamefont
-  {Prosperetti}}} (\bibinfo {year} {1977}),\ \bibfield  {title} {\enquote
-  {\bibinfo {title} {Bubble dynamics and cavitation},}\ }\href@noop {}
-  {\bibfield  {journal} {\bibinfo  {journal} {Annual review of fluid
-  mechanics}\ }\textbf {\bibinfo {volume} {9}}~(\bibinfo {number} {1}),\
-  \bibinfo {pages} {145--185}}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Prosperetti}(2004)}]{prosperetti2004bubbles}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Prosperetti},
-  \bibfnamefont {Andrea}}} (\bibinfo {year} {2004}),\ \bibfield  {title}
-  {\enquote {\bibinfo {title} {Bubbles},}\ }\href@noop {} {\bibfield  {journal}
-  {\bibinfo  {journal} {Physics of fluids}\ }\textbf {\bibinfo {volume}
-  {16}}~(\bibinfo {number} {6}),\ \bibinfo {pages} {1852--1865}}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Schanz}\ \emph {et~al.}(2012)\citenamefont {Schanz},
-  \citenamefont {Metten}, \citenamefont {Kurz},\ and\ \citenamefont
-  {Lauterborn}}]{schanz2012molecular}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Schanz}, \bibfnamefont
-  {Daniel}}, \bibinfo {author} {\bibfnamefont {Burkhard}\ \bibnamefont
-  {Metten}}, \bibinfo {author} {\bibfnamefont {Thomas}\ \bibnamefont {Kurz}},
-  and\ \bibinfo {author} {\bibfnamefont {Werner}\ \bibnamefont {Lauterborn}}}
-  (\bibinfo {year} {2012}),\ \bibfield  {title} {\enquote {\bibinfo {title}
-  {Molecular dynamics simulations of cavitation bubble collapse and
-  sonoluminescence},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
-  {journal} {New Journal of Physics}\ }\textbf {\bibinfo {volume}
-  {14}}~(\bibinfo {number} {11}),\ \bibinfo {pages} {113019}}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Schwinger}(1993)}]{schwinger1993casimir}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Schwinger},
-  \bibfnamefont {Julian}}} (\bibinfo {year} {1993}),\ \bibfield  {title}
-  {\enquote {\bibinfo {title} {Casimir light: a glimpse.}}\ }\href@noop {}
-  {\bibfield  {journal} {\bibinfo  {journal} {Proceedings of the National
-  Academy of Sciences}\ }\textbf {\bibinfo {volume} {90}}~(\bibinfo {number}
-  {3}),\ \bibinfo {pages} {958--959}}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Scientific-American}(????)}]{chainreaction}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Scientific-American},}}
-  (????),\ \href
-  {https://www.scientificamerican.com/article/the-bubbles-produced-by-u/#}
-  {\enquote {\bibinfo {title} {The bubbles produced by ultrasound in water
-  (sonoluminescence) reach extremely high temperatures and pressures for brief
-  periods. could these conditions initiate or facilitate nuclear fusion, as
-  suggested in the recent movie "chain reaction"?}}\ }\bibinfo {note}
-  {Accessed: November 27, 2021}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Tang}\ and\ \citenamefont
-  {Staack}(2019)}]{tang2019bioinspired}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Tang}, \bibfnamefont
-  {Xin}}, and\ \bibinfo {author} {\bibfnamefont {David}\ \bibnamefont
-  {Staack}}} (\bibinfo {year} {2019}),\ \bibfield  {title} {\enquote {\bibinfo
-  {title} {Bioinspired mechanical device generates plasma in water via
-  cavitation},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Science advances}\ }\textbf {\bibinfo {volume} {5}}~(\bibinfo {number}
-  {3}),\ \bibinfo {pages} {eaau7765}}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Tatartchenko}\ \emph {et~al.}(2017)\citenamefont
-  {Tatartchenko} \emph {et~al.}}]{tatartchenko2017sonoluminescence}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Tatartchenko},
-  \bibfnamefont {Vitali~A}},  \emph {et~al.}} (\bibinfo {year} {2017}),\
-  \bibfield  {title} {\enquote {\bibinfo {title} {Sonoluminescence as the peta
-  radiation},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Optics and Photonics Journal}\ }\textbf {\bibinfo {volume} {7}}~(\bibinfo
-  {number} {02}),\ \bibinfo {pages} {27}}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Versluis}\ \emph {et~al.}(2000)\citenamefont
   {Versluis}, \citenamefont {Schmitz}, \citenamefont {Von~der Heydt},\ and\
   \citenamefont {Lohse}}]{versluis2000snapping}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Versluis},
-  \bibfnamefont {Michel}}, \bibinfo {author} {\bibfnamefont {Barbara}\
-  \bibnamefont {Schmitz}}, \bibinfo {author} {\bibfnamefont {Anna}\
-  \bibnamefont {Von~der Heydt}}, and\ \bibinfo {author} {\bibfnamefont
-  {Detlef}\ \bibnamefont {Lohse}}} (\bibinfo {year} {2000}),\ \bibfield
-  {title} {\enquote {\bibinfo {title} {How snapping shrimp snap: through
-  cavitating bubbles},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
-  {journal} {Science}\ }\textbf {\bibinfo {volume} {289}}~(\bibinfo {number}
-  {5487}),\ \bibinfo {pages} {2114--2117}}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Versluis}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Schmitz}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Von~der Heydt}},\ and\
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Lohse}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo
+  {volume} {289}},\ \bibinfo {pages} {2114} (\bibinfo {year}
+  {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lohse}\ \emph {et~al.}(2001)\citenamefont {Lohse},
+  \citenamefont {Schmitz},\ and\ \citenamefont {Versluis}}]{lohse2001snapping}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Lohse}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Schmitz}},\
+  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Versluis}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nature}\ }\textbf
+  {\bibinfo {volume} {413}},\ \bibinfo {pages} {477} (\bibinfo {year}
+  {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tang}\ and\ \citenamefont
+  {Staack}(2019)}]{tang2019bioinspired}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Tang}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Staack}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Science advances}\
+  }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages} {eaau7765} (\bibinfo
+  {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Everest}\ \emph {et~al.}(1948)\citenamefont
+  {Everest}, \citenamefont {Young},\ and\ \citenamefont
+  {Johnson}}]{everest1948acoustical}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.~A.}\ \bibnamefont
+  {Everest}}, \bibinfo {author} {\bibfnamefont {R.~W.}\ \bibnamefont {Young}},\
+  and\ \bibinfo {author} {\bibfnamefont {M.~W.}\ \bibnamefont {Johnson}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {The Journal of the
+  Acoustical Society of America}\ }\textbf {\bibinfo {volume} {20}},\ \bibinfo
+  {pages} {137} (\bibinfo {year} {1948})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Brenner}\ \emph {et~al.}(2002)\citenamefont
+  {Brenner}, \citenamefont {Hilgenfeldt},\ and\ \citenamefont
+  {Lohse}}]{brenner2002single}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~P.}\ \bibnamefont
+  {Brenner}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Hilgenfeldt}},\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Lohse}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Reviews
+  of modern physics}\ }\textbf {\bibinfo {volume} {74}},\ \bibinfo {pages}
+  {425} (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Crum}\ and\ \citenamefont
+  {Roy}(1994)}]{crum1994sonoluminescence}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~A.}\ \bibnamefont
+  {Crum}}\ and\ \bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont {Roy}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Science}\ }\textbf
+  {\bibinfo {volume} {266}},\ \bibinfo {pages} {233} (\bibinfo {year}
+  {1994})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gaitan}\ \emph {et~al.}(1992)\citenamefont {Gaitan},
+  \citenamefont {Crum}, \citenamefont {Church},\ and\ \citenamefont
+  {Roy}}]{gaitan1992sonoluminescence}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~F.}\ \bibnamefont
+  {Gaitan}}, \bibinfo {author} {\bibfnamefont {L.~A.}\ \bibnamefont {Crum}},
+  \bibinfo {author} {\bibfnamefont {C.~C.}\ \bibnamefont {Church}},\ and\
+  \bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont {Roy}},\ }\href@noop
+  {} {\bibfield  {journal} {\bibinfo  {journal} {The Journal of the Acoustical
+  Society of America}\ }\textbf {\bibinfo {volume} {91}},\ \bibinfo {pages}
+  {3166} (\bibinfo {year} {1992})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gaitan}(1990)}]{gaitan1990experimental}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~F.}\ \bibnamefont
+  {Gaitan}},\ }\emph {\bibinfo {title} {An experimental investigation of
+  acoustic cavitation in gaseous liquids}},\ \href@noop {} {Ph.D. thesis},\
+  \bibinfo  {school} {The University of Mississippi} (\bibinfo {year}
+  {1990})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lohse}(2018)}]{lohse2018bubble}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Lohse}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical review fluids}\ }\textbf {\bibinfo {volume} {3}},\ \bibinfo {pages}
+  {110504} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schwinger}(1993)}]{schwinger1993casimir}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Schwinger}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Proceedings of the National Academy of Sciences}\ }\textbf {\bibinfo
+  {volume} {90}},\ \bibinfo {pages} {958} (\bibinfo {year} {1993})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Eberlein}(1996)}]{eberlein1996sonoluminescence}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Eberlein}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review Letters}\ }\textbf {\bibinfo {volume} {76}},\ \bibinfo
+  {pages} {3842} (\bibinfo {year} {1996})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Liberati}\ \emph {et~al.}(2000)\citenamefont
+  {Liberati}, \citenamefont {Visser}, \citenamefont {Belgiorno},\ and\
+  \citenamefont {Sciama}}]{liberati2000sonoluminescence}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Liberati}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Visser}},
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Belgiorno}},\ and\
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Sciama}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Journal of Physics A:
+  Mathematical and General}\ }\textbf {\bibinfo {volume} {33}},\ \bibinfo
+  {pages} {2251} (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Borisenok}\ and\ \citenamefont
+  {Sedov}(2020)}]{borisenok2020mechanisms}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Borisenok}}\ and\ \bibinfo {author} {\bibfnamefont {S.~Y.}\ \bibnamefont
+  {Sedov}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physics
+  of Atomic Nuclei}\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo {pages}
+  {1575} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Flannigan}\ and\ \citenamefont
+  {Suslick}(2013)}]{flannigan2013non}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Flannigan}}\ and\ \bibinfo {author} {\bibfnamefont {K.~S.}\ \bibnamefont
+  {Suslick}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {The
+  Journal of Physical Chemistry B}\ }\textbf {\bibinfo {volume} {117}},\
+  \bibinfo {pages} {15886} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Flannigan}\ and\ \citenamefont
+  {Suslick}(2012)}]{flannigan2012temperature}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Flannigan}}\ and\ \bibinfo {author} {\bibfnamefont {K.~S.}\ \bibnamefont
+  {Suslick}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {The
+  journal of physical chemistry letters}\ }\textbf {\bibinfo {volume} {3}},\
+  \bibinfo {pages} {2401} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tatartchenko}\ \emph {et~al.}(2017)\citenamefont
+  {Tatartchenko} \emph {et~al.}}]{tatartchenko2017sonoluminescence}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~A.}\ \bibnamefont
+  {Tatartchenko}} \emph {et~al.},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Optics and Photonics Journal}\ }\textbf {\bibinfo
+  {volume} {7}},\ \bibinfo {pages} {27} (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Marinesco}\ and\ \citenamefont
+  {Trillat}(1933)}]{marinesco1933actions}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Marinesco}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Trillat}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Proceedings of the Royal Academy of Science}\ }\textbf {\bibinfo {volume}
+  {196}},\ \bibinfo {pages} {858} (\bibinfo {year} {1933})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Frenzel}\ and\ \citenamefont
+  {Schultes}(1934)}]{frenzel1934luminescenz}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Frenzel}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Schultes}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Zeitschrift f{\"u}r Physikalische Chemie}\ }\textbf {\bibinfo {volume}
+  {27}},\ \bibinfo {pages} {421} (\bibinfo {year} {1934})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Li}\ \emph {et~al.}(2015)\citenamefont {Li},
+  \citenamefont {Brennen},\ and\ \citenamefont
+  {Matsumoto}}]{li2015introduction}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Li}}, \bibinfo {author} {\bibfnamefont {C.~E.}\ \bibnamefont {Brennen}},\
+  and\ \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Matsumoto}},\
+  }\href@noop {} {\bibinfo {title} {Introduction for amazing (cavitation)
+  bubbles}} (\bibinfo {year} {2015})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rayleigh}(1917)}]{rayleigh1917pressure}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Rayleigh}},\ }\href@noop {} {\bibinfo {title} {On the pressure developed in
+  a liquid during the collapse of a spherical cavity: Philosophical magazine
+  series 6, 34, 94--98}} (\bibinfo {year} {1917})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Barber}\ \emph {et~al.}(1992)\citenamefont {Barber},
+  \citenamefont {Hiller}, \citenamefont {Arisaka}, \citenamefont {Fetterman},\
+  and\ \citenamefont {Putterman}}]{barber1992resolving}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Barber}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Hiller}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Arisaka}}, \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Fetterman}},\ and\ \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Putterman}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {The Journal of the Acoustical
+  Society of America}\ }\textbf {\bibinfo {volume} {91}},\ \bibinfo {pages}
+  {3061} (\bibinfo {year} {1992})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Barber}\ and\ \citenamefont
+  {Putterman}(1991)}]{barber1991observation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Barber}}\ and\ \bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont
+  {Putterman}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature}\ }\textbf {\bibinfo {volume} {352}},\ \bibinfo {pages} {318}
+  (\bibinfo {year} {1991})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wu}\ and\ \citenamefont
+  {Roberts}(1993)}]{wu1993shock}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Wu}}\ and\ \bibinfo {author} {\bibfnamefont {P.~H.}\ \bibnamefont
+  {Roberts}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical review letters}\ }\textbf {\bibinfo {volume} {70}},\ \bibinfo
+  {pages} {3424} (\bibinfo {year} {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Greenspan}\ and\ \citenamefont
+  {Nadim}(1993)}]{greenspan1993sonoluminescence}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~P.}\ \bibnamefont
+  {Greenspan}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Nadim}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physics
+  of Fluids A: Fluid Dynamics}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo
+  {pages} {1065} (\bibinfo {year} {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hiller}\ \emph {et~al.}(1992)\citenamefont {Hiller},
+  \citenamefont {Putterman},\ and\ \citenamefont
+  {Barber}}]{hiller1992spectrum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Hiller}}, \bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont
+  {Putterman}},\ and\ \bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Barber}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical review letters}\ }\textbf {\bibinfo {volume} {69}},\ \bibinfo
+  {pages} {1182} (\bibinfo {year} {1992})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Scientific-American}()}]{chainreaction}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Scientific-American}},\
+  }\href
+  {https://www.scientificamerican.com/article/the-bubbles-produced-by-u/#}
+  {\bibinfo {title} {The bubbles produced by ultrasound in water
+  (sonoluminescence) reach extremely high temperatures and pressures for brief
+  periods. could these conditions initiate or facilitate nuclear fusion, as
+  suggested in the recent movie "chain reaction"?}},\ \bibinfo {note}
+  {accessed: November 27, 2021}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Plesset}\ and\ \citenamefont
+  {Prosperetti}(1977)}]{plesset1977bubble}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~S.}\ \bibnamefont
+  {Plesset}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Prosperetti}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Annual review of fluid mechanics}\ }\textbf {\bibinfo {volume} {9}},\
+  \bibinfo {pages} {145} (\bibinfo {year} {1977})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Prosperetti}(2004)}]{prosperetti2004bubbles}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Prosperetti}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physics of fluids}\ }\textbf {\bibinfo {volume} {16}},\ \bibinfo {pages}
+  {1852} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schanz}\ \emph {et~al.}(2012)\citenamefont {Schanz},
+  \citenamefont {Metten}, \citenamefont {Kurz},\ and\ \citenamefont
+  {Lauterborn}}]{schanz2012molecular}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Schanz}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Metten}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Kurz}},\ and\ \bibinfo
+  {author} {\bibfnamefont {W.}~\bibnamefont {Lauterborn}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {New Journal of Physics}\ }\textbf
+  {\bibinfo {volume} {14}},\ \bibinfo {pages} {113019} (\bibinfo {year}
+  {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Didenko}\ \emph {et~al.}(2000)\citenamefont
+  {Didenko}, \citenamefont {McNamara~III},\ and\ \citenamefont
+  {Suslick}}]{didenko2000molecular}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.~T.}\ \bibnamefont
+  {Didenko}}, \bibinfo {author} {\bibfnamefont {W.~B.}\ \bibnamefont
+  {McNamara~III}},\ and\ \bibinfo {author} {\bibfnamefont {K.~S.}\ \bibnamefont
+  {Suslick}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {nature}\ }\textbf {\bibinfo {volume} {407}},\ \bibinfo {pages} {877}
+  (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
 \end{thebibliography}%
