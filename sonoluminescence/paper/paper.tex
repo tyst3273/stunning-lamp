@@ -128,8 +128,21 @@ what conditions are necessary for light emission (i.e. what is the phase space \
 
 
 \section{The Rayleigh-Plesset Equation}
-Derive the RP equation here
+The Rayleigh-Plesset (RP) equation can be deduced from the Navier-Stokes equations \cite{}. To that end, we first remind the reader of the Navier-Stokes equations. 
 
+The mass in an arbitrary element of a fluid (whose coordinates and boundary may depend on time) is given by  $\frac{d}{dt} \int_{\Omega_t} \rho(\bm{x},t) d\bm{x}$ where $\Omega_t$ is the domain of the fluid element under consdiration and $\rho(\bm{x},t)$ is the local, time-dependent density of the fluid. Using the transport theorem of fluid dynamics \cite{mcdonough2009lectures}, Gauss's theorem, and (with only some loss of generality) taking $\Omega_t$ to be a \emph{fluid parcel} (so that the boundary of the fluid parcel, $\partial \Omega_t$, moves with the fluid's velocity, $\bm{u}(\bm{x},t)$), this becomes
+\begin{equation}
+    \frac{d}{dt} \int_{\Omega_t} \rho dV = \int_{\Omega_t} \frac{\partial \rho}{\partial t} dV+\int_{\partial \Omega_t} \rho \bm{u} \cdot \bm{n} dA = \int_{\Omega_t} \frac{\partial \rho}{\partial t}+\nabla\cdot(\rho \bm{u})dV.
+    \label{eq:mass_continuity}
+\end{equation}
+Now to have \emph{mass-continuity}, which we will require on physical grounds, we set eq. \ref{eq:mass_continuity} to 0. Basically, we are saying no additional material is being added or removed from the fluid. Since the fluid parcel's boundary $\Omega_t$ is arbitrary, we find that $\frac{\partial \rho}{\partial t}+\nabla\cdot(\rho \bm{u})\equiv 0$ which is true for every point in the fluid volume.
+
+Newton's second law for fluids (\emph{momentum-continuity}) is defined similarly. We write the momentum-density as $\rho \bm{u}$. Following the same steps as above, we find for e.g. the $i^{th}$ component of momentum
+\begin{equation}
+    \frac{d}{dt} \int_{\Omega_t} \rho u_x dV = \int_{\Omega_t} \frac{\partial (\rho u_x)}{\partial t} dV+\int_{\partial \Omega_t} \rho \bm{u} \cdot \bm{n} dA = \int_{\Omega_t} \frac{\partial \rho}{\partial t}+\nabla\cdot(\rho \bm{u})dV.
+    \label{eq:mom_continuity}
+\end{equation}
+\textcolor{red}{note, in Schoeffel's notes, he writes down an equation involving the curl. he also points out that, for irrotational flow, we can write v as the gradient of a scalar function and derive a simple eq. this is what is done in Brenner's review.}
 
 
 

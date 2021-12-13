@@ -28,46 +28,86 @@ Control: production of article title (-1) disabled
 Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
+"J. High Energy Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry mcdonough2009lectures
+while executing---line 3516 of file apsrev4-2.bst
+"J. High Energ. Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry mcdonough2009lectures
+while executing---line 3516 of file apsrev4-2.bst
+"JHEP" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry mcdonough2009lectures
+while executing---line 3516 of file apsrev4-2.bst
+"Journal of Cosmology and Astroparticle Physics" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry mcdonough2009lectures
+while executing---line 3516 of file apsrev4-2.bst
+"J. Cosmol. Astropart. Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry mcdonough2009lectures
+while executing---line 3516 of file apsrev4-2.bst
+"JCAP" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry mcdonough2009lectures
+while executing---line 3516 of file apsrev4-2.bst
+"Journal of Instrumentation" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry mcdonough2009lectures
+while executing---line 3516 of file apsrev4-2.bst
+"J. Instrum." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry mcdonough2009lectures
+while executing---line 3516 of file apsrev4-2.bst
+"JINST" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry mcdonough2009lectures
+while executing---line 3516 of file apsrev4-2.bst
+"Journal of Statistical Mechanics" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry mcdonough2009lectures
+while executing---line 3516 of file apsrev4-2.bst
+"J. of Stat. Mech." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry mcdonough2009lectures
+while executing---line 3516 of file apsrev4-2.bst
+"J. Stat. Mech.: Theory Exp." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry mcdonough2009lectures
+while executing---line 3516 of file apsrev4-2.bst
+"JSTAT" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry mcdonough2009lectures
+while executing---line 3516 of file apsrev4-2.bst
+Warning--missing journal in mcdonough2009lectures
 Warning--empty year in chainreaction
-You've used 30 entries,
+You've used 31 entries,
             6079 wiz_defined-function locations,
-            1831 strings with 20013 characters,
-and the built_in function-call counts, 28248 in all, are:
-= -- 2235
-> -- 623
-< -- 144
-+ -- 206
-- -- 140
-* -- 4012
-:= -- 2770
-add.period$ -- 30
-call.type$ -- 30
-change.case$ -- 124
-chr.to.int$ -- 30
-cite$ -- 31
-duplicate$ -- 2534
-empty$ -- 1999
-format.name$ -- 379
-if$ -- 5791
+            1835 strings with 20132 characters,
+and the built_in function-call counts, 28898 in all, are:
+= -- 2289
+> -- 632
+< -- 147
++ -- 210
+- -- 142
+* -- 4084
+:= -- 2844
+add.period$ -- 31
+call.type$ -- 31
+change.case$ -- 128
+chr.to.int$ -- 31
+cite$ -- 33
+duplicate$ -- 2596
+empty$ -- 2048
+format.name$ -- 384
+if$ -- 5920
 int.to.chr$ -- 1
-int.to.str$ -- 38
-missing$ -- 400
-newline$ -- 142
-num.names$ -- 90
-pop$ -- 1157
+int.to.str$ -- 39
+missing$ -- 411
+newline$ -- 145
+num.names$ -- 93
+pop$ -- 1196
 preamble$ -- 1
-purify$ -- 149
+purify$ -- 154
 quote$ -- 0
-skip$ -- 1308
+skip$ -- 1344
 stack$ -- 0
-substring$ -- 724
-swap$ -- 2307
-text.length$ -- 68
+substring$ -- 737
+swap$ -- 2352
+text.length$ -- 69
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 400
-warning$ -- 1
-while$ -- 86
+type$ -- 412
+warning$ -- 2
+while$ -- 88
 width$ -- 0
-write$ -- 290
-(There was 1 error message)
+write$ -- 296
+(There were 14 error messages)
