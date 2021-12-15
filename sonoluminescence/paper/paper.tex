@@ -85,30 +85,18 @@ This result was not particularly surprising to the community since it had been k
 
 Details of a typical SBSL experiment will be given later, but for now it suffices to note that SBSL, unlike previous studies on MBSL, allowed very precise control and measurment of the SL process. With unprecidented experimental control, many discrepencies in previous assumptions about SL were discovered. Experiments measuring the duration of the light pulse found that it was orders or magnitude smaller than the time in which the bubble was compressed to its smallest radius \cite{barber1992resolving,barber1991observation}. This discovery implied that SL was nearly decoupled from the bubble's dynamics, contradicting models based on Rayleigh's equation. New models were proposed based on \emph{converging shock waves} at the bubble's center with estimates of the temperature at the center of bubbles $\sim10^8$ K \cite{wu1993shock,greenspan1993sonoluminescence}. At the same time, experimentalists fit the bubble's light emission spectra as a \emph{black body emitter} and concluded that the temperature in the bubble was atleast 25,000 K \cite{hiller1992spectrum}.
 
-These very high estimates for the temperature in the bubbles lead to a spark of interest more broadly: if the temerature in the bubble were really that large, then it should be possible for nuclear \emph{fusion} to occur \cite{}. \textcolor{red}{ talk about the stupid ass movie and that asshole that faked science data.} 
-Now talk about sonochemistry etc.
-
-
-
+These very high estimates for the temperature in the bubbles lead to a spark of interest more broadly: if the temerature in the bubble were really that large, then it should be possible for nuclear \emph{fusion} to occur \cite{}. \textcolor{red}{ talk about the stupid ass movie and that asshole that faked science data. and then about sonochemistry etc}
 
 \section{What do we know?}
 \subsection{The Bubble Wall}
-As it turns out, the dynamics of the bubble in SBSL (regardless of the light emission) are quite well described both qualitatively and \emph{quantitatively} by the classical theory of bubble dynamics. This isn't particularly surprising since the light emission and bubble collapse occur at different timescales \cite{}. The starting point for any theory of the bubble dynamics is Rayleigh's original expounded upon by many others \cite{}: the so called ``the Rayleigh-Plesset" (RP) equation \footnote{The RP equation is derived from the Navier-Stokes equation in the appendix}:
-
+As it turns out, the dynamics of the bubble in SBSL (regardless of the light emission) are quite well described both qualitatively and \emph{quantitatively} by the classical theory of bubble dynamics \cite{prosperetti1999old,brenner2002single,prosperetti1986bubble,plesset1977bubble,suslick2008inside,yasui2018acoustic,brennen2014cavitation}. This isn't particularly surprising since the light emission and bubble collapse occur at different timescales \cite{prosperetti1999old,brenner2002single,prosperetti1986bubble,plesset1977bubble}. The starting point for any theory of the bubble dynamics is Rayleigh's original expounded upon by many others \cite{plesset1977bubble,plesset1949dynamics,prosperetti1986bubble}: the so called ``the Rayleigh-Plesset" (RP) equation \footnote{The RP equation is derived from the Navier-Stokes equation in the appendix}:
 
 \subsection{Experimental Results}
-what conditions are necessary for light emission (i.e. what is the phase space \cite{lohse2018bubble}):
-\begin{itemize}
-    \item Ar content
-    \item driving frequency
-    \item P$_{max}$
-    \item ...
-\end{itemize}
+what conditions are necessary for light emission (i.e. what is the phase space \cite{lohse2018bubble}) (Ar content, driving frequency, P$_{max}$)
 
 \section{What don't we know}
 \subsection{The Bubble Wall (Again)}
 \subsection{Experimental Anomalies}
-
 
 \section{Let there be light!}
 \subsection{Thermal Arguments}
@@ -178,12 +166,21 @@ where we have introduced the \emph{bulk-viscosity} $\eta=\xi+\frac{2}{3}\mu$. Co
 
 Some comments are in order. The total-derivative of a moving fluid $\frac{d}{dt}\equiv D_t$ is sometimes called the \emph{material derivative}. In the case of velocity $D_t \bm{u}$ is the \emph{acceleration} of the fluid. It records not only explicit time dependence of the fluid's velocity $\partial_t \bm{u}$ but also how the fluid's velocity varies \emph{in space} as it moves past us: $\left( \bm{u}\cdot\nabla \right) \bm{u}$. The pressure term on the right hand side is to be understood as forces from the \emph{elastic} energy. On the other hand, the terms $\sim \bm{u}$ are viscous (damping) terms that tend to make the velocity field spatially uniform: the vanish when the (spatial) derivatives of the velocity vanish. The bulk-viscosity term $\sim \eta$ damps radial changes in the fluids velocity (e.g. dilation/contraction) while the shear-viscosity term $\sim\mu$ resists shearing. The body term $\bm{f}_B$ is from external sources: from here on, we will assume it is zero. 
 
-Even with these simplifying assumptions, solving eqs. \ref{eq:ns_equations} is a formidable task \footnote{In fact, it's not even clear that the NS equations \emph{can} be solved even for incompressible fluids. Proving that smooth, sensible solutions exist earns \$1,000,000 \cite{fefferman2006existence}. Better hurry though... inflation was 6.8\% in Nov. 2021} To that end, several more drastic approximations have to be made that allow us to make progess. 
+Even with these simplifying assumptions, solving eqs. \ref{eq:ns_equations} is a formidable task \footnote{In fact, it's not even clear that the NS equations \emph{can} be solved even for incompressible fluids. Proving that smooth, sensible solutions exist earns \$1,000,000 \cite{fefferman2006existence}. Better hurry though... inflation was 6.8\% in Nov. 2021} To that end, several more-drastic approximations have to be made that allow us to make progess. 
 \begin{enumerate}
-    \item We will assume irrotational flow (i.e. $\nabla\times\bm{u}\equiv 0$) and only radial motion in the liquid (i.e. $\bm{u}=u\bm{r}$). Note that, since the flow is assumed irrotation, we can represent the velocity as the gradient of a scalar function: $u\bm{r}=\partial_r \phi \bm{r}$. This amounts to assuming that the bubble is always spherical. This seems like a rather drastic approximation but has been validated experimentally in many cases \cite{}. This can be understood by accounting for surface-tension at the liquid-bubble interface \cite{}. 
-    \item Next, we assume that the viscous terms are negligible in the bulk dyanimcs of the liquid \cite{prosperetti1986bubble,prosperetti1999old,brenner2002single}. We will acount, to some extent, for viscosity later when looking at the bubble-liquid interface. Moreover, we are assuming that the flow is \emph{isentropic}, i.e. that it is reversible (no damping) and that no heat is exchanged between fluid parcels. We will further assume that the liquid is isothermal, i.e. its temperature is constant (in space). Then pressure $p$ is determined from an instantaneous equation-of-state $p=p(\rho,T)$. In the case of SBSL, this is valid since the bubble makes up a \emph{tiny} fraction of the total volume and, as we will later see, heat-transport across the liquid-bubble interfacing is usually neglected anyway (i.e. the bubble is compressed adiabatically in the thermodynamic sense \footnote{According to Wikipedia, \emph{adiabatic} means \emph{fast} in thermodynamics lingo. This is relevant to us since we are claiming the bubble wall moves so quickly that it is compressed to its maximum pressure before any heat can flow out. On the otherhand, the mechanics lingo implies \emph{adiabatic} to mean \emph{slow}. This is, e.g. the adiabatic theorem in quantum mechanics: a perturbation acts so slowly that the system is in its groundstate at all times.}
+    \item We will assume irrotational flow (i.e. $\nabla\times\bm{u}\equiv 0$) and only radial motion in the liquid (i.e. $\bm{u}=u\bm{r}$). Note that, since the flow is assumed irrotation, we can represent the velocity as the gradient of a scalar function: $u\bm{r}=\partial_r \phi \bm{r}$ \cite{jackson1999classical}. This amounts to assuming that the bubble is always spherical. This seems like a rather drastic approximation but has been validated experimentally in many cases \cite{}. This can be understood by accounting for surface-tension at the liquid-bubble interface \cite{}. 
+    \item Next, we assume that the viscous terms are negligible in the bulk dyanimcs of the liquid. For (relatively) low viscosity fluids such as water which is also nearly incompressible, this is an accurate approximation and is widely used \cite{prosperetti1986bubble,prosperetti1999old,brenner2002single}. We will acount, to some extent, for viscosity later when looking at the bubble-liquid interface. Moreover, we are assuming that the flow is \emph{isentropic}, i.e. that it is reversible (no damping) and that no heat is exchanged between fluid parcels. We will further assume that the liquid is isothermal, i.e. its temperature is constant (in space). Then pressure $p$ is determined from an instantaneous equation-of-state $p=p(\rho,T)$. In the case of SBSL, this is valid since the bubble makes up a \emph{tiny} fraction of the total volume and, as we will later see, heat-transport across the liquid-bubble interfacing is usually neglected anyway (i.e. the bubble is compressed adiabatically in the thermodynamic sense \footnote{According to Wikipedia, \emph{adiabatic} means \emph{fast} in thermodynamics lingo. This is relevant to us since we are claiming the bubble wall moves so quickly that it is compressed to its maximum pressure before any heat can flow out. On the otherhand, the mechanics lingo implies \emph{adiabatic} to mean \emph{slow}. This is, e.g. the adiabatic theorem in quantum mechanics: a perturbation acts so slowly that the system is in its groundstate at all times.}
     \item Related to the fact that the bubble is tiny, we assume that the extent of the liquid is so large compared to the bubble that we may consider the dynamics of the liquid as if there were no bubble present; similarly, we consider the dynamics of a bubble in an infinite, isotropic medium. Of course the bubble-liquid interface enters both systems as a boundary condition. 
 \end{enumerate}
+
+With these simplifying assumptions (and a vector identity \footnote{$\left( \nabla \cdot \bm{u} \right) \bm{u} = \frac{1}{2} \nabla (u^2) - \bm{u}\times \left( \nabla \times \bm{u} \right)$}) we rewrite eqs. \ref{eq:ns_equations} as a system of $1+1$ dimensional partial differential equations: 
+\begin{equation}
+\begin{split}
+     \partial_r \left[ \partial_t \phi +\frac{1}{2} \left( \partial_r \phi \right)^2 \right] & = - \frac{1}{\rho} \partial_r p  \\ 
+     \partial_t \rho+ \partial_r \phi \partial_r \rho + \rho \partial^2_r \phi & = 0
+%     \label{eq:ns_equations}
+\end{split}
+\end{equation}
 
 
 
