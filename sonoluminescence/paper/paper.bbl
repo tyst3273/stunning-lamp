@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{31}%
+\begin{thebibliography}{40}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -130,6 +130,14 @@
   {Lohse}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Physical review fluids}\ }\textbf {\bibinfo {volume} {3}},\ \bibinfo {pages}
   {110504} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Suslick}\ and\ \citenamefont
+  {Flannigan}(2008)}]{suslick2008inside}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~S.}\ \bibnamefont
+  {Suslick}}\ and\ \bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Flannigan}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Annu. Rev. Phys. Chem.}\ }\textbf {\bibinfo {volume} {59}},\ \bibinfo
+  {pages} {659} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Schwinger}(1993)}]{schwinger1993casimir}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
@@ -219,6 +227,14 @@
   {Rayleigh}},\ }\href@noop {} {\bibinfo {title} {On the pressure developed in
   a liquid during the collapse of a spherical cavity: Philosophical magazine
   series 6, 34, 94--98}} (\bibinfo {year} {1917})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Plesset}\ and\ \citenamefont
+  {Prosperetti}(1977)}]{plesset1977bubble}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~S.}\ \bibnamefont
+  {Plesset}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Prosperetti}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Annual review of fluid mechanics}\ }\textbf {\bibinfo {volume} {9}},\
+  \bibinfo {pages} {145} (\bibinfo {year} {1977})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Barber}\ \emph {et~al.}(1992)\citenamefont {Barber},
   \citenamefont {Hiller}, \citenamefont {Arisaka}, \citenamefont {Fetterman},\
   and\ \citenamefont {Putterman}}]{barber1992resolving}%
@@ -265,11 +281,63 @@
   {Barber}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Physical review letters}\ }\textbf {\bibinfo {volume} {69}},\ \bibinfo
   {pages} {1182} (\bibinfo {year} {1992})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Prosperetti}(1999)}]{prosperetti1999old}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Prosperetti}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Sonochemistry and sonoluminescence}\ ,\ \bibinfo {pages} {39}} (\bibinfo
+  {year} {1999})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Prosperetti}\ and\ \citenamefont
+  {Lezzi}(1986)}]{prosperetti1986bubble}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Prosperetti}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Lezzi}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal
+  of Fluid Mechanics}\ }\textbf {\bibinfo {volume} {168}},\ \bibinfo {pages}
+  {457} (\bibinfo {year} {1986})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yasui}(2018)}]{yasui2018acoustic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Yasui}},\ }\href@noop {} {\emph {\bibinfo {title} {Acoustic cavitation and
+  bubble dynamics}}}\ (\bibinfo  {publisher} {Springer},\ \bibinfo {year}
+  {2018})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {McDonough}(2009)}]{mcdonough2009lectures}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
   {McDonough}},\ }\href@noop {} {\  (\bibinfo {year} {2009})}\BibitemShut
   {NoStop}%
+\bibitem [{\citenamefont {Schoeffel}(2014)}]{schoeffel2014lecture}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Schoeffel}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {arXiv preprint arXiv:1407.3162}\ } (\bibinfo {year} {2014})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Zee}(2016)}]{zee2016group}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Zee}},\ }\href@noop {} {\emph {\bibinfo {title} {Group theory in a nutshell
+  for physicists}}},\ Vol.~\bibinfo {volume} {17}\ (\bibinfo  {publisher}
+  {Princeton University Press},\ \bibinfo {year} {2016})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Landau}\ and\ \citenamefont
+  {Lifshitz}(1987)}]{landau1987fluid}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Landau}}\ and\ \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Lifshitz}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Course of Theoretical Physics}\ }\textbf {\bibinfo {volume} {6}} (\bibinfo
+  {year} {1987})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fefferman}(2006)}]{fefferman2006existence}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {Fefferman}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {The
+  millennium prize problems}\ }\textbf {\bibinfo {volume} {57}},\ \bibinfo
+  {pages} {22} (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Brennen}(2014)}]{brennen2014cavitation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~E.}\ \bibnamefont
+  {Brennen}},\ }\href@noop {} {\emph {\bibinfo {title} {Cavitation and bubble
+  dynamics}}}\ (\bibinfo  {publisher} {Cambridge University Press},\ \bibinfo
+  {year} {2014})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Scientific-American}()}]{chainreaction}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibnamefont {Scientific-American}},\
@@ -280,14 +348,6 @@
   periods. could these conditions initiate or facilitate nuclear fusion, as
   suggested in the recent movie "chain reaction"?}},\ \bibinfo {note}
   {accessed: November 27, 2021}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Plesset}\ and\ \citenamefont
-  {Prosperetti}(1977)}]{plesset1977bubble}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~S.}\ \bibnamefont
-  {Plesset}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Prosperetti}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Annual review of fluid mechanics}\ }\textbf {\bibinfo {volume} {9}},\
-  \bibinfo {pages} {145} (\bibinfo {year} {1977})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Prosperetti}(2004)}]{prosperetti2004bubbles}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont

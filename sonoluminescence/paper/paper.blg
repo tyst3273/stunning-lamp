@@ -69,45 +69,45 @@ while executing---line 3516 of file apsrev4-2.bst
 while executing---line 3516 of file apsrev4-2.bst
 Warning--missing journal in mcdonough2009lectures
 Warning--empty year in chainreaction
-You've used 31 entries,
+You've used 40 entries,
             6079 wiz_defined-function locations,
-            1835 strings with 20132 characters,
-and the built_in function-call counts, 28898 in all, are:
-= -- 2289
-> -- 632
-< -- 147
-+ -- 210
-- -- 142
-* -- 4084
-:= -- 2844
-add.period$ -- 31
-call.type$ -- 31
-change.case$ -- 128
-chr.to.int$ -- 31
-cite$ -- 33
-duplicate$ -- 2596
-empty$ -- 2048
-format.name$ -- 384
-if$ -- 5920
+            1884 strings with 21213 characters,
+and the built_in function-call counts, 35848 in all, are:
+= -- 2851
+> -- 747
+< -- 179
++ -- 252
+- -- 166
+* -- 4986
+:= -- 3587
+add.period$ -- 40
+call.type$ -- 40
+change.case$ -- 166
+chr.to.int$ -- 40
+cite$ -- 42
+duplicate$ -- 3267
+empty$ -- 2596
+format.name$ -- 453
+if$ -- 7324
 int.to.chr$ -- 1
-int.to.str$ -- 39
-missing$ -- 411
-newline$ -- 145
-num.names$ -- 93
-pop$ -- 1196
+int.to.str$ -- 48
+missing$ -- 511
+newline$ -- 172
+num.names$ -- 120
+pop$ -- 1526
 preamble$ -- 1
-purify$ -- 154
+purify$ -- 199
 quote$ -- 0
-skip$ -- 1344
+skip$ -- 1672
 stack$ -- 0
-substring$ -- 737
-swap$ -- 2352
-text.length$ -- 69
+substring$ -- 888
+swap$ -- 2888
+text.length$ -- 82
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 412
+type$ -- 520
 warning$ -- 2
-while$ -- 88
+while$ -- 110
 width$ -- 0
-write$ -- 296
+write$ -- 364
 (There were 14 error messages)
