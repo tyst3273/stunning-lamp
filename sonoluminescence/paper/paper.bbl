@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{42}%
+\begin{thebibliography}{41}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -281,6 +281,14 @@
   {Barber}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Physical review letters}\ }\textbf {\bibinfo {volume} {69}},\ \bibinfo
   {pages} {1182} (\bibinfo {year} {1992})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gompf}\ and\ \citenamefont
+  {Pecha}(2000)}]{gompf2000mie}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Gompf}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Pecha}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
+  E}\ }\textbf {\bibinfo {volume} {61}},\ \bibinfo {pages} {5253} (\bibinfo
+  {year} {2000})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Prosperetti}(1999)}]{prosperetti1999old}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
@@ -312,6 +320,15 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~S.}\ \bibnamefont
   {Plesset}},\ }\href@noop {} {\  (\bibinfo {year} {1949})}\BibitemShut
   {NoStop}%
+\bibitem [{\citenamefont {Lentz}\ \emph {et~al.}(1995)\citenamefont {Lentz},
+  \citenamefont {Atchley},\ and\ \citenamefont {Gaitan}}]{lentz1995mie}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Lentz}}, \bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont {Atchley}},\
+  and\ \bibinfo {author} {\bibfnamefont {D.~F.}\ \bibnamefont {Gaitan}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Applied optics}\
+  }\textbf {\bibinfo {volume} {34}},\ \bibinfo {pages} {2648} (\bibinfo {year}
+  {1995})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {McDonough}(2009)}]{mcdonough2009lectures}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
@@ -348,41 +365,9 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
   {Jackson}},\ }\href@noop {} {\bibinfo {title} {Classical electrodynamics}}
   (\bibinfo {year} {1999})\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Scientific-American}()}]{chainreaction}%
+\bibitem [{\citenamefont {Leighton}(2007)}]{leighton2007derivation}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {Scientific-American}},\
-  }\href
-  {https://www.scientificamerican.com/article/the-bubbles-produced-by-u/#}
-  {\bibinfo {title} {The bubbles produced by ultrasound in water
-  (sonoluminescence) reach extremely high temperatures and pressures for brief
-  periods. could these conditions initiate or facilitate nuclear fusion, as
-  suggested in the recent movie "chain reaction"?}},\ \bibinfo {note}
-  {accessed: November 27, 2021}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Prosperetti}(2004)}]{prosperetti2004bubbles}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Prosperetti}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Physics of fluids}\ }\textbf {\bibinfo {volume} {16}},\ \bibinfo {pages}
-  {1852} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Schanz}\ \emph {et~al.}(2012)\citenamefont {Schanz},
-  \citenamefont {Metten}, \citenamefont {Kurz},\ and\ \citenamefont
-  {Lauterborn}}]{schanz2012molecular}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {Schanz}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Metten}},
-  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Kurz}},\ and\ \bibinfo
-  {author} {\bibfnamefont {W.}~\bibnamefont {Lauterborn}},\ }\href@noop {}
-  {\bibfield  {journal} {\bibinfo  {journal} {New Journal of Physics}\ }\textbf
-  {\bibinfo {volume} {14}},\ \bibinfo {pages} {113019} (\bibinfo {year}
-  {2012})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Didenko}\ \emph {et~al.}(2000)\citenamefont
-  {Didenko}, \citenamefont {McNamara~III},\ and\ \citenamefont
-  {Suslick}}]{didenko2000molecular}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.~T.}\ \bibnamefont
-  {Didenko}}, \bibinfo {author} {\bibfnamefont {W.~B.}\ \bibnamefont
-  {McNamara~III}},\ and\ \bibinfo {author} {\bibfnamefont {K.~S.}\ \bibnamefont
-  {Suslick}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {nature}\ }\textbf {\bibinfo {volume} {407}},\ \bibinfo {pages} {877}
-  (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Leighton}},\ }\href@noop {} {\  (\bibinfo {year} {2007})}\BibitemShut
+  {NoStop}%
 \end{thebibliography}%

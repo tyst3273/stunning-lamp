@@ -108,46 +108,85 @@ while executing---line 3516 of file apsrev4-2.bst
 ---they aren't the same literal types for entry mcdonough2009lectures
 while executing---line 3516 of file apsrev4-2.bst
 Warning--missing journal in mcdonough2009lectures
-Warning--empty year in chainreaction
-You've used 42 entries,
+"J. High Energy Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"J. High Energ. Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"JHEP" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"Journal of Cosmology and Astroparticle Physics" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"J. Cosmol. Astropart. Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"JCAP" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"Journal of Instrumentation" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"J. Instrum." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"JINST" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"Journal of Statistical Mechanics" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"J. of Stat. Mech." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"J. Stat. Mech.: Theory Exp." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"JSTAT" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+Warning--missing journal in leighton2007derivation
+You've used 41 entries,
             6079 wiz_defined-function locations,
-            1892 strings with 21391 characters,
-and the built_in function-call counts, 37073 in all, are:
-= -- 2952
-> -- 765
-< -- 184
-+ -- 262
-- -- 170
-* -- 5131
-:= -- 3733
-add.period$ -- 42
-call.type$ -- 42
-change.case$ -- 175
-chr.to.int$ -- 42
-cite$ -- 45
-duplicate$ -- 3384
-empty$ -- 2688
-format.name$ -- 463
-if$ -- 7561
+            1890 strings with 21090 characters,
+and the built_in function-call counts, 36149 in all, are:
+= -- 2884
+> -- 742
+< -- 181
++ -- 252
+- -- 164
+* -- 4984
+:= -- 3639
+add.period$ -- 41
+call.type$ -- 41
+change.case$ -- 169
+chr.to.int$ -- 41
+cite$ -- 44
+duplicate$ -- 3302
+empty$ -- 2622
+format.name$ -- 452
+if$ -- 7375
 int.to.chr$ -- 1
-int.to.str$ -- 50
-missing$ -- 527
-newline$ -- 178
-num.names$ -- 126
-pop$ -- 1589
+int.to.str$ -- 49
+missing$ -- 517
+newline$ -- 175
+num.names$ -- 123
+pop$ -- 1562
 preamble$ -- 1
-purify$ -- 209
+purify$ -- 205
 quote$ -- 0
-skip$ -- 1731
+skip$ -- 1698
 stack$ -- 0
-substring$ -- 916
-swap$ -- 2976
-text.length$ -- 84
+substring$ -- 884
+swap$ -- 2899
+text.length$ -- 82
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 544
+type$ -- 530
 warning$ -- 3
-while$ -- 114
+while$ -- 111
 width$ -- 0
-write$ -- 377
-(There were 27 error messages)
+write$ -- 368
+(There were 40 error messages)
