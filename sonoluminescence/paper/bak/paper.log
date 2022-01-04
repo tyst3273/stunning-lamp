@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.12)  3 JAN 2022 19:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.12)  3 JAN 2022 09:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -465,22 +465,26 @@ Package pdftex.def Info: figs/flask.pdf  used on input line 92.
 Overfull \vbox (8.00237pt too high) has occurred while \output is active []
 
 
-[3 <./figs/flask.pdf>] [4] [5] [6] [7] [8] [9] (./paper.bbl) [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 348.
+[3 <./figs/flask.pdf>] [4] [5] [6]
+Overfull \vbox (11.24396pt too high) has occurred while \output is active []
+
+
+[7] [8] (./paper.bbl) [9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 329.
  (./paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 348.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 348.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 329.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 329.
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: DE96354BBC9A06650D1DDC9B06D6ABD9;1204.
+(rerunfilecheck)             Checksum: CAA5EE6AFDDE33EFC5085FA6CA31AA07;1232.
  ) 
 Here is how much of TeX's memory you used:
- 9058 strings out of 481239
- 130251 string characters out of 5920376
- 421090 words of memory out of 5000000
- 24039 multiletter control sequences out of 15000+600000
+ 9032 strings out of 481239
+ 129634 string characters out of 5920376
+ 420715 words of memory out of 5000000
+ 24021 multiletter control sequences out of 15000+600000
  547095 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,17n,37p,2031b,410s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,17n,37p,2031b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
@@ -509,10 +513,10 @@ exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfrm0800.pfb>
-Output written on paper.pdf (10 pages, 820491 bytes).
+Output written on paper.pdf (9 pages, 814292 bytes).
 PDF statistics:
- 564 PDF objects out of 1000 (max. 8388607)
- 510 compressed objects within 6 object streams
- 117 named destinations out of 1000 (max. 500000)
+ 525 PDF objects out of 1000 (max. 8388607)
+ 473 compressed objects within 5 object streams
+ 109 named destinations out of 1000 (max. 500000)
  163 words of extra memory for PDF output out of 10000 (max. 10000000)
 

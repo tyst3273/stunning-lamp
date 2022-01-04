@@ -69,46 +69,6 @@ while executing---line 3516 of file apsrev4-2.bst
 while executing---line 3516 of file apsrev4-2.bst
 Warning--missing journal in plesset1949dynamics
 "J. High Energy Phys." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry leighton2007derivation
-while executing---line 3516 of file apsrev4-2.bst
-"J. High Energ. Phys." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry leighton2007derivation
-while executing---line 3516 of file apsrev4-2.bst
-"JHEP" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry leighton2007derivation
-while executing---line 3516 of file apsrev4-2.bst
-"Journal of Cosmology and Astroparticle Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry leighton2007derivation
-while executing---line 3516 of file apsrev4-2.bst
-"J. Cosmol. Astropart. Phys." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry leighton2007derivation
-while executing---line 3516 of file apsrev4-2.bst
-"JCAP" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry leighton2007derivation
-while executing---line 3516 of file apsrev4-2.bst
-"Journal of Instrumentation" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry leighton2007derivation
-while executing---line 3516 of file apsrev4-2.bst
-"J. Instrum." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry leighton2007derivation
-while executing---line 3516 of file apsrev4-2.bst
-"JINST" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry leighton2007derivation
-while executing---line 3516 of file apsrev4-2.bst
-"Journal of Statistical Mechanics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry leighton2007derivation
-while executing---line 3516 of file apsrev4-2.bst
-"J. of Stat. Mech." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry leighton2007derivation
-while executing---line 3516 of file apsrev4-2.bst
-"J. Stat. Mech.: Theory Exp." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry leighton2007derivation
-while executing---line 3516 of file apsrev4-2.bst
-"JSTAT" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry leighton2007derivation
-while executing---line 3516 of file apsrev4-2.bst
-Warning--missing journal in leighton2007derivation
-"J. High Energy Phys." is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry mcdonough2009lectures
 while executing---line 3516 of file apsrev4-2.bst
 "J. High Energ. Phys." is a string literal, `journal' is a missing field
@@ -148,45 +108,85 @@ while executing---line 3516 of file apsrev4-2.bst
 ---they aren't the same literal types for entry mcdonough2009lectures
 while executing---line 3516 of file apsrev4-2.bst
 Warning--missing journal in mcdonough2009lectures
-You've used 46 entries,
+"J. High Energy Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"J. High Energ. Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"JHEP" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"Journal of Cosmology and Astroparticle Physics" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"J. Cosmol. Astropart. Phys." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"JCAP" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"Journal of Instrumentation" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"J. Instrum." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"JINST" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"Journal of Statistical Mechanics" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"J. of Stat. Mech." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"J. Stat. Mech.: Theory Exp." is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+"JSTAT" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry leighton2007derivation
+while executing---line 3516 of file apsrev4-2.bst
+Warning--missing journal in leighton2007derivation
+You've used 41 entries,
             6079 wiz_defined-function locations,
-            1919 strings with 21841 characters,
-and the built_in function-call counts, 41368 in all, are:
-= -- 3278
-> -- 879
-< -- 209
-+ -- 294
-- -- 196
-* -- 5760
-:= -- 4126
-add.period$ -- 46
-call.type$ -- 46
-change.case$ -- 189
-chr.to.int$ -- 46
-cite$ -- 49
-duplicate$ -- 3770
-empty$ -- 2989
-format.name$ -- 535
-if$ -- 8457
+            1890 strings with 21090 characters,
+and the built_in function-call counts, 36149 in all, are:
+= -- 2884
+> -- 742
+< -- 181
++ -- 252
+- -- 164
+* -- 4984
+:= -- 3639
+add.period$ -- 41
+call.type$ -- 41
+change.case$ -- 169
+chr.to.int$ -- 41
+cite$ -- 44
+duplicate$ -- 3302
+empty$ -- 2622
+format.name$ -- 452
+if$ -- 7375
 int.to.chr$ -- 1
-int.to.str$ -- 54
-missing$ -- 593
-newline$ -- 190
-num.names$ -- 138
-pop$ -- 1773
+int.to.str$ -- 49
+missing$ -- 517
+newline$ -- 175
+num.names$ -- 123
+pop$ -- 1562
 preamble$ -- 1
-purify$ -- 230
+purify$ -- 205
 quote$ -- 0
-skip$ -- 1931
+skip$ -- 1698
 stack$ -- 0
-substring$ -- 1002
-swap$ -- 3342
-text.length$ -- 98
+substring$ -- 884
+swap$ -- 2899
+text.length$ -- 82
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 601
+type$ -- 530
 warning$ -- 3
-while$ -- 126
+while$ -- 111
 width$ -- 0
-write$ -- 408
+write$ -- 368
 (There were 40 error messages)

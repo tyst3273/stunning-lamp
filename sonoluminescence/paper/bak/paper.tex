@@ -82,7 +82,7 @@ SL was discovered by accident in 1933 (in the form of MBSL) by Marinesco and Tri
 
 This result was not particularly surprising to the community since it had been known for a while that cavitating bubbles could do tremendous damage to e.g. ship's propellers \footnote{A more modern example could be my van's oil pump, which is in need of replacing.}. The discovery's impact is consicesly summarized by Brenner: ``if the cloud [of cavitating bubbles] collapses violently enough to break molecular bonds in a solid, why should it \emph{not} emit photons" \cite{brenner2002single}. In fact, cavitating bubbles had been of interest to engineers working on fluid mechanics for a while. The discovery of cavitation is credited to Euler (as early as 1754) who hypothesized that if the velocity in a fluid was large enough, negative pressures could become so large as to ``break the fluid" \cite{li2015introduction,gaitan1992sonoluminescence}. Cavitation was confirmed to exist (and named ``cavitation") in 1895 by engineers studying the failure of a British Navy ship's propeller \cite{li2015introduction}. Shortly after, Lord Rayliegh wrote down and solved the differential equation for a vapor filled cavity collapsing in water (the so-called Rayleigh equation), giving the first rigoruous theoretical treatment of cavitation \cite{rayleigh1917pressure,plesset1977bubble}. Rayleigh found that, for a bubble at a lower pressure than the surrounding fluid (and both pressures held constant), the bubble wall diverges during collapse. Still, very little information was accessible about the light emission until the 1990's when stable \footnote{\emph{Stable} is compared with \emph{transient} when discussing caviation. A stable bubble persists through multiple cycles of cavitation, oscillating nonlinearly around an equilibrium size. Transient bubbles appear and then collapse to dissapear}, single bubbles could be created and driven to emit light \cite{gaitan1990experimental,gaitan1992sonoluminescence,crum1994sonoluminescence}. With this discovery, serious interest took root. 
 
-Details of a typical SBSL experiment will be given later, but for now it suffices to note that SBSL, unlike previous studies on MBSL, allowed very precise control and measurment of the SL process. With unprecidented experimental control, many discrepencies in previous assumptions about SL were discovered. Experimental Results measuring the duration of the light pulse found that it was orders or magnitude smaller than the time in which the bubble was compressed to its smallest radius \cite{barber1992resolving,barber1991observation}. This discovery implied that SL was nearly decoupled from the bubble's dynamics, contradicting models based on Rayleigh's equation. New models were proposed based on \emph{converging shock waves} at the bubble's center with estimates of the temperature at the center of bubbles $\sim10^8$ K \cite{wu1993shock,greenspan1993sonoluminescence}. At the same time, experimentalists fit the bubble's light emission spectra as a \emph{black body emitter} and concluded that the temperature in the bubble was atleast 25,000 K \cite{hiller1992spectrum}.
+Details of a typical SBSL experiment will be given later, but for now it suffices to note that SBSL, unlike previous studies on MBSL, allowed very precise control and measurment of the SL process. With unprecidented experimental control, many discrepencies in previous assumptions about SL were discovered. Experiments measuring the duration of the light pulse found that it was orders or magnitude smaller than the time in which the bubble was compressed to its smallest radius \cite{barber1992resolving,barber1991observation}. This discovery implied that SL was nearly decoupled from the bubble's dynamics, contradicting models based on Rayleigh's equation. New models were proposed based on \emph{converging shock waves} at the bubble's center with estimates of the temperature at the center of bubbles $\sim10^8$ K \cite{wu1993shock,greenspan1993sonoluminescence}. At the same time, experimentalists fit the bubble's light emission spectra as a \emph{black body emitter} and concluded that the temperature in the bubble was atleast 25,000 K \cite{hiller1992spectrum}.
 
 These very high estimates for the temperature in the bubbles lead to a spark of interest more broadly: if the temerature in the bubble were really that large, then it should be possible for nuclear \emph{fusion} to occur \cite{}. An action movie featuring Keanu Reeves was even made with this at the center of the plot \footnote{It is called \emph{Chain Reaction} and I am unwilling to watch it.}. In the early 2000's, several papers were even published claiming that stable nuclear fusion was possible in the lab using a method based on SBSL \cite{}. Unfortunately these results turned out to be fraudulent \cite{}. Shortly after this fiasco, evidenced emerged that there are shape instabilities in the bubbles dynamics indicating that the converging shock-wave hypothesis is probably not right. This severely reduced the estimates for the temperature to below $10,000$ K, ruling out the possibility of fusion occuring at all \cite{}. Moreover, it was shown that the light is most likely emitted from the \emph{bulk} of the bubble as opposed to its surface, making fits to a black body specturm (i.e. surface emission) incorrect \cite{}. Current estimates for the temperature at the center of a sonoluminescing bubble are $...$ \cite{}
 
@@ -95,110 +95,21 @@ Still, the very high pressures and temperatures in the bubble during sonolumines
 \end{figure}
 
 
-\section{The bubble wall}
+\section{What do we know?}
 The conditions in the bubble's \emph{interior} are still not entirely understood and will be the subject of an entire section of this paper. Before we look at what we don't know, it is useful to summarize what we \emph{do} know about SBSL. This has two parts: on the one hand, the dynamics of the bubble are experimentally accessible and have been well studied by \emph{Mie scattering} experiments. As we shall see, a (relatively) simple theory describles the dynamics of the bubble quite well. On the other hand, a great deal of effort has been invested in measuring what is going on in the bubble's interior. We will look at what we have been able to figure out.
 
-\subsection{Theory}
-As it turns out, the dynamics of the bubble in SBSL (regardless of the light emission) are quite well described both qualitatively and \emph{quantitatively} by the classical theory of bubble dynamics \cite{prosperetti1999old,brenner2002single,prosperetti1986bubble,plesset1977bubble,suslick2008inside,yasui2018acoustic,brennen2014cavitation}. This isn't particularly surprising since the light emission and bubble collapse occur at different timescales \cite{prosperetti1999old,brenner2002single,prosperetti1986bubble,plesset1977bubble}. The starting point for any theory of the bubble dynamics is Rayleigh's original work \cite{rayleigh1917pressure}, now expounded upon by many others. The most widely known modern work is that of Plesset \cite{plesset1977bubble,plesset1949dynamics,prosperetti1986bubble}, resulting in the so called ``the Rayleigh-Plesset" (RP) equation. The derivation assumes the host liquid is incompressible, ultimately resulting in us neglecting the effects of sound radiated by the bubble. Corrections exist that improve upon the RP equation in various ways and we will discuss these below \cite{}. However, for brevity's sake, we will only derive the RP equation here and merely quote the others as they are very similar in form to the RP equation. The field of \emph{bubble dynamics} is quite mature and attempting to review it here would be out of scope of this paper; instead, the reader is referred to numerous books and reviews \cite{}. 
-
-The RP equation can be deduced from the \emph{Navier-Stokes} (NS) equations \footnote{The NS equations are derived in the appendix} \cite{prosperetti1999old,brenner2002single,prosperetti1986bubble,plesset1977bubble,suslick2008inside,yasui2018acoustic}. The NS equations for a compressible fluid are
+\subsection{The Bubble Wall}
+As it turns out, the dynamics of the bubble in SBSL (regardless of the light emission) are quite well described both qualitatively and \emph{quantitatively} by the classical theory of bubble dynamics \cite{prosperetti1999old,brenner2002single,prosperetti1986bubble,plesset1977bubble,suslick2008inside,yasui2018acoustic,brennen2014cavitation}. This isn't particularly surprising since the light emission and bubble collapse occur at different timescales \cite{prosperetti1999old,brenner2002single,prosperetti1986bubble,plesset1977bubble}. The starting point for any theory of the bubble dynamics is Rayleigh's original work expounded upon by many others \cite{plesset1977bubble,plesset1949dynamics,prosperetti1986bubble}: the so called ``the Rayleigh-Plesset" (RP) equation \footnote{The RP equation is derived in the appendix}.
 \begin{equation}
-\begin{split}
-    \rho \frac{d \bm{u}}{dt} = \rho \left[ \partial_t \bm{u}+\left(\bm{u}\cdot \nabla \right)\bm{u} \right] & =-\nabla p + \eta \nabla \left(\nabla \cdot \bm{u} \right)+\mu \nabla^2 \bm{u} + \bm{f}_B \\ 
-     \partial_t \rho+\nabla\cdot(\rho \bm{u}) & = 0.
-     \label{eq:NS_equations}
-\end{split}
+    R\ddot{R}+\frac{3}{2}\dot{R}^2 = \frac{1}{\rho} \left[ \Delta p(t)-\frac{1}{R}\left( 2\sigma+4\mu \dot{R} \right)-P(t) \right].
+    \label{eq:RP}
 \end{equation}
+This is the equation of motion for a driven spherical bubble in an infinite, incompressible fluid. On the left hand side, $R$ is the radius of the bubble, $\dot{R}$ is the velocity of the bubble's radius i.e. the velocity of the \emph{bubble wall}, and $\ddot{R}$ is the bubble wall's acceleration. On the right hand side, $\rho$ is the (constant) density of the fluid. $\Delta p(t) = p_g(t)-p_\infty$ is the deviation of the gas pressure in the bubble, $p_g(t)$, from the static fluid pressure at infinite distance, $p_\infty$. $p_g(t)$ is evaluated at the bubble wall. In the second term, the $\sim \sigma$ part gives the restoring force from surface tension stresses while the $\sim \mu$ term is due to the fluid viscos stresses: $\sigma$ and $\mu$ are the surface tension and viscosity coefficients respectively. The last term on the right, $P(t)$, is the \emph{external pressure}. In the context of SBSL, this is a sinusoidal function driven by the transducers connected to the flask containing the bubble (see the next section). 
 
-Here, $\bm{u}(\bm{x},t)$ is the velocity of a fluid parcel at position $\bm{x}$ at time $t$, $\rho (\bm{x},t)$ is the fluid's density, $p$ is the pressure, $\eta \equiv \left(\xi + \frac{2}{3}\mu \right)$ is the \emph{bulk} viscosity with $\mu$ the \emph{shear} viscosity, and $\bm{f}_B$ are \emph{body} forces (e.g. gravity, electrostatic forces) which are usually from external sources and will be assumed negligible from here on. The subscrits on $\partial$ denote what deriviative is being taken and $\nabla$ and $\nabla^2$ have thier usual meanings. The first equation is \emph{conservation of momentum} for the fluid, i.e. Newton's $2^{nd}$ law; the second equation is \emph{mass convervation}. The total-derivative of a moving fluid $\frac{d}{dt}\equiv D_t$ is sometimes called the \emph{material derivative}. In the case of velocity $D_t \bm{u}$ is the \emph{acceleration} of the fluid. It records not only explicit time dependence of the fluid's velocity $\partial_t \bm{u}$ but also how the fluid's velocity varies \emph{in space} as it moves past us: $\left( \bm{u}\cdot\nabla \right) \bm{u}$. The pressure term on the right hand side is to be understood as forces from the \emph{elastic} energy. On the other hand, the terms $\sim \bm{u}$ are viscous (damping) terms that tend to make the velocity field spatially uniform: they vanish when the (spatial) derivatives of the velocity vanish. The bulk-viscosity term $\sim \eta$ damps radial changes in the fluids velocity (e.g. dilation/contraction) while the shear-viscosity term $\sim\mu$ resists shearing. 
+The Rayleigh equation, as opposed to the RP equation, is equivalent to eq. \ref{eq:RP} with the pressure term at a constant value. {\color{red} Write down Rayleighs equation, show that it is recovered from the RP equation, discuss its solution, show that its wall velocity diverges. \cite{brenner2002single} discusses these and how it is necessary for something to diverege with the same power to oppose the collapse. They call this the Rayleigh collapse.} 
 
-Solving eqs. \ref{eq:NS_equations} is an intractable problem. To make progress, we will make some drastic approximations that are more-or-less valid for our problem. 
-\begin{enumerate}
-    \item We will assume irrotational flow (i.e. $\nabla\times\bm{u}\equiv 0$) so that there is only radial motion in the liquid (i.e. $\bm{u}=u\bm{r}$). Note that, since the flow is assumed irrotational, we can represent the velocity as the gradient of a scalar function: $u\bm{r}=\partial_r \phi \bm{r}$ \cite{jackson1999classical}. This amounts to assuming that the bubble is always spherical which seems like a rather drastic approximation but has been validated experimentally in many cases \cite{}. The fact that the bubble tends to remain spherical can be understood by accounting for surface-tension at the liquid-bubble interface \cite{prosperetti1999old}. 
-    \item Next, we assume that the viscous terms are negligible in the bulk dyanimcs of the liquid. For (relatively) low viscosity fluids such as water which is also nearly incompressible, this is an accurate approximation and is widely used \cite{prosperetti1986bubble,prosperetti1999old,brenner2002single,plesset1977bubble}.  We will acount, to some extent, for viscosity later when looking at the bubble-liquid interface. Moreover, we are assuming that the flow is \emph{isentropic}, i.e. that it is reversible (no damping) and that no heat is exchanged between fluid parcels. We will further assume that the liquid is isothermal, i.e. its temperature is constant (in space). Then pressure $p$ is determined from an instantaneous equation-of-state $p=p(\rho,T)$. In the case of SBSL, this is valid since the bubble makes up a \emph{tiny} fraction of the total volume and, as we will later see, heat-transport across the liquid-bubble interfacing is usually neglected anyway (i.e. the bubble is compressed adiabatically in the thermodynamic sense \footnote{According to Wikipedia, \emph{adiabatic} means \emph{fast} in thermodynamics lingo. This is relevant to us since we are claiming the bubble wall moves so quickly that it is compressed to its maximum pressure before any heat can flow out. On the otherhand, the mechanics lingo implies \emph{adiabatic} to mean \emph{slow}. This is, e.g. the adiabatic theorem in quantum mechanics: a perturbation acts so slowly that the system is in its groundstate at all times.})
-    \item Related to the fact that the bubble is tiny, we assume that the extent of the liquid is so large compared to the bubble that we may consider the dynamics of the liquid as if there were no bubble present; similarly, we consider the dynamics of a bubble in an infinite, isotropic medium. Of course the bubble-liquid interface enters both systems as a boundary condition \cite{prosperetti1986bubble}. 
-\end{enumerate}
+While the RP equation is pretty, it is non-linear in $R$, making its analytical solution intractable. In some cases, linearizating in $R$ is reasonable and makes an analytical solution possible but in general, this equation is solved numerically. We will explore this below. {\color{red} Go thru \cite{brenner2002single} and maybe \cite{gaitan1990experimental}. Different models include, to different extents, mass and heat transfer across the interface, with good results. These are included by integegrating the Navier-Stokes equations assuming energy is not conserved, mass is not conserved, etc. Just state the different equations and heurestically describe how they come about. The point of all of them is the dynamics are modified somewhat. In \cite{prosperetti1999old}, these different formulations are all reduced to a particular form of \emph{one parameter} equations with different numerical results. Discuss these and show which one is the most accurate so far.}
 
-With these simplifying assumptions (and a vector identity \footnote{$\left( \nabla \cdot \bm{u} \right) \bm{u} = \frac{1}{2} \nabla (u^2) - \bm{u}\times \left( \nabla \times \bm{u} \right)$}) we rewrite eqs. \ref{eq:NS_equations} as a system of $1+1$ dimensional partial differential equations: 
-\begin{equation}
-\begin{split}
-     \partial_r \left[ \partial_t \phi +\frac{1}{2} \left( \partial_r \phi \right)^2 \right] & = - \frac{1}{\rho} \partial_r p  \\ 
-     \partial_t \rho+ \partial_r \phi \partial_r \rho + \rho \partial^2_r \phi & = 0.
-     \label{eq:NS_1D}
-\end{split}
-\end{equation}
-We can integrate the first equation above using the fact that the compressibility is negligible to move the density through the integration \cite{leighton2007derivation}
-\begin{equation}
-    \int_{r_\infty}^{r} \frac{\partial}{\partial r'} \left[ \frac{\partial \phi}{\partial t} +\frac{1}{2} \left( \frac{\partial \phi}{\partial r'} \right)^2 \right] dr' = - \frac{1}{\rho} \int_{r_\infty}^{r} \frac{\partial p}{\partial r'} dr'.
-\end{equation}
-On the left side, we take the velocity to vanish at infinity. On the right side, we assume that only the static and unperturbed pressures, $p_\infty$ and $P(t)$ respectively, are relevant so that \cite{prosperetti1999old,prosperetti1986bubble,leighton2007derivation} 
-\begin{equation}
-    \partial_t \phi + \frac{1}{2}\left( \partial_r \phi \right)^2 = \frac{(p_\infty+P(t))-p(t,r)}{\rho}.
-    \label{eq:press_vel}
-\end{equation}
-Eq. \ref{eq:press_vel} gives the pressure at cordinate $(r,t)$ in terms of the velocity of the fluid, the density, and the appied pressure. 
-
-Now, let us assume that the velocity potential satisfies a wave equation $\nabla^2 \phi - \frac{1}{c^2}\partial_t^2 \phi =0 $ \footnote{This doesn't come from thin air. We could write the r.h.s. of eq. \ref{eq:press_vel} as the enthalpy, $h\equiv \int \frac{dp}{\rho}$, and similarly introduce $dh=\frac{dp}{\rho}$ in the first line of eq. \ref{eq:NS_1D}. Eliminating $h$ between the two and dropping small terms $\sim \frac{u}{c}$, we arrive at the homogeneous wave equation \cite{leighton2007derivation,brenner2002single,prosperetti1999old}.} with $c$ the speed of sound in the fluid. Again, we use incompressibilty by recalling that for an incompressible fluid $c\rightarrow \infty$ which implies $\nabla^2 \phi =0$ \footnote{For our problem, it is true that $\left( \frac{1}{c^2} \partial_t \phi \right) / \nabla^2 \phi \sim \left( \frac{R}{\lambda} \right)^2 \ll 1$, i.e. the long wave-length approximation is accurate \cite{prosperetti1999old,prosperetti1986bubble,leighton2007derivation}.} . In this case, we can ignore retardation effects and, remembering that we have spherical symmetry, write the solution of $\nabla^2 \phi$ as 
-\begin{equation}
-    \phi = \frac{\psi(t)}{r}
-\end{equation}
-with $\psi$ the time-dependent coefficient. We now use the boundary condition for the velocity at the bubble wall, $u(R)\equiv \dot{R}$ with $R$ the bubble radius, to determine $\psi$:
-\begin{equation}
-    \dot{R} = -\frac{\psi}{R^2} \Rightarrow \psi = -R^2 \dot{R}.
-\end{equation}  
-Thus, we find $\phi(r,t) = -\frac{R^2 \dot{R}}{r}$. Plugging this into the left hand side of eq. \ref{eq:press_vel} and evaluating at the bubble wall, $r\equiv R$
-\begin{equation}
-\begin{split}
-    \partial_t \phi \vert_{r=R} & = -2\dot{R}^2-R\ddot{R} \\
-    \partial_r \phi \vert_{r=R} & = \dot{R} \equiv u(R)
-\end{split}
-\end{equation}
-
-Finally, sticking all this together, we arrive at the Rayleigh-Plesset equation \cite{prosperetti1999old,prosperetti1986bubble,leighton2007derivation,plesset1949dynamics,plesset1977bubble}
-\begin{equation}
-    R\ddot{R}+\frac{3}{2}\dot{R}^2 = \frac{p_B(t)-(p_\infty+P(t))}{\rho}
-    \label{eq:RP_1}
-\end{equation}
-with $p_B \equiv p(r=R,t)$ the pressure in the fluid at the bubble wall. Evaluated beyond the bubble wall, $r > R$, eq. \ref{eq:RP_1} gives the pressure radiated by the fluctuating bubble. Some comments are in order. The combination $p_\infty+P(t)$ is the \emph{ambient} pressure \cite{prosperetti1999old,prosperetti1986bubble} which gives the pressure in the fluid in the absence of the bubble. The left hand side of eq. \ref{eq:RP_1} may be regarded as the kinetic energy (density). The right hand side is the change in enthalpy (density) due to the fluctuating bubble, i.e. the dyanmics of the bubble given on the left hand side are determined by the enthalpy in the fluid due to the bubble's motion. In deriving this equation, we have assumed that the speed of propogation in the fluid is infinite. In reality, this is not true but this approximation will be very good close to the bubble (in the \emph{near-field}) where retardation effects are negligible anyway. In a similar way, we have assumed that the energy in the fluid due to distorting its volume is negligible. This approximation will be accurate near the bubble as well since the kinetic energy in this region will dominate \cite{prosperetti1999old}. 
-
-We can refine eq. \ref{eq:RP_1} a little further. Since the motion in the fluid is purely radial, we expect the only relevant stresses to be normal to the bubble wall. Let's denote the radial stress in the liquid at some point $r$ by $s_r(r)=-p(r,t)+2\mu \partial_r u$. Recall, $\mu$ is the fluid viscosity from earlier. Using conservation of mass and momentum, and our expression above for the velocity, we can equate the normal stresses in the fluid to those in the bubble:
-\begin{equation}
-\begin{split}
-    s_r(R)=-p_B-4\frac{\mu \dot{R}}{R}=-p_g+2\frac{\sigma}{R}
-\end{split}
-\end{equation}
-where $p_g$ is the pressure in the gas and $\sigma$ is the surface tension. Solving for $p_B(t)$, we have the relation \cite{brenner2002single,prosperetti1999old,prosperetti1986bubble}
-\begin{equation}
-    p_B(t)=p_g(t)-\frac{1}{R}\left( 2\sigma+4\mu \dot{R} \right)
-    \label{eq:p_B}.
-\end{equation}
-Note that in deriving the equations \ref{eq:NS_1D} we neglected the viscosity terms. This was valid since only combinations of viscosity and compressibility $\nabla \cdot \bm{u}$ appeared, both of which are assumed small. Here, however, we opt to keep the viscosity terms coupling the bubble wall to the fluid. With this, we can rewrite the RP equation as 
-\begin{equation}
-    R\ddot{R}+\frac{3}{2}\dot{R}^2 = \frac{1}{\rho} \left[ \Delta p(t)-\frac{1}{R}\left( 2\sigma+4\mu \dot{R} \right)-P(t) \right]
-    \label{eq:RP_2}
-\end{equation}
-with $\Delta p = p_g(t)-p_\infty$ the deviation of the pressure inside the bubble from the static pressure. With the above assumption that the compression is adiabatic, the conditions inside the bubble are decoupled from the liquid (besides the coupling through the RP equation) and we may regard $p_g(t)$ in the bubble as a given quantity to be determined from an equation of state. Recall $P(t)$ is the time-dependent part of the pressure in the absence of the bubble: we may regard this as an external pressure from e.g. a driving stress. This will be from the transducers driving the acoustic levitation cell.
-
-Eq. \ref{eq:RP_2} is the equation of motion for a driven spherical bubble in an infinite, incompressible fluid. It is worth breifly summarizing this all again. On the left hand side, $R$ is the radius of the bubble, $\dot{R}$ is the velocity of the bubble's radius i.e. the velocity of the \emph{bubble wall}, and $\ddot{R}$ is the bubble wall's acceleration. On the right hand side, $\rho$ is the (constant) density of the fluid. $\Delta p(t) = p_g(t)-p_\infty$ is the deviation of the gas pressure in the bubble, $p_g(t)$, from the static fluid pressure at infinite distance, $p_\infty$. $p_g(t)$ is evaluated at the bubble wall. In the second term, the $\sim \sigma$ part gives the restoring force from surface tension stresses while the $\sim \mu$ term is due to the fluid viscos stresses: $\sigma$ and $\mu$ are the surface tension and viscosity coefficients respectively. The last term on the right, $P(t)$, is the \emph{external pressure}. In the context of SBSL, this is a sinusoidal function driven by the transducers connected to the flask containing the bubble (see the next section). 
-
-Let us breifly digress to discuss retardation effects. If we had not assumed incompressibility, our solution would include a term arising from the sound radiation from the bubble itself. There are practical issues with this solution however; it is \emph{third} order in time and has unphysical, exponentially diverging solutions \cite{prosperetti1999old,brenner2002single,prosperetti1986bubble,lezzi1987bubble}. Both issues are solved by imposing boundary conditions on the $\ddot{R}$ term. The method for doing so is also challenging and apparently no unique way to do it exists \cite{prosperetti1986bubble,prosperetti1988nonlinear,keller1956damping}. Instead, there is a whole family of solutions that can be derived; different variations of the improved RP equation, which are collectively referred to as ``Rayleigh-Plesset equations" are derived by neglecting different terms in the full compressible solution. We will discuss this again below.
-
-While the RP equation (eq. \ref{eq:RP_2}) is pretty, it is non-linear in $R$, making its analytical solution intractable. For now, let's see what we else we can understand from this analytically. If we take $p_B-(p_\infty+P) \equiv p_0$ with $p_0$ constant, we recover Rayleigh's equation discussed above \cite{rayleigh1917pressure,plesset1949dynamics,prosperetti1999old,brenner2002single}. If we further take $p_0=0$, as Rayleigh did to study a cavitating \emph{void} in water \cite{brenner2002single,rayleigh1917pressure}, then we arrive at 
-\begin{equation}
-    R\ddot{R}+\frac{3}{2}\dot{R}^2=0
-    \label{eq:Rayleigh}
-\end{equation}
-which has a solution that diverges as $R(t)\sim\left[(t_*-t)/t_* \right]^{2/5}$ \cite{brenner2002single}. This observation is what lead to Rayleigh's argument for the origin of cavitation damage to ship's propellers. In reality, the bubble's velocity does not become infinite and, in the case of \emph{stable} SBSL, the radius remains finite at all times. 
-
-In the full RP equation (eq. \ref{eq:RP_1}) the only term capable of compensating the bubble wall's motion is the divering pressure inside the bubble itself \cite{brenner2002single}. Applying the same analysis to the family of solutions derived when including the bubble's sound radiation, it turns out that the most important term for slowing the bubble wall's diverging velocity is $\propto\dot{p}_g$. Keeping only this term, we arrive at the most popular variant of the RP equation \cite{lofstedt1995sonoluminescing,barber1997defining}:
-\begin{equation}
-    R\ddot{R}+\frac{3}{2}\dot{R}^2 = \frac{1}{\rho} \left[ \Delta p(t)-\frac{1}{R}\left( 2\sigma+4\mu \dot{R} \right)-P(t) +\frac{R}{c} \dot{p}_g \right].
-    \label{eq:RP_3}
-\end{equation}
-This equation is only slightly more complicated than the RP equation (eq. \ref{eq:RP_2}), the only chage being the added term $\propto \dot{p}_g$ which is determined from solving the decoupled problem of the gas inside the bubble. Eq. \ref{eq:RP_3} is usually solved numerically; we will look at this later when talking about experiments. For now, we note that the observed error between this equation and experiment is only significant in the interval during bubble collapse and even still, results of solving this equation are quantitavely in good agreement with measurements of the bubble's radius \cite{brenner2002single}. 
-
-
-{\color{red} Chp 4 of Brennens book in the books folder and Chp 2 of Yasui's book both have really good discussions of physics in the bubble including analytical. Both have good overview of gas inside bubble too.}
 
 \subsection{Experimental Results}
 
@@ -211,9 +122,9 @@ what conditions are necessary for light emission (i.e. what is the phase space \
 \cite{gaitan1992sonoluminescence} has good discussion of early experimental errors. Measuring phase of SL relative to the acoustic field was an early attempt to explain SL. Phase here means how far in time is the SL light emission offset from the driven pressure. In the case of periodic oscillations, this is a phase. A handful of early models assumed that the light emission occured during expansion of the bubble. Others assumed that it was at some point during. Most of these were ruled out when it was observed that the light emission is for a very short duration near maximum compression, though the phase depends quite a bit on the initial bubble radius, the driving frequency, the resononances of the flask, the physical properties of the liquid, etc \cite{brenner2002single,gaitan1992sonoluminescence}. These complicated relationships were unkown to the early investigators of SL and were quite difficult to measure in MBSL. For this reason, it wasn't until SBSL was discovered that many of these models were dismissed \cite{gaitan1992sonoluminescence}. In this paper, they present the discovery of SBSL... 
 
 
-\section{The bubble's interior}
-\subsection{Theory}
-\subsection{Experimental Results}
+\section{What don't we know}
+\subsection{The Bubble Wall (Again)}
+\subsection{Experimental Anomalies}
 
 \section{Let there be light!}
 \subsection{Thermal Arguments}
@@ -230,7 +141,7 @@ what conditions are necessary for light emission (i.e. what is the phase space \
 \appendix
 
 \section{The Rayleigh-Plesset Equation}
-The Rayleigh-Plesset (RP) equation can be deduced from the Navier-Stokes equations \cite{prosperetti1999old,brenner2002single,prosperetti1986bubble,plesset1977bubble,suslick2008inside,yasui2018acoustic}. To that end, we remind ourselves of the Navier-Stokes equations here. 
+The Rayleigh-Plesset (RP) equation can be deduced from the Navier-Stokes equations \cite{prosperetti1999old,brenner2002single,prosperetti1986bubble,plesset1977bubble,suslick2008inside,yasui2018acoustic}. To that end, we first remind ourselves of the Navier-Stokes equations. 
 
 The \emph{total} change (in time) of mass in an arbitrary element of a fluid (whose coordinates and boundary may depend on time) is given by  $\frac{d}{dt} \int_{\Omega_t} \rho dV$ where $\Omega_t$ is the domain of the fluid element under consdiration and $\rho(\bm{x},t)$ is the local, time-dependent density of the fluid. Using the transport theorem of fluid dynamics \cite{mcdonough2009lectures}, Gauss's theorem, and (with only some loss of generality) taking $\Omega_t$ to be a \emph{fluid parcel} (so that the boundary of the fluid parcel, $\partial \Omega_t$, moves with the fluid's velocity, $\bm{u}(\bm{x},t)$), this becomes
 \begin{equation}
@@ -251,9 +162,9 @@ Now using Gauss's theorem, the product rule, and mass-continuity we find $ \frac
  
 We now turn to the forces. Let us seperate the forces into \emph{body-} and \emph{surface-forces}: $\bm{F}=\int_{\Omega_t} \bm{f}_B dV+ \int_{\partial \Omega_t} \bm{f}_S dA $. The body-force density, $\bm{f}_B$, is due to forces acting in the bulk of the liquid e.g. gravity, electrostatic forces, etc. and is typically from sources external to the liquid. We won't be concerned with these forces here. Instead, let us concentrate on the suface part. If we only consider an ideal fluid, the surface part can be written as $\int_{\partial \Omega_t} \bm{f}_S dA =-\int_{\partial \Omega_t} p \bm{n} dA = -\int_{\Omega_t}\nabla p dV$ with $p$ the pressure  and the minus sign being due to the sign convention: \emph{out} of the surface $\partial \Omega_t$ is positive. 
 
-If instead the fluid is real, we can't neglect viscous forces. We suppose that the viscous surface term can be represented by a tensor, $\hat{\bm{\tau}}$ such that $\bm{F}_v=\int_{\partial \Omega_t} \hat{\bm{\tau}}\cdot \bm{n} dA = \int_{\Omega_t} \nabla \cdot \hat{\bm{\tau}} dV$. (Note, here the dot product is to be understood as matrix multiplication). To leading order in gradients of the velocity, (and under the physical constraints that the tensor be symmetric), the viscous-stress tensor is $\hat{\bm{\tau}}=\hat{\bm{\mu}}\cdot \hat{\bm{\epsilon}}$ where $\hat{\bm{\mu}}$ is the viscosity-tensor and $\hat{\bm{\epsilon}}$ is the strain-rate tensor: $\epsilon_{ij}=\frac{1}{2}\left[ \partial_i u_j+ \partial_j u_i \right]$. 
+If instead the fluid is real, we can't neglect viscous forces (i.e. dissipation). We suppose that the viscous surface term can be represented by a tensor, $\hat{\bm{\tau}}$ such that $\bm{F}_v=\int_{\partial \Omega_t} \hat{\bm{\tau}}\cdot \bm{n} dA = \int_{\Omega_t} \nabla \cdot \hat{\bm{\tau}} dV$. (Note, here the dot product is to be understood as matrix multiplication). To leading order in gradients of the velocity, (and under the physical constraints that the tensor be symmetric), the viscous-stress tensor is $\hat{\bm{\tau}}=\hat{\bm{\mu}}\cdot \hat{\bm{\epsilon}}$ where $\hat{\bm{\mu}}$ is the viscosity-tensor and $\hat{\bm{\epsilon}}$ is the strain-rate tensor: $\epsilon_{ij}=\frac{1}{2}\left[ \partial_i u_j+ \partial_j u_i \right]$. 
 
-In general, $\hat{\bm{\mu}}$ is a symmetric rank-4 tensor. However, if we assume an isotropic fluid \footnote{Definitely true for water which is has been frequently used in sonoluminescence experiments.}, we find that the the viscous-stress tensor can be seperated into two irreducible parts: a scalar, $\hat{\bm{\epsilon}}^{(v)}$, and traceless symmetric part, $\hat{\bm{\epsilon}}^{(s)}$ \cite{zee2016group,landau1987fluid}:
+In general, $\hat{\bm{\mu}}$ is a symmetric rank-4 tensor. However, if we assume an isotropic fluid \footnote{Definitely true for water which is usually the fluid used in sonoluminescence experiments.}, we find that the the viscous-stress tensor can be seperated into two irreducible parts: a scalar, $\hat{\bm{\epsilon}}^{(v)}$, and traceless symmetric part, $\hat{\bm{\epsilon}}^{(s)}$ \cite{zee2016group,landau1987fluid}:
 \begin{equation}
 \begin{split}
     \hat{\bm{\tau}} & = \xi \hat{\bm{\epsilon}}^{(v)}+\mu \hat{\bm{\epsilon}}^{(s)} \\
@@ -262,7 +173,7 @@ In general, $\hat{\bm{\mu}}$ is a symmetric rank-4 tensor. However, if we assume
     \label{eq:viscous_stress_tensor}
 \end{split}
 \end{equation}
-Thus, we see that the viscosity-tensor only has two free components: $\xi$, the normal viscosity and $\mu$ the shear viscosity. It is usual to combine the pressure (i.e. elastic-stresses) and the viscous-stresses into the stress-tensor $\hat{\bm{\sigma}}=-p\hat{\bm{I}}+\xi \hat{\bm{\epsilon}}^{(v)}+\mu \hat{\bm{\epsilon}}^{(s)}$. Combined with this, Newton's second law becomes
+Thus, we see that the viscosity-tensor only has two free components: $\xi$, the normal viscosity and $\mu$ the shear viscosity. It is usual to combine the pressure (i.e. elastic stresses) and the viscous-stresses into the stress-tensor $\hat{\bm{\sigma}}=-p\hat{\bm{I}}+\xi \hat{\bm{\epsilon}}^{(v)}+\mu \hat{\bm{\epsilon}}^{(s)}$. Combined with this, Newton's second law becomes
 \begin{equation}
     \int_{\Omega_t} \rho \frac{d \bm{u}}{dt}-\bm{F} = \int_{\Omega_t} \rho \frac{d \bm{u}}{dt} - \nabla \cdot \hat{\bm{\sigma}}-\bm{f}_B dV = 0
 \end{equation}
@@ -277,11 +188,81 @@ where we have introduced the \emph{bulk-viscosity} $\eta=\xi+\frac{2}{3}\mu$. Co
 \begin{split}
     \rho \frac{d \bm{u}}{dt} = \rho \left[ \partial_t \bm{u}+\left(\bm{u}\cdot \nabla \right)\bm{u} \right] & =-\nabla p + \eta \nabla \left(\nabla \cdot \bm{u} \right)+\mu \nabla^2 \bm{u} + \bm{f}_B \\ 
      \partial_t \rho+\nabla\cdot(\rho \bm{u}) & = 0.
-     \label{eq:ns_equations_2}
+     \label{eq:ns_equations}
 \end{split}
 \end{equation}
 
-Some comments are in order. The total-derivative of a moving fluid $\frac{d}{dt}\equiv D_t$ is sometimes called the \emph{material derivative}. In the case of velocity $D_t \bm{u}$ is the \emph{acceleration} of the fluid. It records not only explicit time dependence of the fluid's velocity $\partial_t \bm{u}$ but also how the fluid's velocity varies \emph{in space} as it moves past us: $\left( \bm{u}\cdot\nabla \right) \bm{u}$. The pressure term on the right hand side is to be understood as forces from the \emph{elastic} energy. On the other hand, the terms $\sim \bm{u}$ are viscous terms that tend to make the velocity field spatially uniform: they vanish when the (spatial) derivatives of the velocity vanish. The bulk-viscosity term $\sim \eta$ damps radial changes in the fluids velocity (e.g. dilation/contraction) while the shear-viscosity term $\sim\mu$ resists shearing. The body term $\bm{f}_B$ is from external sources. It is worth noting that solving eqs. \ref{eq:ns_equations_2} is a formidable task \footnote{In fact, it's not even clear that the NS equations \emph{can} be solved even for incompressible fluids. In 2000, it was announced that proving smooth, sensible solutions exist earns \$1,000,000 \cite{fefferman2006existence}. Better hurry though... inflation was 6.8\% in Nov. 2021.} and is usually done using computers. 
+Some comments are in order. The total-derivative of a moving fluid $\frac{d}{dt}\equiv D_t$ is sometimes called the \emph{material derivative}. In the case of velocity $D_t \bm{u}$ is the \emph{acceleration} of the fluid. It records not only explicit time dependence of the fluid's velocity $\partial_t \bm{u}$ but also how the fluid's velocity varies \emph{in space} as it moves past us: $\left( \bm{u}\cdot\nabla \right) \bm{u}$. The pressure term on the right hand side is to be understood as forces from the \emph{elastic} energy. On the other hand, the terms $\sim \bm{u}$ are viscous (damping) terms that tend to make the velocity field spatially uniform: they vanish when the (spatial) derivatives of the velocity vanish. The bulk-viscosity term $\sim \eta$ damps radial changes in the fluids velocity (e.g. dilation/contraction) while the shear-viscosity term $\sim\mu$ resists shearing. The body term $\bm{f}_B$ is from external sources: from here on, we will assume it is zero. 
+
+Even with these simplifying assumptions, solving eqs. \ref{eq:ns_equations} is a formidable task \footnote{In fact, it's not even clear that the NS equations \emph{can} be solved even for incompressible fluids. In 2000, it was announced that proving smooth, sensible solutions exist earns \$1,000,000 \cite{fefferman2006existence}. Better hurry though... inflation was 6.8\% in Nov. 2021.} To that end, several more-drastic approximations, valid for our problem, have to be made that allow us to make progess. 
+\begin{enumerate}
+    \item We will assume irrotational flow (i.e. $\nabla\times\bm{u}\equiv 0$) and only radial motion in the liquid (i.e. $\bm{u}=u\bm{r}$). Note that, since the flow is assumed irrotational, we can represent the velocity as the gradient of a scalar function: $u\bm{r}=\partial_r \phi \bm{r}$ \cite{jackson1999classical}. This amounts to assuming that the bubble is always spherical. This seems like a rather drastic approximation but has been validated experimentally in many cases \cite{}. The fact that the bubble tends to remain spherical can be understood by accounting for surface-tension at the liquid-bubble interface \cite{}. 
+    \item Next, we assume that the viscous terms are negligible in the bulk dyanimcs of the liquid. For (relatively) low viscosity fluids such as water which is also nearly incompressible, this is an accurate approximation and is widely used \cite{prosperetti1986bubble,prosperetti1999old,brenner2002single,plesset1977bubble}.  We will acount, to some extent, for viscosity later when looking at the bubble-liquid interface. Moreover, we are assuming that the flow is \emph{isentropic}, i.e. that it is reversible (no damping) and that no heat is exchanged between fluid parcels. We will further assume that the liquid is isothermal, i.e. its temperature is constant (in space). Then pressure $p$ is determined from an instantaneous equation-of-state $p=p(\rho,T)$. In the case of SBSL, this is valid since the bubble makes up a \emph{tiny} fraction of the total volume and, as we will later see, heat-transport across the liquid-bubble interfacing is usually neglected anyway (i.e. the bubble is compressed adiabatically in the thermodynamic sense \footnote{According to Wikipedia, \emph{adiabatic} means \emph{fast} in thermodynamics lingo. This is relevant to us since we are claiming the bubble wall moves so quickly that it is compressed to its maximum pressure before any heat can flow out. On the otherhand, the mechanics lingo implies \emph{adiabatic} to mean \emph{slow}. This is, e.g. the adiabatic theorem in quantum mechanics: a perturbation acts so slowly that the system is in its groundstate at all times.})
+    \item Related to the fact that the bubble is tiny, we assume that the extent of the liquid is so large compared to the bubble that we may consider the dynamics of the liquid as if there were no bubble present; similarly, we consider the dynamics of a bubble in an infinite, isotropic medium. Of course the bubble-liquid interface enters both systems as a boundary condition \cite{prosperetti1986bubble}. 
+\end{enumerate}
+
+With these simplifying assumptions (and a vector identity \footnote{$\left( \nabla \cdot \bm{u} \right) \bm{u} = \frac{1}{2} \nabla (u^2) - \bm{u}\times \left( \nabla \times \bm{u} \right)$}) we rewrite eqs. \ref{eq:ns_equations} as a system of $1+1$ dimensional partial differential equations: 
+\begin{equation}
+\begin{split}
+     \partial_r \left[ \partial_t \phi +\frac{1}{2} \left( \partial_r \phi \right)^2 \right] & = - \frac{1}{\rho} \partial_r p  \\ 
+     \partial_t \rho+ \partial_r \phi \partial_r \rho + \rho \partial^2_r \phi & = 0.
+     \label{eq:NS_1D}
+\end{split}
+\end{equation}
+We can integrate the first equation above using the fact that the compressibility is negligible to move the density through the integration \cite{leighton2007derivation}
+\begin{equation}
+    \int_{r_\infty}^{r} \frac{\partial}{\partial r'} \left[ \frac{\partial \phi}{\partial t} +\frac{1}{2} \left( \frac{\partial \phi}{\partial r'} \right)^2 \right] dr' = - \frac{1}{\rho} \int_{r_\infty}^{r} \frac{\partial p}{\partial r'} dr'.
+\end{equation}
+On the left side, we take the velocity to vanish at infinity. On the right side, we assume that only the static and unperturbed pressures, $p_\infty$ and $P(t)$ respectively, are relevant so that \cite{prosperetti1999old,prosperetti1986bubble,leighton2007derivation} 
+\begin{equation}
+    \partial_t \phi + \frac{1}{2}\left( \partial_r \phi \right)^2 = \frac{(p_\infty+P(t))-p(t,r)}{\rho}.
+    \label{eq:press_vel}
+\end{equation}
+Eq. \ref{eq:press_vel} gives the pressure at cordinate $(r,t)$ in terms of the velocity of the fluid, the density, and the appied pressure. 
+
+Now, let us assume that the velocity potential satisfies a wave equation $\nabla^2 \phi - \frac{1}{c^2}\partial_t^2 \phi =0 $ \footnote{This doesn't come from thin air. We could write the r.h.s. of eq. \ref{eq:press_vel} as the enthalpy, $h\equiv \int \frac{dp}{\rho}$, and similarly introduce $dh=\frac{dp}{\rho}$ in the first line of eq. \ref{eq:NS_1D}. Eliminating $h$ between the two and dropping small terms $\sim \frac{u}{c}$, we arrive at the homogeneous wave equation \cite{leighton2007derivation,brenner2002single,prosperetti1999old}.} with $c$ the speed of sound in the fluid. We can again include incompressibilty by recalling that for an incompressible fluid $c\rightarrow \infty$ which implies $\nabla^2 \phi =0$. \footnote{For our problem, it is true that $\left( \frac{1}{c^2} \partial_t \phi \right) / \nabla^2 \phi \sim \left( \frac{R}{\lambda} \right)^2 \ll 1$, i.e. the long wave-length approximation is accurate \cite{prosperetti1999old,prosperetti1986bubble,leighton2007derivation}.} In this case, we can ignore retardation effects and, remembering that we have spherical symmetry, write the solution of $\nabla^2 \phi$ as 
+\begin{equation}
+    \phi = \frac{\psi(t)}{r}
+\end{equation}
+with $\psi$ the time-dependent coefficient. We now use the boundary condition for the velocity at the bubble wall, $u(R)\equiv \dot{R}$ with $R$ the bubble radius, to determine $\psi$:
+\begin{equation}
+    \dot{R} = -\frac{\psi}{R^2} \Rightarrow \psi = -R^2 \dot{R}.
+\end{equation}  
+Thus, we find $\phi(r,t) = -\frac{R^2 \dot{R}}{r}$. Plugging this into the left hand side of eq. \ref{eq:press_vel} and evaluating at the bubble wall, $r\equiv R$
+\begin{equation}
+\begin{split}
+    \partial_t \phi \vert_{r=R} & = -2\dot{R}^2-R\ddot{R} \\
+    \partial_r \phi \vert_{r=R} & = \dot{R} \equiv u(R)
+\end{split}
+\end{equation}
+
+Finally, sticking all this together, we arrive at the Rayleigh-Plesset equation \cite{prosperetti1999old,prosperetti1986bubble,leighton2007derivation,plesset1949dynamics,plesset1977bubble}
+\begin{equation}
+    R\ddot{R}+\frac{3}{2}\dot{R}^2 = \frac{p_B(t)-(p_\infty+P(t))}{\rho}
+    \label{eq:RP_1}
+\end{equation}
+with $p_B \equiv p(r=R,t)$ the pressure in the fluid at the bubble wall. Evaluated beyond the bubble wall, $r > R$, eq. \ref{eq:RP_1} gives the pressure radiated by the fluctuating bubble. Some comments are in order. The combination $p_\infty+P(t)$ is the \emph{ambient} pressure \cite{prosperetti1999old,prosperetti1986bubble} which gives the pressure in the fluid in the absence of the bubble. The left hand side of eq. \ref{eq:RP_1} may be regarded as the kinetic energy (density). The right hand side is the change in enthalpy (density) due to the fluctuating bubble, i.e. the dyanmics of the bubble given on the left hand side are determined by the enthalpy in the fluid due to the bubbles motion. In deriving this equation, we have assumed that the speed of propogation in the fluid is infinite. In reality, this is not true but this approximation will be very good close to the bubble (in the \emph{near field}) where retardation effects are negligible anyway. In a similar way, we have assumed that the energy in the fluid due to distorting its volume is negligible. This approximation will be accurate near the bubble as well since the kinetic energy in this region will dominate \cite{prosperetti1999old}. 
+
+We can refine eq. \ref{eq:RP_1} a little further. Since the motion in the fluid is purely radial, we expect the only relevant stresses to be normal to the bubble wall. Let's denote the radial stress in the liquid at some point $r$ by $s_r(r)=-p(r,t)+2\mu \partial_r u$. Recall, $\mu$ is the fluid viscosity from earlier. Using conservation of mass and momentum, and our expression above for the velocity, we can equate the normal stresses in the fluid to those in the bubble:
+\begin{equation}
+\begin{split}
+    s_r(R)=-p_B-4\frac{\mu \dot{R}}{R}=-p_g+2\frac{\sigma}{R}
+\end{split}
+\end{equation}
+where $p_g$ is the pressure in the gas and $\sigma$ is the surface tension. Solving for $p_B(t)$, we have the relation \cite{brenner2002single,prosperetti1999old,prosperetti1986bubble}
+\begin{equation}
+    p_B(t)=p_g(t)-\frac{1}{R}\left( 2\sigma+4\mu \dot{R} \right)
+    \label{eq:p_B}.
+\end{equation}
+Note that in deriving the equations \ref{eq:NS_1D} we neglected the viscosity terms. This was valid since only combinations of viscosity and compressibility $\nabla \cdot \bm{u}$ appeared, both of which are assumed small. Here, however, we opt to keep the viscosity terms coupling the bubble wall to the fluid. With this, we can rewrite the RP equation as 
+\begin{equation}
+    R\ddot{R}+\frac{3}{2}\dot{R}^2 = \frac{1}{\rho} \left[ \Delta p(t)-\frac{1}{R}\left( 2\sigma+4\mu \dot{R} \right)-P(t) \right]
+    \label{eq:RP_2}
+\end{equation}
+with $\Delta p = p_g(t)-p_\infty$ the deviation of the pressure inside the bubble from the static pressure. With the above assumption that the compression is adiabatic, the conditions inside the bubble are decoupled from the liquid (besides the coupling through the RP equation) and we may regard $p_g(t)$ in the bubble as a given quantity to be determined from an equation of state. Recall $P(t)$ is the time-dependent part of the pressure in the absence of the bubble: we may regard this as an external pressure from e.g. a driving stress (this will be important in the main text). 
+
+To summarize, the Rayleigh-Plesset equation eq. \ref{eq:RP_2} gives the equation of motion for a spherical bubble in an incompressible liquid driven by a time dependent pressure $P(t)$. This is one of the more important results for the subject of this paper. 
+
 
 
 \newpage 

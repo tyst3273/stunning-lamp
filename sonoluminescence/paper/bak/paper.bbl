@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{46}%
+\begin{thebibliography}{41}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -320,66 +320,6 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~S.}\ \bibnamefont
   {Plesset}},\ }\href@noop {} {\  (\bibinfo {year} {1949})}\BibitemShut
   {NoStop}%
-\bibitem [{\citenamefont {Jackson}(1999)}]{jackson1999classical}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
-  {Jackson}},\ }\href@noop {} {\bibinfo {title} {Classical electrodynamics}}
-  (\bibinfo {year} {1999})\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Leighton}(2007)}]{leighton2007derivation}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Leighton}},\ }\href@noop {} {\  (\bibinfo {year} {2007})}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Lezzi}\ and\ \citenamefont
-  {Prosperetti}(1987)}]{lezzi1987bubble}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Lezzi}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Prosperetti}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Journal of Fluid Mechanics}\ }\textbf {\bibinfo {volume} {185}},\ \bibinfo
-  {pages} {289} (\bibinfo {year} {1987})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Prosperetti}\ \emph {et~al.}(1988)\citenamefont
-  {Prosperetti}, \citenamefont {Crum},\ and\ \citenamefont
-  {Commander}}]{prosperetti1988nonlinear}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Prosperetti}}, \bibinfo {author} {\bibfnamefont {L.~A.}\ \bibnamefont
-  {Crum}},\ and\ \bibinfo {author} {\bibfnamefont {K.~W.}\ \bibnamefont
-  {Commander}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {The
-  Journal of the Acoustical Society of America}\ }\textbf {\bibinfo {volume}
-  {83}},\ \bibinfo {pages} {502} (\bibinfo {year} {1988})}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {Keller}\ and\ \citenamefont
-  {Kolodner}(1956)}]{keller1956damping}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~B.}\ \bibnamefont
-  {Keller}}\ and\ \bibinfo {author} {\bibfnamefont {I.~I.}\ \bibnamefont
-  {Kolodner}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Journal of applied physics}\ }\textbf {\bibinfo {volume} {27}},\ \bibinfo
-  {pages} {1152} (\bibinfo {year} {1956})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {L{\"o}fstedt}\ \emph {et~al.}(1995)\citenamefont
-  {L{\"o}fstedt}, \citenamefont {Weninger}, \citenamefont {Putterman},\ and\
-  \citenamefont {Barber}}]{lofstedt1995sonoluminescing}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
-  {L{\"o}fstedt}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
-  {Weninger}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Putterman}},\ and\ \bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
-  {Barber}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Physical Review E}\ }\textbf {\bibinfo {volume} {51}},\ \bibinfo {pages}
-  {4400} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Barber}\ \emph {et~al.}(1997)\citenamefont {Barber},
-  \citenamefont {Hiller}, \citenamefont {L{\"o}fstedt}, \citenamefont
-  {Putterman},\ and\ \citenamefont {Weninger}}]{barber1997defining}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
-  {Barber}}, \bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont {Hiller}},
-  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {L{\"o}fstedt}}, \bibinfo
-  {author} {\bibfnamefont {S.~J.}\ \bibnamefont {Putterman}},\ and\ \bibinfo
-  {author} {\bibfnamefont {K.~R.}\ \bibnamefont {Weninger}},\ }\href@noop {}
-  {\bibfield  {journal} {\bibinfo  {journal} {Physics Reports}\ }\textbf
-  {\bibinfo {volume} {281}},\ \bibinfo {pages} {65} (\bibinfo {year}
-  {1997})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Lentz}\ \emph {et~al.}(1995)\citenamefont {Lentz},
   \citenamefont {Atchley},\ and\ \citenamefont {Gaitan}}]{lentz1995mie}%
   \BibitemOpen
@@ -420,4 +360,14 @@
   {Fefferman}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {The
   millennium prize problems}\ }\textbf {\bibinfo {volume} {57}},\ \bibinfo
   {pages} {22} (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jackson}(1999)}]{jackson1999classical}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
+  {Jackson}},\ }\href@noop {} {\bibinfo {title} {Classical electrodynamics}}
+  (\bibinfo {year} {1999})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Leighton}(2007)}]{leighton2007derivation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Leighton}},\ }\href@noop {} {\  (\bibinfo {year} {2007})}\BibitemShut
+  {NoStop}%
 \end{thebibliography}%
