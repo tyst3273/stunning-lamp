@@ -92,7 +92,7 @@ History has shown that the most important part of understanding SBSL is understa
 
 \begin{figure}
 \includegraphics[width=0.9\linewidth]{figs/flask.pdf}
-    \caption{(a) Schematic of a spherical acoustic levitation cell. The piezoelectirc transducers that drive the bubble trapped in the flask are labeled in the diagram. (b) Photograph of the same. Here, the fluid is H$_2$SO$_4$ instead of water. A sonoluminescing bubble is clearly visible in the center of the flask. The photo was taken in a fully lit room with exposure time 2 s. (c) Schematic of a Mie scattering experimental setup. A similar acoustic levitation cell as (a) is shown with an added laser source and photomultiplier tubes (PMT) to analyze the scattered and emitted light. (a), (b), and (c) are from refs. \cite{brenner2002single}, \cite{suslick2008inside}, and \cite{gompf2000mie} respectively.}
+    \caption{(a) Schematic of a spherical acoustic levitation cell. The piezoelectirc transducers that drive the bubble trapped in the flask are labeled in the diagram. (b) Photograph of the same. Here, the fluid is aqueous H$_2$SO$_4$ instead of water. A sonoluminescing bubble is clearly visible in the center of the flask. The photo was taken in a fully lit room with exposure time 2 s. (c) Schematic of a Mie scattering experimental setup. A similar acoustic levitation cell as (a) is shown with an added laser source and photomultiplier tubes (PMT) to analyze the scattered and emitted light. (a), (b), and (c) are from refs. \cite{brenner2002single}, \cite{suslick2008inside}, and \cite{gompf2000mie} respectively.}
 \label{fig:flask}
 \end{figure}
 
@@ -202,13 +202,25 @@ This equation is only slightly more complicated than the RP equation (eq. \ref{e
 
 
 \subsection{The Bubble's Interior}
-The dynamics of the bubble's wall, determined by the RP equations (eq. \ref{eq:RP_2} and eq. \ref{eq:RP_3}), require the pressure inside the bubble as input. To that end, we now examine the physics of the \emph{bubble's interior}. Our goal for this section is to find a suitable form for $\Delta p(t)$ in the RP equations.
 
+The theoretical progress on the bubble's interior since the discovery of SBSL in the late 1990's \cite{gaitan1992sonoluminescence} follows two paths \cite{brenner2002single,suslick2008inside,yasui2018acoustic}: (i) model calculations based on the RP equations and an equation of state for the pressure (i.e. the temperature) are used to try to reproduce the easily measuremable dynamics of the bubble. (ii) We can model the light emission itself and compare our calculation to spectroscopic measurements of SBSL \cite{}. Obviously these are related topics, but the distinction in the context of SBSL is important as we will now see.
+
+Most early progress on the bubble's interior depended on the former method: if we predict the right dynamics, then we might know the correct pressure and temperature in the bubble. These data are then used to try to describe the light emission \cite{}. This was preferred to studying the emitted spectra directly as careful measurements resulted in an almost featureless spectrum that could not be explained \cite{}. Calculating the dynamics of the bubble's wall from the RP equations (eq. \ref{eq:RP_2} or eq. \ref{eq:RP_3}) requires the pressure inside the bubble as input. To that end, we now examine the dynamics of the \emph{bubble's interior}. We would like to find a suitable form for $\Delta p(t)$ in the RP equations that reproduces the measured radius-time curve $R(t)$ for a stable cavitating buble. It turns out that this is a very hard problem for a number of reasons: the conditions inside the bubble depend on gas diffusion and rectification (one-directional diffusion) between the liquid and the bubble, water-vapor conensation and evaporation inside the bubble, and chemical reactions between species in the bubble \cite{brenner2002single}. Brenner et. al elegantly summarized the impact of the problem \cite{brenner2002single}: ``one of the exciting features of modern research on SBSL is that it is a testing ground for how well mathematical models can deal with such a complicated situation"
+
+Now let us breifly discuss the bubble's light spectrum. For the first decade or so, SBSL experiments were done using partially degased water as the liquid medium \cite{suslick2008inside,brenner2002single,gaitan1992sonoluminescence}. Careful measurements of the emission from SBSL in water resulted in an almost featureless spectrum \cite{}. Early attempts were made to fit this as black-body radiation resulting in \emph{huge} temperature estimates, e.g. $10^8$ K \cite{}. It was later discovered that SBSL is volume emission, indicating that black-body radiation is not valid \cite{}. Little progress was made on this front for quite some time \cite{brenner2002single}. The utility of analyzing the light spectrum of SBSL in water is succinctly described by Suslick \cite{suslick2008inside}: ``because of the inherent ambiguity associated with the analysis of featureless spectra of unknown origin, a more rigorous explanation is unlikely to be generated". 
+
+It was later realized that SBSL in aqueous H$_2$SO$_4$ produces light $10^3$ times brighter than in water, allowing much better measurments \cite{}. New measurements revealed the phase space of SBSL in aqueous H$_2$SO$_4$ included a much larger range of pressures than water. Careful experiments revealed that the spectrum depended critically on the fluid composition, gas content, and driving pressure. Suslick et. al measured the different emission spectra from Ar, Xe, and Kr bubbles in aqueous H$_2$SO$_4$ \cite{flannigan2005plasma,flannigan2006measurement,suslick2008inside}. Importantly, they were able to identify spectral lines from Ar$^+$, Xe$^+$, and Kr$^+$ excited state transitions, proving that the core of the bubble is plasma. Perhaps equally as crucially, they found the \emph{absence} of emission lines from components of aqueous H$_2$SO$_4$ vapor \cite{suslick2008inside,flannigan2006measurement,flannigan2006measurement}: the plasma contained only the noble gas. This observation greatly helped to refine models for the gas dynamics in the bubble and clarified several unexplained experimental observations \cite{}. With this in mind, we choose only to focus on presenting the essential results needed to discuss the dynamics of a bubble undergoing SBSL. Excellent books and modern reviews on modelling the gas dynamics exist elsewhere \cite{brenner2002single,yasui2018acoustic,brennen2014cavitation}. We will hold off on discussing the dynamics in the plasma until a later section. 
+
+The most straighforward way to model the gas dynamics in the bubble is through direct solution of the Navier-Stokes equations for the gas \cite{brenner2002single}. With simplifying assumptions, equations of motion with varying degrees of sophistication are derived for the gas and solved numerically, consistent with the RP equations. The discussion proceeds in much the same way as deriving the RP equations above \cite{}, so we will omit it here. Instead, we will highlight the salient features before introducing a simple model for the gas that will enable to gain some physical understanding analytically.
+
+The important results of direct numerical solution of the gas dynamics are as follows: chemical reactions in the bubble are important but only in the immediate vacinity of SBSL. Diffusion into/out of the bubble of dissociated species is also important but also mainly occurs in the vacinity of SBSL. In model calculations, these things are then usually neglected. {\color{red} Go on to talk about heat transfer, mass transfer, etc. following \cite{brenner2002single}. } To summarize, careful solution of the equations of motion show that the contents of the bubble are, to a good approximation, spatially uniform \cite{}. This fact allows us to simplify a model for the gas dynamics greatly \cite{}. Before we turn to discuss this, let us pause here to mention that another theoretically appealing method for modelling the gas dynamics is \emph{molecular dynamics} \cite{}. While this method is attractive for a number of reasons, practical calculations containing realistic numbers of particles aren't possible \cite{brenner2002single}.
+
+
+The simplest model for the gas dyanmics in the bubble is {}:
 
 
 
 \subsection{Experimental Results}
-
 Creating stable, single bubbles in a laboratory experiment is not particulary challenging and can be done with standard and low-cost materials \footnote{Actually, the phase-space for SBSL is ``small". The coordinates being driving amplitude, driving frequency, fluid composition, temperature, ambient pressure, gas content and composition, etc... What we are claiming is simple is the experimental setup once the correct parameters are identified.}. A typical experimental setup is shown in Fig. \ref{fig:flask}. Since we are mainly concerned with the light emission process itsself, we will only sketch the experimental setup; it can be summarized as follows \cite{lentz1995mie,gaitan1990experimental,gaitan1992sonoluminescence,gompf2000mie,brenner2002single,yasui2018acoustic,brennen2014cavitation,suslick2008inside}. A sample of degassed liquid is placed into a flask \footnote{Actually, the degassing part is quite important. We focus on it elsewhere.}. Coupled to the outside of the flask are piezoelectric transducers of some sort. The piezos are driven by a sinusoidal function generator to excite an acoustic resonance of the flask: a typical flask is a few cm across with a resonance at $\approx 20$ kHz \cite{brenner2002single}. The frequency is chosen to form a pressure \emph{antinode} at the center of the flask.
 
 Let us take a brief aside: in deriving the RP equations, we assumed the center of the bubble was stationary. Actually, this is what we want in an SBSL experiment and it is worth discussing under what conditions this is true. In an ideal, incompressible fluid the net force acting on a bubble may be written as 
@@ -235,12 +247,10 @@ Now that we know about how single, stable bubbles are formed in the lab, we can 
 
 
 \section{Let there be light!}
-\subsection{Thermal Arguments}
-\subsection{Electric Arguments}
-
-\subsection{The Casimir Effect}
-\subsection{The Casimir Argument}
-
+\subsection{The Plasma}
+\subsection{Brehmasstunglingnls}
+\subsection{Recombination}
+\subsection{Electronic transitions}
 
 \section{Summary}
 
@@ -267,7 +277,7 @@ Now using Gauss's theorem, the product rule, and mass-continuity we find $ \frac
     \int_{\Omega_t} \rho \frac{d \bm{u}}{dt} = \bm{F}
     \label{eq:mom_continuity}
 \end{equation}
- 
+
 We now turn to the forces. Let us seperate the forces into \emph{body-} and \emph{surface-forces}: $\bm{F}=\int_{\Omega_t} \bm{f}_B dV+ \int_{\partial \Omega_t} \bm{f}_S dA $. The body-force density, $\bm{f}_B$, is due to forces acting in the bulk of the liquid e.g. gravity, electrostatic forces, etc. and is typically from sources external to the liquid. We won't be concerned with these forces here. Instead, let us concentrate on the suface part. If we only consider an ideal fluid, the surface part can be written as $\int_{\partial \Omega_t} \bm{f}_S dA =-\int_{\partial \Omega_t} p \bm{n} dA = -\int_{\Omega_t}\nabla p dV$ with $p$ the pressure  and the minus sign being due to the sign convention: \emph{out} of the surface $\partial \Omega_t$ is positive. 
 
 If instead the fluid is real, we can't neglect viscous forces. We suppose that the viscous surface term can be represented by a tensor, $\hat{\bm{\tau}}$ such that $\bm{F}_v=\int_{\partial \Omega_t} \hat{\bm{\tau}}\cdot \bm{n} dA = \int_{\Omega_t} \nabla \cdot \hat{\bm{\tau}} dV$. (Note, here the dot product is to be understood as matrix multiplication). To leading order in gradients of the velocity, (and under the physical constraints that the tensor be symmetric), the viscous-stress tensor is $\hat{\bm{\tau}}=\hat{\bm{\mu}}\cdot \hat{\bm{\epsilon}}$ where $\hat{\bm{\mu}}$ is the viscosity-tensor and $\hat{\bm{\epsilon}}$ is the strain-rate tensor: $\epsilon_{ij}=\frac{1}{2}\left[ \partial_i u_j+ \partial_j u_i \right]$. 
@@ -302,6 +312,9 @@ where we have introduced the \emph{bulk-viscosity} $\eta=\xi+\frac{2}{3}\mu$. Co
 
 Some comments are in order. The total-derivative of a moving fluid $\frac{d}{dt}\equiv D_t$ is sometimes called the \emph{material derivative}. In the case of velocity $D_t \bm{u}$ is the \emph{acceleration} of the fluid. It records not only explicit time dependence of the fluid's velocity $\partial_t \bm{u}$ but also how the fluid's velocity varies \emph{in space} as it moves past us: $\left( \bm{u}\cdot\nabla \right) \bm{u}$. The pressure term on the right hand side is to be understood as forces from the \emph{elastic} energy. On the other hand, the terms $\sim \bm{u}$ are viscous terms that tend to make the velocity field spatially uniform: they vanish when the (spatial) derivatives of the velocity vanish. The bulk-viscosity term $\sim \eta$ damps radial changes in the fluids velocity (e.g. dilation/contraction) while the shear-viscosity term $\sim\mu$ resists shearing. The body term $\bm{f}_B$ is from external sources. It is worth noting that solving eqs. \ref{eq:ns_equations_2} is a formidable task \footnote{In fact, it's not even clear that the NS equations \emph{can} be solved even for incompressible fluids. In 2000, it was announced that proving smooth, sensible solutions exist earns \$1,000,000 \cite{fefferman2006existence}. Better hurry though... inflation was 6.8\% in Nov. 2021.} and is usually done using computers. 
 
+\section{Electrical Arguments}
+
+\section{The Casimir Argument}
 
 \newpage 
 

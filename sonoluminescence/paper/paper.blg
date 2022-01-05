@@ -17,6 +17,10 @@ Repeated entry---line 238 of file ../ref.bib
  : @article{tatartchenko2017sonoluminescence
  :                                          ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 641 of file ../ref.bib
+ : @article{flannigan2005plasma
+ :                             ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
@@ -148,45 +152,45 @@ while executing---line 3516 of file apsrev4-2.bst
 ---they aren't the same literal types for entry mcdonough2009lectures
 while executing---line 3516 of file apsrev4-2.bst
 Warning--missing journal in mcdonough2009lectures
-You've used 52 entries,
+You've used 54 entries,
             6079 wiz_defined-function locations,
-            1953 strings with 22598 characters,
-and the built_in function-call counts, 46563 in all, are:
-= -- 3690
-> -- 971
-< -- 235
-+ -- 326
-- -- 216
-* -- 6453
-:= -- 4658
-add.period$ -- 52
-call.type$ -- 52
-change.case$ -- 215
-chr.to.int$ -- 52
-cite$ -- 55
-duplicate$ -- 4263
-empty$ -- 3391
-format.name$ -- 587
-if$ -- 9520
+            1964 strings with 22923 characters,
+and the built_in function-call counts, 48728 in all, are:
+= -- 3850
+> -- 1030
+< -- 247
++ -- 344
+- -- 230
+* -- 6778
+:= -- 4858
+add.period$ -- 54
+call.type$ -- 54
+change.case$ -- 223
+chr.to.int$ -- 54
+cite$ -- 57
+duplicate$ -- 4455
+empty$ -- 3543
+format.name$ -- 623
+if$ -- 9970
 int.to.chr$ -- 1
-int.to.str$ -- 60
-missing$ -- 669
-newline$ -- 208
-num.names$ -- 156
-pop$ -- 2000
+int.to.str$ -- 62
+missing$ -- 700
+newline$ -- 214
+num.names$ -- 162
+pop$ -- 2085
 preamble$ -- 1
-purify$ -- 260
+purify$ -- 270
 quote$ -- 0
-skip$ -- 2167
+skip$ -- 2264
 stack$ -- 0
-substring$ -- 1147
-swap$ -- 3761
-text.length$ -- 110
+substring$ -- 1199
+swap$ -- 3945
+text.length$ -- 117
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 676
+type$ -- 705
 warning$ -- 3
-while$ -- 145
+while$ -- 151
 width$ -- 0
-write$ -- 455
-(There were 40 error messages)
+write$ -- 471
+(There were 41 error messages)
