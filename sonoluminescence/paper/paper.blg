@@ -156,45 +156,45 @@ while executing---line 3516 of file apsrev4-2.bst
 ---they aren't the same literal types for entry mcdonough2009lectures
 while executing---line 3516 of file apsrev4-2.bst
 Warning--missing journal in mcdonough2009lectures
-You've used 61 entries,
+You've used 62 entries,
             6079 wiz_defined-function locations,
-            1996 strings with 23952 characters,
-and the built_in function-call counts, 56086 in all, are:
-= -- 4408
-> -- 1217
-< -- 286
-+ -- 402
-- -- 274
-* -- 7858
-:= -- 5549
-add.period$ -- 61
-call.type$ -- 61
-change.case$ -- 251
-chr.to.int$ -- 61
-cite$ -- 64
-duplicate$ -- 5104
-empty$ -- 4065
-format.name$ -- 734
-if$ -- 11504
+            2000 strings with 24134 characters,
+and the built_in function-call counts, 56995 in all, are:
+= -- 4475
+> -- 1242
+< -- 290
++ -- 410
+- -- 280
+* -- 7991
+:= -- 5638
+add.period$ -- 62
+call.type$ -- 62
+change.case$ -- 255
+chr.to.int$ -- 62
+cite$ -- 65
+duplicate$ -- 5188
+empty$ -- 4129
+format.name$ -- 749
+if$ -- 11688
 int.to.chr$ -- 1
-int.to.str$ -- 69
-missing$ -- 806
-newline$ -- 235
-num.names$ -- 183
-pop$ -- 2375
+int.to.str$ -- 70
+missing$ -- 819
+newline$ -- 238
+num.names$ -- 186
+pop$ -- 2418
 preamble$ -- 1
-purify$ -- 305
+purify$ -- 310
 quote$ -- 0
-skip$ -- 2603
+skip$ -- 2644
 stack$ -- 0
-substring$ -- 1399
-swap$ -- 4557
-text.length$ -- 139
+substring$ -- 1412
+swap$ -- 4631
+text.length$ -- 142
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 804
+type$ -- 818
 warning$ -- 3
-while$ -- 172
+while$ -- 174
 width$ -- 0
-write$ -- 527
+write$ -- 534
 (There were 42 error messages)
