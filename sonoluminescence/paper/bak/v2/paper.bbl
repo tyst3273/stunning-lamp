@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{59}%
+\begin{thebibliography}{62}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -162,20 +162,38 @@
   {\bibfield  {journal} {\bibinfo  {journal} {Journal of Physics A:
   Mathematical and General}\ }\textbf {\bibinfo {volume} {33}},\ \bibinfo
   {pages} {2251} (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Yasui}(2018)}]{yasui2018acoustic}%
+\bibitem [{\citenamefont {Borisenok}\ and\ \citenamefont
+  {Sedov}(2020)}]{borisenok2020mechanisms}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
-  {Yasui}},\ }\href@noop {} {\emph {\bibinfo {title} {Acoustic cavitation and
-  bubble dynamics}}}\ (\bibinfo  {publisher} {Springer},\ \bibinfo {year}
-  {2018})\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Gompf}\ and\ \citenamefont
-  {Pecha}(2000)}]{gompf2000mie}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Borisenok}}\ and\ \bibinfo {author} {\bibfnamefont {S.~Y.}\ \bibnamefont
+  {Sedov}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physics
+  of Atomic Nuclei}\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo {pages}
+  {1575} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Flannigan}\ and\ \citenamefont
+  {Suslick}(2013)}]{flannigan2013non}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
-  {Gompf}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Pecha}},\
-  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
-  E}\ }\textbf {\bibinfo {volume} {61}},\ \bibinfo {pages} {5253} (\bibinfo
-  {year} {2000})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Flannigan}}\ and\ \bibinfo {author} {\bibfnamefont {K.~S.}\ \bibnamefont
+  {Suslick}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {The
+  Journal of Physical Chemistry B}\ }\textbf {\bibinfo {volume} {117}},\
+  \bibinfo {pages} {15886} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Flannigan}\ and\ \citenamefont
+  {Suslick}(2012)}]{flannigan2012temperature}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Flannigan}}\ and\ \bibinfo {author} {\bibfnamefont {K.~S.}\ \bibnamefont
+  {Suslick}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {The
+  journal of physical chemistry letters}\ }\textbf {\bibinfo {volume} {3}},\
+  \bibinfo {pages} {2401} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tatartchenko}\ \emph {et~al.}(2017)\citenamefont
+  {Tatartchenko} \emph {et~al.}}]{tatartchenko2017sonoluminescence}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~A.}\ \bibnamefont
+  {Tatartchenko}} \emph {et~al.},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Optics and Photonics Journal}\ }\textbf {\bibinfo
+  {volume} {7}},\ \bibinfo {pages} {27} (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Marinesco}\ and\ \citenamefont
   {Trillat}(1933)}]{marinesco1933actions}%
   \BibitemOpen
@@ -217,23 +235,6 @@
   {Prosperetti}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Annual review of fluid mechanics}\ }\textbf {\bibinfo {volume} {9}},\
   \bibinfo {pages} {145} (\bibinfo {year} {1977})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Prosperetti}(1999)}]{prosperetti1999old}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Prosperetti}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Sonochemistry and sonoluminescence}\ ,\ \bibinfo {pages} {39}} (\bibinfo
-  {year} {1999})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {L{\"o}fstedt}\ \emph {et~al.}(1995)\citenamefont
-  {L{\"o}fstedt}, \citenamefont {Weninger}, \citenamefont {Putterman},\ and\
-  \citenamefont {Barber}}]{lofstedt1995sonoluminescing}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
-  {L{\"o}fstedt}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
-  {Weninger}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Putterman}},\ and\ \bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
-  {Barber}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Physical Review E}\ }\textbf {\bibinfo {volume} {51}},\ \bibinfo {pages}
-  {4400} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Barber}\ \emph {et~al.}(1992)\citenamefont {Barber},
   \citenamefont {Hiller}, \citenamefont {Arisaka}, \citenamefont {Fetterman},\
   and\ \citenamefont {Putterman}}]{barber1992resolving}%
@@ -280,35 +281,20 @@
   {Barber}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Physical review letters}\ }\textbf {\bibinfo {volume} {69}},\ \bibinfo
   {pages} {1182} (\bibinfo {year} {1992})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Flannigan}\ and\ \citenamefont
-  {Suslick}(2005)}]{flannigan2005plasma}%
+\bibitem [{\citenamefont {Gompf}\ and\ \citenamefont
+  {Pecha}(2000)}]{gompf2000mie}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
-  {Flannigan}}\ and\ \bibinfo {author} {\bibfnamefont {K.~S.}\ \bibnamefont
-  {Suslick}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Nature}\ }\textbf {\bibinfo {volume} {434}},\ \bibinfo {pages} {52}
-  (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {An}\ and\ \citenamefont
-  {Li}(2009)}]{an2009diagnosing}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
-  {An}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Li}},\
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Gompf}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Pecha}},\
   }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
-  E}\ }\textbf {\bibinfo {volume} {80}},\ \bibinfo {pages} {046320} (\bibinfo
-  {year} {2009})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {An}\ and\ \citenamefont {Li}(2008)}]{an2008spectral}%
+  E}\ }\textbf {\bibinfo {volume} {61}},\ \bibinfo {pages} {5253} (\bibinfo
+  {year} {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Prosperetti}(1999)}]{prosperetti1999old}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
-  {An}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Li}},\
-  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
-  E}\ }\textbf {\bibinfo {volume} {78}},\ \bibinfo {pages} {046313} (\bibinfo
-  {year} {2008})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {An}(2006)}]{an2006mechanism}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
-  {An}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical
-  Review E}\ }\textbf {\bibinfo {volume} {74}},\ \bibinfo {pages} {026304}
-  (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Prosperetti}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Sonochemistry and sonoluminescence}\ ,\ \bibinfo {pages} {39}} (\bibinfo
+  {year} {1999})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Prosperetti}\ and\ \citenamefont
   {Lezzi}(1986)}]{prosperetti1986bubble}%
   \BibitemOpen
@@ -317,6 +303,12 @@
   {Lezzi}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal
   of Fluid Mechanics}\ }\textbf {\bibinfo {volume} {168}},\ \bibinfo {pages}
   {457} (\bibinfo {year} {1986})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yasui}(2018)}]{yasui2018acoustic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Yasui}},\ }\href@noop {} {\emph {\bibinfo {title} {Acoustic cavitation and
+  bubble dynamics}}}\ (\bibinfo  {publisher} {Springer},\ \bibinfo {year}
+  {2018})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Brennen}(2014)}]{brennen2014cavitation}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~E.}\ \bibnamefont
@@ -380,6 +372,17 @@
   {Yasui}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Sonochemistry and
   the Acoustic Bubble}}}\ (\bibinfo  {publisher} {Elsevier},\ \bibinfo {year}
   {2015})\ pp.\ \bibinfo {pages} {41--83}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {L{\"o}fstedt}\ \emph {et~al.}(1995)\citenamefont
+  {L{\"o}fstedt}, \citenamefont {Weninger}, \citenamefont {Putterman},\ and\
+  \citenamefont {Barber}}]{lofstedt1995sonoluminescing}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {L{\"o}fstedt}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Weninger}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Putterman}},\ and\ \bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Barber}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review E}\ }\textbf {\bibinfo {volume} {51}},\ \bibinfo {pages}
+  {4400} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Barber}\ \emph {et~al.}(1997)\citenamefont {Barber},
   \citenamefont {Hiller}, \citenamefont {L{\"o}fstedt}, \citenamefont
   {Putterman},\ and\ \citenamefont {Weninger}}]{barber1997defining}%
@@ -427,6 +430,14 @@
   {\bibfield  {journal} {\bibinfo  {journal} {Physical review letters}\
   }\textbf {\bibinfo {volume} {78}},\ \bibinfo {pages} {1359} (\bibinfo {year}
   {1997})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Flannigan}\ and\ \citenamefont
+  {Suslick}(2005)}]{flannigan2005plasma}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Flannigan}}\ and\ \bibinfo {author} {\bibfnamefont {K.~S.}\ \bibnamefont
+  {Suslick}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature}\ }\textbf {\bibinfo {volume} {434}},\ \bibinfo {pages} {52}
+  (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Flannigan}\ \emph {et~al.}(2006)\citenamefont
   {Flannigan}, \citenamefont {Hopkins}, \citenamefont {Camara}, \citenamefont
   {Putterman},\ and\ \citenamefont {Suslick}}]{flannigan2006measurement}%
@@ -438,6 +449,27 @@
   \bibinfo {author} {\bibfnamefont {K.~S.}\ \bibnamefont {Suslick}},\
   }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical review
   letters}\ }\textbf {\bibinfo {volume} {96}},\ \bibinfo {pages} {204301}
+  (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {An}\ and\ \citenamefont
+  {Li}(2009)}]{an2009diagnosing}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {An}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Li}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
+  E}\ }\textbf {\bibinfo {volume} {80}},\ \bibinfo {pages} {046320} (\bibinfo
+  {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {An}\ and\ \citenamefont {Li}(2008)}]{an2008spectral}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {An}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Li}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
+  E}\ }\textbf {\bibinfo {volume} {78}},\ \bibinfo {pages} {046313} (\bibinfo
+  {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {An}(2006)}]{an2006mechanism}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {An}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical
+  Review E}\ }\textbf {\bibinfo {volume} {74}},\ \bibinfo {pages} {026304}
   (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Sivasubramanian}\ \emph {et~al.}(2002)\citenamefont
   {Sivasubramanian}, \citenamefont {Widom},\ and\ \citenamefont
@@ -459,16 +491,6 @@
   {Putterman}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Physics of Fluids A: Fluid Dynamics}\ }\textbf {\bibinfo {volume} {5}},\
   \bibinfo {pages} {2911} (\bibinfo {year} {1993})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Hilgenfeldt}\ \emph {et~al.}(1999)\citenamefont
-  {Hilgenfeldt}, \citenamefont {Grossmann},\ and\ \citenamefont
-  {Lohse}}]{hilgenfeldt1999simple}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Hilgenfeldt}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Grossmann}},\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {Lohse}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Nature}\ }\textbf {\bibinfo {volume} {398}},\ \bibinfo {pages} {402}
-  (\bibinfo {year} {1999})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Lentz}\ \emph {et~al.}(1995)\citenamefont {Lentz},
   \citenamefont {Atchley},\ and\ \citenamefont {Gaitan}}]{lentz1995mie}%
   \BibitemOpen
