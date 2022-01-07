@@ -81,7 +81,7 @@ These very high estimates for the temperature in the bubbles led to a spark of i
 
 \begin{figure}
 \includegraphics[width=0.6\linewidth]{figs/pulses}
-    \caption{}
+    \caption{\cite{brenner2002single,crum1994sonoluminescence}}
 \label{fig:pulses}
 \end{figure}
 
@@ -172,6 +172,12 @@ with $\Delta p = p_g(t)-p_\infty$ the deviation of the pressure inside the bubbl
 
 Eq. \ref{eq:RP_2} is the equation of motion for a driven spherical bubble in an infinite, incompressible fluid. It is worth breifly summarizing this all again. On the left hand side, $R$ is the radius of the bubble, $\dot{R}$ is the velocity of the bubble's radius i.e. the velocity of the \emph{bubble wall}, and $\ddot{R}$ is the bubble wall's acceleration. On the right hand side, $\rho$ is the (constant) density of the fluid. $\Delta p(t) = p_g(t)-p_\infty$ is the deviation of the gas pressure in the bubble, $p_g(t)$, from the static fluid pressure at infinite distance, $p_\infty$. $p_g(t)$ is evaluated at the bubble wall. In the second term, the $\sim \sigma$ part gives the restoring force from surface tension stresses while the $\sim \mu$ term is due to the fluid viscos stresses: $\sigma$ and $\mu$ are the surface tension and viscosity coefficients respectively. The last term on the right, $P(t)$, is the \emph{external pressure}. For problems relevant to SBSL, the driving pressure, $P(t)$ in the RP equations, is an acoustic plane wave. Keller and coworkers showed that the modification required to the RP equations result in the replacement $P(t) \rightarrow P_0 \sin(\omega t)$ \cite{keller1980bubble}. If we linearize in the bubble's radius $R(t)\approx R_0 \left( 1+x(t) \right)$ with $x(t) \ll 1$, we can derive a forced harmonic oscillator equation for $x(t)$ \cite{brennen2014cavitation,yasui2018acoustic}. However, the low driving amplitude regime where this method is valid is irrelevant to SBSL so we won't pursue it here.
 
+\begin{figure}
+\includegraphics[width=0.5\linewidth]{figs/bubble_radius_2.pdf}
+    \caption{\cite{brenner2002single}}
+\label{fig:bubble_radius_2}
+\end{figure}
+
 Let us breifly digress to discuss retardation effects. If we had not assumed incompressibility, our solution would include a term arising from the sound radiation from the bubble itself. There are practical issues with this solution however; it is \emph{third} order in time and has unphysical, exponentially diverging solutions \cite{prosperetti1999old,brenner2002single,prosperetti1986bubble,lezzi1987bubble}. Both issues are solved by imposing boundary conditions on the $\ddot{R}$ term. The method for doing so is also challenging and apparently no unique way to do it exists \cite{prosperetti1986bubble,prosperetti1988nonlinear,keller1956damping}. Instead, there is a whole family of solutions that can be derived; different variations of the improved RP equation, which are collectively referred to as ``Rayleigh-Plesset equations" are derived by neglecting different terms in the full compressible solution. We will discuss this again below.
 
 The RP equation (eq. \ref{eq:RP_2}) is pretty but its analytical solution intractable. Direct solutions of the RP equation or its variants are done numerically using e.g. the Euler method \cite{yasui2018acoustic,yasui2015dynamics}. It is no great challenge computationally. For now, let's see what we else we can understand from this analytically by making some more approximations. If we take $p_B-(p_\infty+P) \equiv p_0$ with $p_0$ constant, we recover Rayleigh's equation discussed above \cite{rayleigh1917pressure,plesset1949dynamics,prosperetti1999old,brenner2002single}. This is valid during the part of the bubble's cycle called \emph{The Rayleigh collapse}: when the bubble's wall is very fast, the $\dot{R}^2$ term will be much larger than the right hand side of eq. \ref{eq:RP_2} and we may neglect it. Rayleigh looked at the same problem, i.e. a cavitating \emph{void} in water, by replacing $p_0\rightarrow 0$ \cite{brenner2002single,rayleigh1917pressure}:
@@ -248,7 +254,7 @@ Our physical intuition tells us why eq. \ref{eq:p_g} is sensible during the bubb
 
 \begin{figure}
 \includegraphics[width=0.9\linewidth]{figs/bubble_radius_1.pdf}
-    \caption{}
+    \caption{\cite{barber1997defining,barber1992light}}
 \label{fig:bubble_radius_1}
 \end{figure}
 
@@ -269,8 +275,11 @@ Some authors have looked at corrections to the bubble's dynamics in the presence
 
 Back to the experimental setup. The typical driving pressure relevant to SBSL ($\sim 1.5$ atm) is too small to cause bubbles to form spontaneously in the flask \cite{}. Instead, the bubble is usually seeded somehow. In the original work of Gaitan, an air bubble was injected using a needle and syringe through a small hole in the flask's seal \cite{gaitan1992sonoluminescence}. More recently, seeding methods involve shooting a small jet of water into the flask (like our shrimp friends!) or blasting the water with a laser to boil a small volume \cite{}. The later method is preferred as it enables more precise control over the initial bubble's radius. The small bubbles formed this way coalesce at the center of the flask into a single, stable bubble \cite{}.
 
-Now that we know about how single, stable bubbles are formed in the lab, we can discuss two quantities of experimental interest that have turned out the be the most important. The bubble's radius may be measured by \emph{Mie scattering} and compared directly to solutions of the RP equations \cite{}. This can tell us about the temperature and pressure in the bubble. The other quantity of interest is the light spectrum which contains information on the bubble's contents: in principle, we can learn about conditions inside the temperature, with spectral lines telling us about the matter content \cite{}. As we will see, it is not simple to understand the light spectrum \cite{} and we will devote a section of this paper to this topic. For now, let us see what measurements of the bubble's dynamics have told us.
+Now that we know about how single, stable bubbles are formed in the lab, we can discuss two quantities of experimental quantities that have turned out the be the most important: (i) The bubble's radius may be measured by \emph{Mie scattering} and compared directly to solutions of the RP equations \cite{}. This can tell us about the temperature and pressure in the bubble. (ii) The other quantity of interest is the light spectrum which contains information on the bubble's contents: in principle, we can learn about temperature and pressure inside the bubble, with spectral lines telling us about the matter content \cite{}. As we will see, it is not simple to understand the light spectrum \cite{} and we will devote a section of this paper to this topic. For now, let us see what measurements of the bubble's dynamics have told us. 
 
+Mie scattering measurements scatter a laser off a bubble assuming the bubble is a homogenous dielectric sphere \cite{}. The angular distribution of light scattered from the bubble at \emph{fixed radius} and the time-dependent scattering off the bubble at \emph{fixed angle} allow use to accurately measurethe bubble's radius as a function of time \cite{}. A typical Mie scattering experiment is shown in fig. \ref{fig:flask} (c). Two important sources of experimental error are changes to the dielectric properties of the bubble during its cycle \cite{} and the fact that cavitating bubbles can emit an outward going shock \cite{}: some light scatters off the outward-going spherical wave too \cite{}. Both effects are largest during the SL period of the bubble's cycle, leading to an important source of experimental error \cite{}. 
+
+Parameters used to calculate the gas dynamics in the bubble can then be fit to the radius to build a full model of the dyanmics. In the case of eq. \ref{eq:p_g}, the quantities are $P_0$ and $R_0$. The results of a calculation using eq. \ref{eq:p_g} combined with the eq. \ref{eq:RP_3} RP variant fit to experiment are shown in fig. \ref{fig:bubble_radius_1} (a). The ambient ambient radius and pressure were $R_0=1.45$ $\mu$m and $P_0=1.45$ atm \cite{barber1997defining,barber1992light}.
 
 \section{Let there be light!}
 The radiative processes occuring during \cite{hilgenfeldt1999simple}
