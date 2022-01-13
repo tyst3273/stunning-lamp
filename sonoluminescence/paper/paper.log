@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.12)  7 JAN 2022 18:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.12)  13 JAN 2022 15:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -477,28 +477,28 @@ Package pdftex.def Info: figs/bubble_radius_2.pdf  used on input line 178.
 (pdftex.def)             Requested size: 255.0pt x 200.76363pt.
  [7 <./figs/bubble_radius_2.pdf>] [8]
 [9] [10]
-<figs/bubble_radius_1.pdf, id=541, 892.71616pt x 454.78908pt>
+<figs/bubble_radius_1.pdf, id=544, 892.71616pt x 454.78908pt>
 File: figs/bubble_radius_1.pdf Graphic file (type pdf)
 <use figs/bubble_radius_1.pdf>
 Package pdftex.def Info: figs/bubble_radius_1.pdf  used on input line 258.
 (pdftex.def)             Requested size: 458.99689pt x 233.83385pt.
- [11 <./figs/bubble_radius_1.pdf>] [12] [13] (./paper.bbl [14])
-[15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
+ [11 <./figs/bubble_radius_1.pdf>] [12] [13] [14] (./paper.bbl [15]
+[16]) [17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 390.
  (./paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 357.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 357.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 390.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 390.
 Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: 619A879BB43D786E3FE9D2AC726F1E49;1013.
  ) 
 Here is how much of TeX's memory you used:
- 9153 strings out of 481239
- 132404 string characters out of 5920376
- 421135 words of memory out of 5000000
- 24104 multiletter control sequences out of 15000+600000
+ 9184 strings out of 481239
+ 133170 string characters out of 5920376
+ 425404 words of memory out of 5000000
+ 24123 multiletter control sequences out of 15000+600000
  547095 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,17n,37p,2423b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,17n,37p,2423b,601s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
@@ -527,10 +527,10 @@ exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfrm0800.pfb>
-Output written on paper.pdf (15 pages, 1289266 bytes).
+Output written on paper.pdf (17 pages, 1306019 bytes).
 PDF statistics:
- 781 PDF objects out of 1000 (max. 8388607)
- 711 compressed objects within 8 object streams
- 144 named destinations out of 1000 (max. 500000)
+ 861 PDF objects out of 1000 (max. 8388607)
+ 789 compressed objects within 8 object streams
+ 156 named destinations out of 1000 (max. 500000)
  154 words of extra memory for PDF output out of 10000 (max. 10000000)
 
