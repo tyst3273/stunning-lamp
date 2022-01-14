@@ -13,11 +13,11 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: paperNotes.bib
 Database file #2: ../ref.bib
-Repeated entry---line 706 of file ../ref.bib
+Repeated entry---line 641 of file ../ref.bib
  : @article{flannigan2005plasma
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 728 of file ../ref.bib
+Repeated entry---line 663 of file ../ref.bib
  : @article{barber1997defining
  :                            ,
 I'm skipping whatever remains of this entry
@@ -115,45 +115,45 @@ while executing---line 3516 of file apsrev4-2.bst
 ---they aren't the same literal types for entry leighton2007derivation
 while executing---line 3516 of file apsrev4-2.bst
 Warning--missing journal in leighton2007derivation
-You've used 72 entries,
+You've used 66 entries,
             6079 wiz_defined-function locations,
-            2030 strings with 24797 characters,
-and the built_in function-call counts, 68002 in all, are:
-= -- 5260
-> -- 1410
-< -- 350
-+ -- 463
-- -- 320
-* -- 9666
-:= -- 6712
-add.period$ -- 70
-call.type$ -- 72
-change.case$ -- 348
-chr.to.int$ -- 77
-cite$ -- 74
-duplicate$ -- 6421
-empty$ -- 5043
-format.name$ -- 794
-if$ -- 13859
-int.to.chr$ -- 6
-int.to.str$ -- 79
-missing$ -- 995
-newline$ -- 262
-num.names$ -- 210
-pop$ -- 2743
+            2006 strings with 24292 characters,
+and the built_in function-call counts, 62747 in all, are:
+= -- 4797
+> -- 1344
+< -- 326
++ -- 435
+- -- 308
+* -- 8987
+:= -- 6167
+add.period$ -- 64
+call.type$ -- 66
+change.case$ -- 318
+chr.to.int$ -- 75
+cite$ -- 68
+duplicate$ -- 5929
+empty$ -- 4640
+format.name$ -- 764
+if$ -- 12770
+int.to.chr$ -- 2
+int.to.str$ -- 73
+missing$ -- 911
+newline$ -- 244
+num.names$ -- 192
+pop$ -- 2529
 preamble$ -- 1
-purify$ -- 350
+purify$ -- 320
 quote$ -- 0
-skip$ -- 3077
+skip$ -- 2812
 stack$ -- 0
-substring$ -- 1632
-swap$ -- 5749
-text.length$ -- 153
+substring$ -- 1473
+swap$ -- 5323
+text.length$ -- 147
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 927
+type$ -- 855
 warning$ -- 3
-while$ -- 209
+while$ -- 191
 width$ -- 0
-write$ -- 657
+write$ -- 603
 (There were 28 error messages)
