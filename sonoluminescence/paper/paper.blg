@@ -115,45 +115,45 @@ while executing---line 3516 of file apsrev4-2.bst
 ---they aren't the same literal types for entry leighton2007derivation
 while executing---line 3516 of file apsrev4-2.bst
 Warning--missing journal in leighton2007derivation
-You've used 72 entries,
+You've used 68 entries,
             6079 wiz_defined-function locations,
-            2030 strings with 24797 characters,
-and the built_in function-call counts, 68002 in all, are:
-= -- 5260
-> -- 1410
-< -- 350
-+ -- 463
-- -- 320
-* -- 9666
-:= -- 6712
-add.period$ -- 70
-call.type$ -- 72
-change.case$ -- 348
-chr.to.int$ -- 77
-cite$ -- 74
-duplicate$ -- 6421
-empty$ -- 5043
-format.name$ -- 794
-if$ -- 13859
+            2006 strings with 24232 characters,
+and the built_in function-call counts, 64378 in all, are:
+= -- 4976
+> -- 1344
+< -- 333
++ -- 441
+- -- 306
+* -- 9164
+:= -- 6342
+add.period$ -- 66
+call.type$ -- 68
+change.case$ -- 327
+chr.to.int$ -- 73
+cite$ -- 70
+duplicate$ -- 6072
+empty$ -- 4760
+format.name$ -- 760
+if$ -- 13120
 int.to.chr$ -- 6
-int.to.str$ -- 79
-missing$ -- 995
-newline$ -- 262
-num.names$ -- 210
-pop$ -- 2743
+int.to.str$ -- 75
+missing$ -- 941
+newline$ -- 250
+num.names$ -- 198
+pop$ -- 2592
 preamble$ -- 1
-purify$ -- 350
+purify$ -- 330
 quote$ -- 0
-skip$ -- 3077
+skip$ -- 2913
 stack$ -- 0
-substring$ -- 1632
-swap$ -- 5749
-text.length$ -- 153
+substring$ -- 1547
+swap$ -- 5448
+text.length$ -- 145
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 927
+type$ -- 877
 warning$ -- 3
-while$ -- 209
+while$ -- 198
 width$ -- 0
-write$ -- 657
+write$ -- 622
 (There were 28 error messages)
