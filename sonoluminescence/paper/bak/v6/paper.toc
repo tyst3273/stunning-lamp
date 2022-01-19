@@ -1,0 +1,17 @@
+\contentsline {title}{On the Origin of Shrimpoluminescence}{1}{section*.2}%
+\contentsline {abstract}{Abstract}{1}{section*.1}%
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{1}{section*.3}%
+\tocdepth@restore 
+\contentsline {section}{\numberline {I}rough-outline}{1}{section*.4}%
+\contentsline {section}{\numberline {II}random notes}{2}{section*.5}%
+\contentsline {section}{\numberline {III}1st discovery}{2}{section*.6}%
+\contentsline {section}{\numberline {IV}notes from \citep {crum1994sonoluminescence}}{2}{section*.7}%
+\contentsline {section}{\numberline {V}notes from ref \citep {lohse2018bubble}}{3}{section*.8}%
+\contentsline {section}{\numberline {VI}notes from ref \citep {prosperetti2004bubbles}}{3}{section*.9}%
+\contentsline {section}{\numberline {VII}notes from \citep {gaitan1990experimental}}{3}{section*.10}%
+\contentsline {section}{\numberline {VIII}notes from \citep {brenner2002single}}{3}{section*.11}%
+\contentsline {section}{\numberline {IX}QED}{4}{section*.12}%
+\contentsline {section}{\numberline {X}Modelling}{4}{section*.13}%
+\contentsline {section}{\numberline {XI}Refs. to different arguments}{4}{section*.14}%
+\contentsline {section}{\numberline {}References}{4}{section*.15}%

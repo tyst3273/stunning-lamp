@@ -22,6 +22,7 @@ Repeated entry---line 728 of file ../ref.bib
  :                            ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "yasui20185acoustic"
 control{REVTEX42Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
 control{apsrev42Control}, control.key{N/A}, control.author{08}, control.editor{1}, control.title{0}, control.pages{0}, control.year{1}, control.eprint{N/A}, 
 Warning--jnrlst (dependency: not reversed) set 1
@@ -115,45 +116,45 @@ while executing---line 3516 of file apsrev4-2.bst
 ---they aren't the same literal types for entry leighton2007derivation
 while executing---line 3516 of file apsrev4-2.bst
 Warning--missing journal in leighton2007derivation
-You've used 68 entries,
+You've used 59 entries,
             6079 wiz_defined-function locations,
-            2006 strings with 24232 characters,
-and the built_in function-call counts, 64378 in all, are:
-= -- 4976
-> -- 1344
-< -- 333
-+ -- 441
-- -- 306
-* -- 9164
-:= -- 6342
-add.period$ -- 66
-call.type$ -- 68
-change.case$ -- 327
-chr.to.int$ -- 73
-cite$ -- 70
-duplicate$ -- 6072
-empty$ -- 4760
-format.name$ -- 760
-if$ -- 13120
-int.to.chr$ -- 6
-int.to.str$ -- 75
-missing$ -- 941
-newline$ -- 250
-num.names$ -- 198
-pop$ -- 2592
+            1962 strings with 23253 characters,
+and the built_in function-call counts, 56196 in all, are:
+= -- 4276
+> -- 1222
+< -- 295
++ -- 395
+- -- 282
+* -- 8077
+:= -- 5507
+add.period$ -- 57
+call.type$ -- 59
+change.case$ -- 282
+chr.to.int$ -- 68
+cite$ -- 61
+duplicate$ -- 5307
+empty$ -- 4138
+format.name$ -- 701
+if$ -- 11425
+int.to.chr$ -- 2
+int.to.str$ -- 66
+missing$ -- 812
+newline$ -- 223
+num.names$ -- 171
+pop$ -- 2264
 preamble$ -- 1
-purify$ -- 330
+purify$ -- 285
 quote$ -- 0
-skip$ -- 2913
+skip$ -- 2507
 stack$ -- 0
-substring$ -- 1547
-swap$ -- 5448
-text.length$ -- 145
+substring$ -- 1313
+swap$ -- 4776
+text.length$ -- 133
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 877
+type$ -- 766
 warning$ -- 3
-while$ -- 198
+while$ -- 171
 width$ -- 0
-write$ -- 622
+write$ -- 541
 (There were 28 error messages)
