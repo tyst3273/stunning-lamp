@@ -12,12 +12,12 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: paperNotes.bib
-Database file #2: ../ref.bib
-Repeated entry---line 706 of file ../ref.bib
+Database file #2: ref.bib
+Repeated entry---line 706 of file ref.bib
  : @article{flannigan2005plasma
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 728 of file ../ref.bib
+Repeated entry---line 728 of file ref.bib
  : @article{barber1997defining
  :                            ,
 I'm skipping whatever remains of this entry
@@ -118,7 +118,7 @@ while executing---line 3516 of file apsrev4-2.bst
 Warning--missing journal in leighton2007derivation
 You've used 59 entries,
             6079 wiz_defined-function locations,
-            1962 strings with 23253 characters,
+            1962 strings with 23250 characters,
 and the built_in function-call counts, 56196 in all, are:
 = -- 4276
 > -- 1222
