@@ -4037,7 +4037,7 @@
        gradientTransform="translate(-24.885979,-485.89149)" />
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5838"
+       xlink:href="#linearGradient20386-4-3"
        id="radialGradient20388-3-3-9"
        cx="459.61902"
        cy="489.0119"
@@ -4402,14 +4402,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.16327157"
-     inkscape:cx="-4176.6652"
-     inkscape:cy="547.08192"
+     inkscape:cx="-1682.5341"
+     inkscape:cy="1134.9001"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1312"
-     inkscape:window-height="704"
-     inkscape:window-x="48"
+     inkscape:window-width="1864"
+     inkscape:window-height="1016"
+     inkscape:window-x="56"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:snap-global="false"
@@ -5982,7 +5982,7 @@
        inkscape:export-xdpi="50"
        inkscape:export-ydpi="50" />
     <circle
-       style="fill:url(#radialGradient20388-3-3-9);fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:url(#radialGradient20388-3-3-9);fill-opacity:1.0;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path879-0-5-8"
        cx="1021.567"
        cy="-8.9800434"
