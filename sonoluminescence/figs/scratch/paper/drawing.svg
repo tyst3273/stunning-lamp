@@ -174,7 +174,10 @@
        width="137.56647"
        height="60.046955"
        x="159.90475"
-       y="42.404381" />
+       y="42.404381"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/sonoluminescence/figs/exp_2.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
     <rect
        style="opacity:1;fill:#fffffc;fill-opacity:1;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect932"
@@ -195,7 +198,7 @@
        y="-5.5959835"
        clip-path="url(#clipPath1088)"
        transform="matrix(1.0241456,0,0,1.0241456,-24.228387,47.398604)"
-       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/sonoluminescence/figs/exp.png"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/sonoluminescence/figs/exp_2.png"
        inkscape:export-xdpi="200"
        inkscape:export-ydpi="200" />
     <image
@@ -1578,6 +1581,9 @@ SUVORK5CYII=
 "
        preserveAspectRatio="none"
        height="54.131054"
-       width="66.088745" />
+       width="66.088745"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/sonoluminescence/figs/exp_2.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
   </g>
 </svg>
