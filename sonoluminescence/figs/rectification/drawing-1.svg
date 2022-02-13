@@ -949,15 +949,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.51399588"
-     inkscape:cx="341.05478"
-     inkscape:cy="177.85237"
+     inkscape:zoom="0.40009907"
+     inkscape:cx="193.69015"
+     inkscape:cy="567.92562"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1864"
+     inkscape:window-width="1872"
      inkscape:window-height="1016"
-     inkscape:window-x="56"
+     inkscape:window-x="48"
      inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
@@ -1888,8 +1888,8 @@
          id="flowPara13347-2-3">Ar</flowPara></flowRoot>    <circle
        style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:#060000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.99061028"
        id="path880-7-1-2-2-5-9-3-8-3-9"
-       cx="140.41161"
-       cy="245.00385"
+       cx="139.75031"
+       cy="248.47565"
        r="3.3859982"
        inkscape:export-xdpi="200"
        inkscape:export-ydpi="200" />
@@ -1897,7 +1897,7 @@
        xml:space="preserve"
        id="flowRoot13341-3-6-7"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,-37.434328,137.21277)"
+       transform="matrix(0.26458333,0,0,0.26458333,-38.095623,140.68457)"
        inkscape:export-xdpi="200"
        inkscape:export-ydpi="200"><flowRegion
          id="flowRegion13343-7-7-7"><rect
@@ -2091,36 +2091,6 @@
            x="689.08624"
            y="386.71573" /></flowRegion><flowPara
          id="flowPara13347-2-3-7-4">Ar</flowPara></flowRoot>    <circle
-       style="opacity:1;fill:#00a300;fill-opacity:1;stroke:#060000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.99061028"
-       id="path880-7-1-2-2-5-2-9-6-2-3"
-       cx="136.87715"
-       cy="255.88469"
-       r="3.3859982"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
-    <circle
-       style="opacity:1;fill:#fd0000;fill-opacity:1;stroke:#060000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.99061028"
-       id="path880-7-1-2-3-9-64-0"
-       cx="278.92169"
-       cy="86.35743"
-       r="3.3859982"
-       transform="rotate(44.037568)"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200" />
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot13341-0-1-0-7"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,-37.960673,148.38177)"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200"><flowRegion
-         id="flowRegion13343-2-1-8-5"><rect
-           id="rect13345-17-7-5-3"
-           width="134.9623"
-           height="68.778847"
-           x="689.08624"
-           y="386.71573" /></flowRegion><flowPara
-         id="flowPara13347-5-0-1-5">NO</flowPara></flowRoot>    <circle
        style="opacity:1;fill:#fd0000;fill-opacity:1;stroke:#060000;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.99061028"
        id="path880-7-1-2-3-9-64-0-2"
        cx="302.86157"
@@ -2129,5 +2099,18 @@
        transform="rotate(44.037568)"
        inkscape:export-xdpi="200"
        inkscape:export-ydpi="200" />
-  </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1769"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,44.141412,-11.242007)"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><flowRegion
+         id="flowRegion1771"><rect
+           id="rect1773"
+           width="144.9641"
+           height="71.857201"
+           x="369.90839"
+           y="987.5531" /></flowRegion><flowPara
+         id="flowPara1775">...</flowPara></flowRoot>  </g>
 </svg>
