@@ -99,8 +99,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="347.8928"
-     inkscape:cy="742.39077"
+     inkscape:cx="586.03953"
+     inkscape:cy="740.9622"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -132,8 +132,8 @@
        height="39.970009"
        x="38.24308"
        y="77.62989"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
     <rect
        style="opacity:1;fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect858"
@@ -141,55 +141,55 @@
        height="26.396196"
        x="41.048382"
        y="84.022247"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
     <path
        style="fill:none;stroke:#0000ff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 41.104909,91.191962 c 6.848841,-0.03339 4.141726,25.240198 12.86925,10.806458 0.658625,-1.08925 2.067257,-3.770942 3.160817,-1.72543 3.370584,6.3047 4.217954,-9.136591 11.373207,-9.081028"
        id="path821"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssc"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
     <path
        style="fill:none;stroke:#0000ff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 68.508183,91.191962 c 6.848841,-0.03339 4.141726,25.240198 12.86925,10.806458 0.658625,-1.08925 2.067257,-3.770942 3.160817,-1.72543 3.370584,6.3047 4.217954,-9.136591 11.373211,-9.081028"
        id="path821-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssc"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
     <path
        style="fill:none;stroke:#0000ff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 95.911461,91.191962 c 6.848839,-0.03339 4.141729,25.240198 12.869249,10.806458 0.65862,-1.08925 2.06725,-3.770942 3.16081,-1.72543 3.37059,6.3047 4.21796,-9.136591 11.37321,-9.081028"
        id="path821-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssc"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.75, 0.25000000000000000;stroke-dashoffset:0"
        d="M 68.508183,91.191962 V 110.27976"
        id="path853"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.75000001, 0.25;stroke-dashoffset:0;stroke-opacity:1"
        d="M 95.911461,91.191962 V 110.27976"
        id="path853-7"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot875"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        transform="matrix(0.26458333,0,0,0.26458333,-1.889881,12.095238)"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><flowRegion
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><flowRegion
          id="flowRegion877"><rect
            id="rect879"
            width="77.14286"
@@ -204,8 +204,8 @@
        xml:space="preserve"
        id="flowRoot875-5"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><flowRegion
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><flowRegion
          id="flowRegion877-3"><rect
            id="rect879-5"
            width="77.14286"
@@ -222,23 +222,23 @@
        d="M 68.791666,113.11458 H 95.911457"
        id="path914"
        inkscape:connector-curvature="0"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Lstart-9);marker-end:url(#Arrow2Lend-2)"
        d="m 41.246652,81.837053 82.115328,0"
        id="path914-0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot875-9"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        transform="matrix(0.26458333,0,0,0.26458333,14.599258,3.534414)"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><flowRegion
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><flowRegion
          id="flowRegion877-36"><rect
            id="rect879-0"
            width="77.14286"
@@ -251,8 +251,8 @@
        id="flowRoot875-9-1"
        style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        transform="matrix(0.26458333,0,0,0.26458333,15.160759,39.563666)"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><flowRegion
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><flowRegion
          id="flowRegion877-36-8"><rect
            id="rect879-0-7"
            width="77.14286"
@@ -266,7 +266,7 @@
        id="path821-3-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssc"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
   </g>
 </svg>
