@@ -19,10 +19,19 @@ class distorted_crystal:
 
         rad = phi*np.pi/180 # go to radians
 
-        # ccw rotation matrix 
+        # ccw rotation matrix (in x-y plane only)
         R = np.array([[ np.cos(rad),-np.sin(rad), 0.0],
                       [ np.sin(rad), np.cos(rad), 0.0],
                       [         0.0,         0.0, 1.0]])
+
+        _oct_1 = np.zeros(self.oct_1.shape)
+        _oct_2 = np.zeros(self.oct_2.shape)
+
+        for ii in range(_oct_1.shape[0]):
+            _oct_1[ii,:] = np.matmul(R,self.oct_1[ii,:])
+        for ii in range(_oct_1.shape[0]):
+            _oct_1[ii,:] = np.matmul(R,self.oct_1[ii,:])
+
 
         
 
