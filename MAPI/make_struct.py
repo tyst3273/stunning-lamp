@@ -133,7 +133,8 @@ if __name__ == "__main__":
     crystal.make_supercell(ang_deg=[4,12,16])
     crystal.write_poscar('POSCAR_4')
 
-
+    crystal.make_supercell(ang_deg=[-12,12])
+    crystal.write_poscar('POSCAR_tetragonal')
 
 
 
