@@ -1,5 +1,5 @@
 
-import classes
+import modelling_tools as mtools
 
 basis_pos = [[0.5, 0.5, 0.5],
              [0.0, 0.0, 0.0],
@@ -11,7 +11,7 @@ lattice_vectors = [[6.02, 0.00, 0.00],
                    [0.00, 6.02, 0.00],
                    [0.00, 0.00, 6.02]]
 
-crystal = classes.crystal(basis_pos,basis_types,lattice_vectors)
+crystal = mtools.crystal(basis_pos,basis_types,lattice_vectors)
 
 supercell_matrix = [3,3,3]
 crystal.make_supercell(supercell_matrix)
@@ -19,5 +19,6 @@ crystal.freeze_rotation_in_supercell(coord=[0.33333333,0.33333333,0.33333333],
                                      nn_dist=5,euler_angles=[12,0,0])
 crystal.write_poscar(which='supercell')
 crystal.write_xyz(which='supercell')
-
+crystal.write_cp2k(which='supercell')
+crystal.write_abivars()
 

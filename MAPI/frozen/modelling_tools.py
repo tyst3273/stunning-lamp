@@ -15,6 +15,7 @@ class crystal:
         self.basis_pos = basis_pos
         self.basis_types = basis_types
         self.magnetic_moments = magnetic_moments
+        self.io = interface_io()
     
     # ----------------------------------------------------------------------------------------------
 
@@ -135,79 +136,11 @@ class crystal:
 
     # ----------------------------------------------------------------------------------------------
 
-    def write_poscar(self,out_file='POSCAR',which='primitive'):
-        if which == 'primitive':
-            pos = self.basis_pos
-            lat_vecs = self.lattice_vectors
-            types = self.unique_types
-            counts = self.type_counts
-            inds = self.type_inds
-        elif which == 'supercell':
-            if not hasattr(self,'sc_pos'):
-                exit('no sc_pos. did you use make_supercell?')
-            pos = self.sc_pos
-            lat_vecs = self.sc_lattice_vectors
-            types = self.sc_unique_types
-            counts = self.sc_type_counts
-            inds = self.sc_type_inds
-
-        sort = np.argsort(inds).flatten()
-        inds = inds[sort]
-        pos = pos[sort,:]
-        num_atoms = pos.shape[0]
-        with open(out_file,'w') as f_out:
-            f_out.write('Created by my custom scripts\n')
-            f_out.write(' 1.00\n')
-            for ii in range(3):
-                f_out.write(f' {lat_vecs[ii,0]: 12.9f} {lat_vecs[ii,1]: 12.9f}'\
-                             f' {lat_vecs[ii,2]: 12.9f}\n')            
-            _ = ''
-            for ii in range(self.num_basis_types):
-                _ += f' {types[ii]}'
-            f_out.write(_)
-            _ = '\n '
-            for ii in range(self.num_basis_types):
-                _ += f' {counts[ii]}'
-            f_out.write(_)
-            f_out.write('\nDirect\n')
-            for ii in range(num_atoms):
-                f_out.write(f' {pos[ii,0]: 12.9f} {pos[ii,1]: 12.9f}' \
-                            f' {pos[ii,2]: 12.9f} # {types[inds[ii]]}, {ii}\n')
-
-    def write_xyz(self,out_file='pos.xyz',which='primitive'):
-        if which == 'primitive':
-            car = self.basis_cart
-            lat_vecs = self.lattice_vectors
-            types = self.unique_types
-            counts = self.type_counts
-            inds = self.type_inds
-        elif which == 'supercell':
-            if not hasattr(self,'sc_pos'):
-                exit('no sc_pos. did you use make_supercell?')
-            cart = self.sc_cart
-            lat_vecs = self.sc_lattice_vectors
-            types = self.sc_unique_types
-            counts = self.sc_type_counts
-            inds = self.sc_type_inds
-
-        sort = np.argsort(inds).flatten()
-        inds = inds[sort]
-        cart = cart[sort,:]
-        num_atoms = cart.shape[0]
-        with open(out_file,'w') as f_out:
-            f_out.write(f' {num_atoms}\n')
-            f_out.write('Created by my custom scripts\n')
-            for ii in range(num_atoms):
-                f_out.write(f' {types[inds[ii]]} {cart[ii,0]: 12.9f} {cart[ii,1]: 12.9f}' \
-                            f' {cart[ii,2]: 12.9f}\n')
-
-    # ----------------------------------------------------------------------------------------------
-
     def freeze_rotation_in_supercell(self,coord=[0,0,0],nn_dist=1,euler_angles=[12,0,0]):
         """
         coord is coordinate (in crystal units!) to center rotation around.
-        pick all atoms within nn_dist (in angstroms) and rotate them 
-        according to Euler angles. Euler angles are in degrees. See goldstein sec 4.4 
+        pick all atoms within nn_dist (in angstroms) and rotate them
+        according to Euler angles. Euler angles are in degrees. See goldstein sec 4.4
         for conventions
         """
         if not hasattr(self,'sc_pos'):
@@ -261,6 +194,171 @@ class crystal:
         shift = (rel < -0.5).astype(int)-(rel > 0.5).astype(int)
         return rel, shift
 
+    # ----------------------------------------------------------------------------------------------
+
+    def write_poscar(self,out_file='POSCAR',which='primitive'):
+        self.io.write_poscar(self,out_file,which)
+
+    def write_xyz(self,out_file='pos.xyz',which='primitive'):
+        self.io.write_xyz(self,out_file,which)
+
+    def write_cp2k(self,out_file='cp2k.pos',which='primitive'):
+        self.io.write_cp2k(self,out_file,which)
+
+    def write_abivars(self,out_file='abivars',which='primitive'):
+        self.io.write_abivars(self,out_file,which)
+
+    # ----------------------------------------------------------------------------------------------
+
+
+# --------------------------------------------------------------------------------------------------
+
+class interface_io:
+
+    """
+    read and write from DFT calculators
+    """
+
+    def write_abivars(self,crystal,out_file,which):
+        if which == 'primitive':
+            pos = crystal.basis_pos
+            lat_vecs = crystal.lattice_vectors
+            types = crystal.unique_types
+            counts = crystal.type_counts
+            inds = crystal.type_inds
+        elif which == 'supercell':
+            if not hasattr(crystal,'sc_pos'):
+                exit('no sc_pos. did you use make_supercell?')
+            pos = crystal.sc_pos
+            lat_vecs = crystal.sc_lattice_vectors
+            types = crystal.sc_unique_types
+            counts = crystal.sc_type_counts
+            inds = crystal.sc_type_inds
+
+        sort = np.argsort(inds).flatten()
+        inds = inds[sort]
+        pos = pos[sort,:]
+        num_atoms = pos.shape[0]
+        with open(out_file,'w') as f_out:
+            f_out.write('# Created by my custom scripts\n')
+            f_out.write('\nacell  3*1.00 Angstrom\n')
+            f_out.write(f'\nrprim {lat_vecs[0,0]: 12.9f} {lat_vecs[0,1]: 12.9f}'\
+                             f' {lat_vecs[0,2]: 12.9f}\n')
+            f_out.write(f'      {lat_vecs[1,0]: 12.9f} {lat_vecs[1,1]: 12.9f}'\
+                             f' {lat_vecs[1,2]: 12.9f}\n')
+            f_out.write(f'      {lat_vecs[2,0]: 12.9f} {lat_vecs[2,1]: 12.9f}'\
+                             f' {lat_vecs[2,2]: 12.9f}\n')
+            f_out.write(f'\nnatom  {num_atoms}\n')
+            f_out.write('\nxred_symbols\n')
+            for ii in range(num_atoms):
+                f_out.write(f' {pos[ii,0]: 12.9f} {pos[ii,1]: 12.9f}' \
+                            f' {pos[ii,2]: 12.9f} {types[inds[ii]]}\n')
+
+    def write_poscar(self,crystal,out_file,which):
+        if which == 'primitive':
+            pos = crystal.basis_pos
+            lat_vecs = crystal.lattice_vectors
+            types = crystal.unique_types
+            counts = crystal.type_counts
+            inds = crystal.type_inds
+        elif which == 'supercell':
+            if not hasattr(crystal,'sc_pos'):
+                exit('no sc_pos. did you use make_supercell?')
+            pos = crystal.sc_pos
+            lat_vecs = crystal.sc_lattice_vectors
+            types = crystal.sc_unique_types
+            counts = crystal.sc_type_counts
+            inds = crystal.sc_type_inds
+
+        sort = np.argsort(inds).flatten()
+        inds = inds[sort]
+        pos = pos[sort,:]
+        num_atoms = pos.shape[0]
+        with open(out_file,'w') as f_out:
+            f_out.write('Created by my custom scripts\n')
+            f_out.write(' 1.00\n')
+            for ii in range(3):
+                f_out.write(f' {lat_vecs[ii,0]: 12.9f} {lat_vecs[ii,1]: 12.9f}'\
+                             f' {lat_vecs[ii,2]: 12.9f}\n')            
+            _ = ''
+            for ii in range(crystal.num_basis_types):
+                _ += f' {types[ii]}'
+            f_out.write(_)
+            _ = '\n '
+            for ii in range(crystal.num_basis_types):
+                _ += f' {counts[ii]}'
+            f_out.write(_)
+            f_out.write('\nDirect\n')
+            for ii in range(num_atoms):
+                f_out.write(f' {pos[ii,0]: 12.9f} {pos[ii,1]: 12.9f}' \
+                            f' {pos[ii,2]: 12.9f} {types[inds[ii]]}\n')
+
+    def write_xyz(self,crystal,out_file,which):
+        if which == 'primitive':
+            cart = crystal.basis_cart
+            lat_vecs = crystal.lattice_vectors
+            types = crystal.unique_types
+            counts = crystal.type_counts
+            inds = crystal.type_inds
+        elif which == 'supercell':
+            if not hasattr(crystal,'sc_pos'):
+                exit('no sc_pos. did you use make_supercell?')
+            cart = crystal.sc_cart
+            lat_vecs = crystal.sc_lattice_vectors
+            types = crystal.sc_unique_types
+            counts = crystal.sc_type_counts
+            inds = crystal.sc_type_inds
+
+        sort = np.argsort(inds).flatten()
+        inds = inds[sort]
+        cart = cart[sort,:]
+        num_atoms = cart.shape[0]
+        with open(out_file,'w') as f_out:
+            f_out.write(f' {num_atoms}\n')
+            f_out.write('Created by my custom scripts\n')
+            for ii in range(num_atoms):
+                f_out.write(f' {types[inds[ii]]} {cart[ii,0]: 12.9f} {cart[ii,1]: 12.9f}' \
+                            f' {cart[ii,2]: 12.9f}\n')
+
+    def write_cp2k(self,crystal,out_file,which):
+        if which == 'primitive':
+            pos = crystal.basis_pos
+            lat_vecs = crystal.lattice_vectors
+            types = crystal.unique_types
+            counts = crystal.type_counts
+            inds = crystal.type_inds
+        elif which == 'supercell':
+            if not hasattr(crystal,'sc_pos'):
+                exit('no sc_pos. did you use make_supercell?')
+            pos = crystal.sc_pos
+            lat_vecs = crystal.sc_lattice_vectors
+            types = crystal.sc_unique_types
+            counts = crystal.sc_type_counts
+            inds = crystal.sc_type_inds
+
+        sort = np.argsort(inds).flatten()
+        inds = inds[sort]
+        pos = pos[sort,:]
+        num_atoms = pos.shape[0]
+        tab = ' '*4
+        with open(out_file,'w') as f_out:
+            f_out.write(2*tab+f'&CELL\n')
+            f_out.write(3*tab+f'A {lat_vecs[0,0]: 12.9f} {lat_vecs[0,1]: 12.9f}'\
+                                f' {lat_vecs[0,2]: 12.9f}\n')
+            f_out.write(3*tab+f'B {lat_vecs[1,0]: 12.9f} {lat_vecs[1,1]: 12.9f}'\
+                                f' {lat_vecs[1,2]: 12.9f}\n')
+            f_out.write(3*tab+f'C {lat_vecs[2,0]: 12.9f} {lat_vecs[2,1]: 12.9f}'\
+                                f' {lat_vecs[2,2]: 12.9f}\n')
+            f_out.write(3*tab+f'PERIODIC XYZ\n')
+            f_out.write(2*tab+f'&END CELL\n')
+            f_out.write(2*tab+f'&COORD\n')
+            f_out.write(3*tab+f'SCALED\n')
+            for ii in range(num_atoms):
+                f_out.write(3*tab+f'{types[inds[ii]]:<2} {pos[ii,0]: 12.9f}'\
+                                f' {pos[ii,1]: 12.9f} {pos[ii,2]: 12.9f}\n')
+            f_out.write(2*tab+f'&END COORD')
+
+    # ----------------------------------------------------------------------------------------------
 
 # --------------------------------------------------------------------------------------------------
 
