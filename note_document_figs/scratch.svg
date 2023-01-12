@@ -2554,9 +2554,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.1767767"
-     inkscape:cx="2343.5611"
-     inkscape:cy="2306.5701"
+     inkscape:zoom="0.50000001"
+     inkscape:cx="1728.5227"
+     inkscape:cy="2463.9396"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -9442,7 +9442,7 @@
                  width="158"
                  id="rect5657-4-4-1-8-7-6-6" /></flowRegion><flowPara
                id="flowPara5663-8-3-9-9-5-4-0"
-               style="font-weight:bold;baseline-shift:baseline;fill:#000000;fill-opacity:1">X,13</flowPara></flowRoot>        </g>
+               style="font-weight:bold;baseline-shift:baseline;fill:#000000;fill-opacity:1">X,23</flowPara></flowRoot>        </g>
         <path
            style="fill:none;stroke:#000002;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 239.51406,-282.70208 3.96875,-2.64583 3.83645,2.77813"
@@ -9489,7 +9489,7 @@
                  width="158"
                  id="rect5657-4-4-1-8-7-6-6-3" /></flowRegion><flowPara
                id="flowPara5663-8-3-9-9-5-4-0-0"
-               style="font-weight:bold;baseline-shift:baseline;fill:#000000;fill-opacity:1">-Y,13</flowPara></flowRoot>        </g>
+               style="font-weight:bold;baseline-shift:baseline;fill:#000000;fill-opacity:1">-Y,23</flowPara></flowRoot>        </g>
         <path
            style="fill:none;stroke:#000002;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 239.51406,-282.70208 3.96875,-2.64583 3.83645,2.77813"
@@ -9536,7 +9536,7 @@
                  width="158"
                  id="rect5657-4-4-1-8-7-6-6-1" /></flowRegion><flowPara
                id="flowPara5663-8-3-9-9-5-4-0-6"
-               style="font-weight:bold;baseline-shift:baseline;fill:#000000;fill-opacity:1">0,13</flowPara></flowRoot>        </g>
+               style="font-weight:bold;baseline-shift:baseline;fill:#000000;fill-opacity:1">0,23</flowPara></flowRoot>        </g>
         <path
            style="fill:none;stroke:#000002;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 239.51406,-282.70208 3.96875,-2.64583 3.83645,2.77813"
@@ -9583,7 +9583,7 @@
                  width="158"
                  id="rect5657-4-4-1-8-7-6-6-8" /></flowRegion><flowPara
                id="flowPara5663-8-3-9-9-5-4-0-9"
-               style="font-weight:bold;baseline-shift:baseline;fill:#000000;fill-opacity:1">X-Y,13</flowPara></flowRoot>        </g>
+               style="font-weight:bold;baseline-shift:baseline;fill:#000000;fill-opacity:1">X-Y,23</flowPara></flowRoot>        </g>
         <path
            style="fill:none;stroke:#000002;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 239.51406,-282.70208 3.96875,-2.64583 3.83645,2.77813"
@@ -9601,7 +9601,7 @@
            height="270.38901"
            x="460.77115"
            y="-1786.7919" /></flowRegion><flowPara
-         id="flowPara10705"></flowPara></flowRoot>    <flowRoot
+         id="flowPara10705" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot10707"
        style="font-style:normal;font-weight:normal;font-size:64px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
@@ -9707,7 +9707,7 @@
            height="106.83745"
            x="523"
            y="-1558.4803" /></flowRegion><flowPara
-         id="flowPara10853"></flowPara></flowRoot>    <flowRoot
+         id="flowPara10853" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot15919-6-1-1-5-8-1-8-9"
        style="font-style:normal;font-weight:normal;font-size:64px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
