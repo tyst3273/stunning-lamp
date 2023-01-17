@@ -3013,9 +3013,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.058956775"
-     inkscape:cx="5294.9211"
-     inkscape:cy="2550.109"
+     inkscape:zoom="0.12980356"
+     inkscape:cx="1124.9502"
+     inkscape:cy="4154.4424"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -3035,7 +3035,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -3193,7 +3193,7 @@
    style="font-weight:bold"
    id="flowSpan5201">r</flowSpan><flowSpan
    style="font-weight:bold;font-size:64.99999762%;baseline-shift:sub"
-   id="flowSpan5203">i</flowSpan>(0)</flowPara></flowRoot>    <flowRoot
+   id="flowSpan5203">0</flowSpan>(0)</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot5193-4"
        style="font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -3210,7 +3210,7 @@
    style="font-weight:bold"
    id="flowSpan5201-0">r</flowSpan><flowSpan
    style="font-weight:bold;font-size:64.99999762%;baseline-shift:sub"
-   id="flowSpan5203-5">j</flowSpan>(0)</flowPara></flowRoot>    <flowRoot
+   id="flowSpan5203-5">1</flowSpan>(0)</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot5193-5"
        style="font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -3227,7 +3227,7 @@
    style="font-weight:bold"
    id="flowSpan5201-3">r</flowSpan><flowSpan
    style="font-weight:bold;font-size:64.99999762%;baseline-shift:sub"
-   id="flowSpan5203-8">i</flowSpan>(t)</flowPara></flowRoot>    <flowRoot
+   id="flowSpan5203-8">0</flowSpan>(t)</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot5193-4-0"
        style="font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -3244,7 +3244,7 @@
    style="font-weight:bold"
    id="flowSpan5201-0-1">r</flowSpan><flowSpan
    style="font-weight:bold;font-size:64.99999762%;baseline-shift:sub"
-   id="flowSpan5203-5-9">j</flowSpan>(t)</flowPara></flowRoot>    <path
+   id="flowSpan5203-5-9">1</flowSpan>(t)</flowPara></flowRoot>    <path
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker10265-9-13-8-0-9-6-3-5)"
        d="m -377.71777,-563.03017 20.6127,43.60139"
        id="path1889-2-3-1-0-0-2-7-4"
@@ -3291,9 +3291,7 @@
            y="2182.1516" /></flowRegion><flowPara
          id="flowPara13885"><flowSpan
    style="font-weight:bold"
-   id="flowSpan13887">δr<flowSpan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="flowSpan13889">ij</flowSpan></flowSpan>(t)</flowPara></flowRoot>    <flowRoot
+   id="flowSpan13887">δr</flowSpan>(t)</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot5193-5-4-0"
        style="font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -3308,9 +3306,7 @@
            y="2182.1516" /></flowRegion><flowPara
          id="flowPara13885-7"><flowSpan
    style="font-weight:bold"
-   id="flowSpan13887-6">δr<flowSpan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="flowSpan13889-5">ij</flowSpan></flowSpan>(0)</flowPara></flowRoot>    <flowRoot
+   id="flowSpan13887-6">δr</flowSpan>(0)</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot5193-5-4-1"
        style="font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -3327,9 +3323,7 @@
    style="font-weight:bold"
    id="flowSpan13887-8">u</flowSpan>(<flowSpan
    style="font-weight:bold"
-   id="flowSpan13939">r<flowSpan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="flowSpan13941">j</flowSpan></flowSpan>(t))</flowPara></flowRoot>    <flowRoot
+   id="flowSpan13939">r</flowSpan>,t)</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot5193-5-4-1-0"
        style="font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -3346,9 +3340,7 @@
    style="font-weight:bold"
    id="flowSpan13887-8-3">u</flowSpan>(<flowSpan
    style="font-weight:bold"
-   id="flowSpan13939-5">r<flowSpan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="flowSpan13978">i</flowSpan></flowSpan>(t))</flowPara></flowRoot>    <path
+   id="flowSpan13939-5">r</flowSpan>,t)</flowPara></flowRoot>    <path
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker10265-9-13-8-0-9-6-3-5-9-4-2)"
        d="m 387.77163,-719.93092 0.1698,220.6992"
        id="path1889-2-3-1-0-0-2-7-4-3-7-1"
@@ -3465,7 +3457,7 @@
    style="font-weight:bold"
    id="flowSpan5201-0-3">r</flowSpan><flowSpan
    style="font-weight:bold;font-size:64.99999762%;baseline-shift:sub"
-   id="flowSpan5203-5-2">i</flowSpan>(0)=0</flowPara></flowRoot>    <flowRoot
+   id="flowSpan5203-5-2">0</flowSpan>(0)=0</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot5193-4-5-9"
        style="font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -3482,7 +3474,7 @@
    style="font-weight:bold"
    id="flowSpan5201-0-3-1">r</flowSpan><flowSpan
    style="font-weight:bold;font-size:64.99999762%;baseline-shift:sub"
-   id="flowSpan5203-5-2-2">j</flowSpan>(0)=x(0)</flowPara></flowRoot>    <flowRoot
+   id="flowSpan5203-5-2-2">1</flowSpan>(0)=x(0)</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot5193-4-5-6"
        style="font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -3499,7 +3491,7 @@
    style="font-weight:bold"
    id="flowSpan5201-0-3-9">r</flowSpan><flowSpan
    style="font-weight:bold;font-size:64.99999762%;baseline-shift:sub"
-   id="flowSpan5203-5-2-24">i</flowSpan>(t)=0</flowPara></flowRoot>    <flowRoot
+   id="flowSpan5203-5-2-24">0</flowSpan>(t)=0</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot5193-4-5-9-4"
        style="font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -3516,7 +3508,7 @@
    style="font-weight:bold"
    id="flowSpan5201-0-3-1-2">r</flowSpan><flowSpan
    style="font-weight:bold;font-size:64.99999762%;baseline-shift:sub"
-   id="flowSpan5203-5-2-2-8">j</flowSpan>(t)=x(t)</flowPara></flowRoot>    <flowRoot
+   id="flowSpan5203-5-2-2-8">1</flowSpan>(t)=x(t)</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot5193-4-5-96"
        style="font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -3533,7 +3525,7 @@
    style="font-weight:bold"
    id="flowSpan5201-0-3-94">r</flowSpan><flowSpan
    style="font-weight:bold;font-size:64.99999762%;baseline-shift:sub"
-   id="flowSpan5203-5-2-5">i</flowSpan>(0)=0</flowPara></flowRoot>    <flowRoot
+   id="flowSpan5203-5-2-5">0</flowSpan>(0)=0</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot5193-4-5-9-46"
        style="font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -3550,7 +3542,7 @@
    style="font-weight:bold"
    id="flowSpan5201-0-3-1-9">r</flowSpan><flowSpan
    style="font-weight:bold;font-size:64.99999762%;baseline-shift:sub"
-   id="flowSpan5203-5-2-2-5">j</flowSpan>(0)=x(0)</flowPara></flowRoot>    <flowRoot
+   id="flowSpan5203-5-2-2-5">1</flowSpan>(0)=x(0)</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot5193-4-5-9-46-2"
        style="font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -3567,7 +3559,7 @@
    style="font-weight:bold"
    id="flowSpan5201-0-3-1-9-9">r</flowSpan><flowSpan
    style="font-weight:bold;font-size:64.99999762%;baseline-shift:sub"
-   id="flowSpan5203-5-2-2-5-9">k</flowSpan>(0)=y(0)</flowPara></flowRoot>    <flowRoot
+   id="flowSpan5203-5-2-2-5-9">2</flowSpan>(0)=y(0)</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot5193-4-5-96-1"
        style="font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -3584,7 +3576,7 @@
    style="font-weight:bold"
    id="flowSpan5201-0-3-94-8">r</flowSpan><flowSpan
    style="font-weight:bold;font-size:64.99999762%;baseline-shift:sub"
-   id="flowSpan5203-5-2-5-5">i</flowSpan>(t)=0</flowPara></flowRoot>    <flowRoot
+   id="flowSpan5203-5-2-5-5">0</flowSpan>(t)=0</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot5193-4-5-9-46-7"
        style="font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -3601,7 +3593,7 @@
    style="font-weight:bold"
    id="flowSpan5201-0-3-1-9-5">r</flowSpan><flowSpan
    style="font-weight:bold;font-size:64.99999762%;baseline-shift:sub"
-   id="flowSpan5203-5-2-2-5-5">j</flowSpan>(t)=x(t)</flowPara></flowRoot>    <flowRoot
+   id="flowSpan5203-5-2-2-5-5">1</flowSpan>(t)=x(t)</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot5193-4-5-9-46-2-3"
        style="font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -3618,7 +3610,7 @@
    style="font-weight:bold"
    id="flowSpan5201-0-3-1-9-9-3">r</flowSpan><flowSpan
    style="font-weight:bold;font-size:64.99999762%;baseline-shift:sub"
-   id="flowSpan5203-5-2-2-5-9-3">k</flowSpan>(t)=y(t)</flowPara></flowRoot>    <flowRoot
+   id="flowSpan5203-5-2-2-5-9-3">2</flowSpan>(t)=y(t)</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot25536"
        style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
@@ -3661,9 +3653,7 @@
    id="flowSpan25585-4"
    style="font-size:64.99999762%;baseline-shift:sub">x</flowSpan>(<flowSpan
    id="flowSpan13939-51-2"
-   style="font-weight:bold">r<flowSpan
-   id="flowSpan13941-1-4"
-   style="font-size:64.99999762%;baseline-shift:sub">j</flowSpan></flowSpan>(t))<flowSpan
+   style="font-weight:bold">r</flowSpan>,t)<flowSpan
    id="flowSpan25651"
    style="font-weight:bold">x</flowSpan></flowPara></flowRoot>      <path
          inkscape:connector-curvature="0"
@@ -3692,18 +3682,14 @@
    style="font-weight:bold">u</flowSpan>=u<flowSpan
    id="flowSpan25585"
    style="font-size:64.99999762%;baseline-shift:sub">x</flowSpan>(<flowSpan
-   id="flowSpan13939-51"
-   style="font-weight:bold">r<flowSpan
-   id="flowSpan13941-1"
-   style="font-size:64.99999762%;baseline-shift:sub">j</flowSpan></flowSpan>(t))<flowSpan
+   style="font-weight:bold"
+   id="flowSpan3800">r</flowSpan>,t)<flowSpan
    id="flowSpan25657"
    style="font-weight:bold">x</flowSpan>+u<flowSpan
    id="flowSpan25649"
    style="font-size:64.99999762%;baseline-shift:sub">y</flowSpan>(<flowSpan
-   id="flowSpan25641"
-   style="font-weight:bold">r<flowSpan
-   id="flowSpan25643"
-   style="font-size:64.99999762%;baseline-shift:sub">k</flowSpan></flowSpan>(t))<flowSpan
+   style="font-weight:bold"
+   id="flowSpan3802">r</flowSpan>,t)<flowSpan
    id="flowSpan25659"
    style="font-weight:bold">y</flowSpan></flowPara></flowRoot>      <path
          inkscape:connector-curvature="0"
