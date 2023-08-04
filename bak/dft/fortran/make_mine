@@ -1,3 +1,0 @@
-#!/bin/bash
-
-gfortran -o mine mine.f90 -L /usr/lib/x86_64-linux-gnu/ -lfftw3 -llapack -I /usr/include/ && ./mine

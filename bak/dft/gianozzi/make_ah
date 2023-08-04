@@ -1,4 +1,0 @@
-#!/bin/bash
-
-gfortran -o ah ah.f90 -L /usr/lib/x86_64-linux-gnu/ -lfftw3 -llapack -I /usr/include/ && ./ah
-

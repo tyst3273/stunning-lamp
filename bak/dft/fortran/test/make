@@ -1,6 +1,0 @@
-#!/bin/bash
-
-gfortran -c m_*.f90  && \
-gfortran -o main *.o main.f90 && \
-./main
-
