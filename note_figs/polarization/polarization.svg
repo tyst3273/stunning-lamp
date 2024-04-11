@@ -24,9 +24,9 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:snap-global="false"
-     inkscape:zoom="0.53165938"
-     inkscape:cx="-43.260781"
-     inkscape:cy="446.71458"
+     inkscape:zoom="0.37593995"
+     inkscape:cx="99.749973"
+     inkscape:cy="-171.56995"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
      inkscape:window-x="0"
@@ -5565,6 +5565,34 @@
          style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
          id="path10672-1-5-8-4-3-6-3" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Send-7-1-0-5-9-0-06"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path10672-1-75-34-0-3-2-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Send-7-1-0-5-9-0-8-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path10672-1-75-34-0-3-2-7-90" />
+    </marker>
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -5575,7 +5603,7 @@
        id="rect63684"
        width="220.93547"
        height="97.200478"
-       x="-4.8173494"
+       x="-1.6103816"
        y="6.279232"
        inkscape:export-filename="/home/ty/research/repos/stunning-lamp/note_figs/polarization/polarization_1.png"
        inkscape:export-xdpi="300"
@@ -5601,9 +5629,9 @@
        style="font-size:4064px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';white-space:pre;shape-inside:url(#rect2569-3);fill:#000000;fill-opacity:1"><tspan
          x="88.658203"
          y="4469.9908"
-         id="tspan72757"><tspan
+         id="tspan5627"><tspan
            style="font-size:64px"
-           id="tspan72755">-</tspan></tspan></text>
+           id="tspan5625">-</tspan></tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 16.756347,64.3333 H 19.43238"
@@ -5672,9 +5700,9 @@
        inkscape:export-ydpi="300"><tspan
          x="88.658203"
          y="538.24504"
-         id="tspan72761"><tspan
+         id="tspan5631"><tspan
            style="font-weight:bold;-inkscape-font-specification:'Ubuntu Mono Bold'"
-           id="tspan72759">+</tspan></tspan></text>
+           id="tspan5629">+</tspan></tspan></text>
     <path
        style="fill:none;stroke:#0000ff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send-9-1-5-1)"
        d="M 61.131087,98.477758 V 69.374778"
@@ -5998,9 +6026,9 @@
        inkscape:export-ydpi="300"><tspan
          x="88.658203"
          y="538.24504"
-         id="tspan72765"><tspan
+         id="tspan5635"><tspan
            style="font-weight:bold;-inkscape-font-specification:'Ubuntu Mono Bold'"
-           id="tspan72763">+</tspan></tspan></text>
+           id="tspan5633">+</tspan></tspan></text>
     <path
        style="fill:none;stroke:#0000ff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send-9-1-5-8)"
        d="M 147.9807,99.390637 V 70.287657"
@@ -6108,7 +6136,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#00000c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send-7-1-0-5-9-0)"
-       d="m 170.40004,46.838267 c -24.33868,-25.441353 -25.39931,39.32439 0.17762,16.30209"
+       d="m 170.40004,46.838267 c -37.38324,-28.884482 -36.72715,43.674574 0.17762,16.30209"
        id="path10637-38-7-6-7-7-6"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/ty/research/repos/stunning-lamp/note_figs/polarization/polarization_1.png"
@@ -6116,7 +6144,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#00000c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send-7-1-0-5-9-0-8)"
-       d="m 167.65865,51.095467 c -10.38221,-8.36095 -10.44236,15.74494 -0.34176,7.98632"
+       d="m 167.65865,51.095467 c -17.41742,-13.423264 -17.01674,20.465158 -0.34176,7.98632"
        id="path10637-38-7-6-7-7-6-6"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/ty/research/repos/stunning-lamp/note_figs/polarization/polarization_1.png"
@@ -6150,22 +6178,6 @@
        style="fill:none;stroke:#00000c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send-7-1-6-7-1-2-8-5-2)"
        d="m 154.25061,83.146717 c 8.81901,-0.44637 18.53301,-11.69611 20.02601,-17.90663"
        id="path10637-38-7-25-80-7-9-9-1"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/note_figs/polarization/polarization_1.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#00000c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send-7-1-0-5-9-0-97)"
-       d="m 186.73942,46.929107 c 24.33868,-25.441357 25.39931,39.32438 -0.17762,16.30209"
-       id="path10637-38-7-6-7-7-6-5"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/note_figs/polarization/polarization_1.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#00000c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send-7-1-0-5-9-0-8-8)"
-       d="m 189.48081,51.186297 c 10.38221,-8.36095 10.44236,15.74494 0.34176,7.98633"
-       id="path10637-38-7-6-7-7-6-6-2"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/ty/research/repos/stunning-lamp/note_figs/polarization/polarization_1.png"
        inkscape:export-xdpi="300"
@@ -6291,9 +6303,9 @@
        inkscape:export-ydpi="300"><tspan
          x="88.658203"
          y="538.24504"
-         id="tspan72769"><tspan
+         id="tspan5639"><tspan
            style="font-weight:bold;-inkscape-font-specification:'Ubuntu Mono Bold'"
-           id="tspan72767">+</tspan></tspan></text>
+           id="tspan5637">+</tspan></tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#00000c;stroke-width:0.488747;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect65551-5"
@@ -6381,9 +6393,9 @@
        inkscape:export-ydpi="300"><tspan
          x="88.658203"
          y="538.24504"
-         id="tspan72773"><tspan
+         id="tspan5643"><tspan
            style="font-weight:bold;-inkscape-font-specification:'Ubuntu Mono Bold'"
-           id="tspan72771">+</tspan></tspan></text>
+           id="tspan5641">+</tspan></tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#00000c;stroke-width:0.488747;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect65551-7"
@@ -6471,9 +6483,9 @@
        inkscape:export-ydpi="300"><tspan
          x="88.658203"
          y="538.24504"
-         id="tspan72777"><tspan
+         id="tspan5647"><tspan
            style="font-weight:bold;-inkscape-font-specification:'Ubuntu Mono Bold'"
-           id="tspan72775">+</tspan></tspan></text>
+           id="tspan5645">+</tspan></tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#00000c;stroke-width:0.488747;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect65551-5-6"
@@ -6561,9 +6573,9 @@
        inkscape:export-ydpi="300"><tspan
          x="88.658203"
          y="538.24504"
-         id="tspan72781"><tspan
+         id="tspan5651"><tspan
            style="font-weight:bold;-inkscape-font-specification:'Ubuntu Mono Bold'"
-           id="tspan72779">+</tspan></tspan></text>
+           id="tspan5649">+</tspan></tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#00000c;stroke-width:0.488747;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect65551-55"
@@ -6966,6 +6978,22 @@
        id="path10637-38-6-4-0-0-4-2"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/ty/research/repos/stunning-lamp/note_figs/polarization/polarization_2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#00000c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send-7-1-0-5-9-0-06)"
+       d="m 186.21221,47.129557 c 37.38324,-28.884482 36.72715,43.674574 -0.17762,16.30209"
+       id="path10637-38-7-6-7-7-6-3"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/note_figs/polarization/polarization_1.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#00000c;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send-7-1-0-5-9-0-8-7)"
+       d="m 188.9536,51.386757 c 17.41742,-13.423264 17.01674,20.465158 0.34176,7.98632"
+       id="path10637-38-7-6-7-7-6-6-3"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/note_figs/polarization/polarization_1.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
   </g>
