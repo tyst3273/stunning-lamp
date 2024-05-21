@@ -24,10 +24,10 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:snap-object-midpoints="true"
-     inkscape:snap-global="false"
-     inkscape:zoom="0.49260384"
-     inkscape:cx="64.960923"
-     inkscape:cy="532.88257"
+     inkscape:snap-global="true"
+     inkscape:zoom="0.34832352"
+     inkscape:cx="2151.7353"
+     inkscape:cy="351.68455"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
      inkscape:window-x="0"
@@ -37,6 +37,34 @@
      showguides="false" />
   <defs
      id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path11360" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker11594"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.3) rotate(180) translate(-2.3,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path11366" />
+    </marker>
     <rect
        x="1329.7189"
        y="510.37296"
@@ -3679,11 +3707,173 @@
        width="94.16758"
        height="138.69868"
        id="rect95940-4-0" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Sstart-23-4-3-2-3-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Sstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.3,0,0,0.3,-0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path4279-1-3-2-4-1-93" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Send-8-1-3-37-1-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path4282-7-9-6-3-1-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Sstart-23-4-3-2-3-4-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Sstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.3,0,0,0.3,-0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path4279-1-3-2-4-1-9-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Send-8-1-3-37-1-1-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path4282-7-9-6-3-1-7-1" />
+    </marker>
+    <rect
+       x="218.02815"
+       y="575.92975"
+       width="105.23482"
+       height="88.301025"
+       id="rect13268-5-63-5-4-3-0-7" />
+    <rect
+       x="85.913757"
+       y="507.63525"
+       width="393.25925"
+       height="253.6368"
+       id="rect151987-8" />
+    <rect
+       x="85.913757"
+       y="507.63525"
+       width="393.25925"
+       height="253.6368"
+       id="rect151987-2-9" />
+    <rect
+       x="85.913757"
+       y="507.63525"
+       width="393.25925"
+       height="253.6368"
+       id="rect151987-4-1" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Send-8-1-3-37-2-9-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path4282-7-9-6-3-8-0-4" />
+    </marker>
+    <rect
+       x="218.02815"
+       y="575.92975"
+       width="105.23482"
+       height="88.301025"
+       id="rect13268-5-63-5-4-3-4-0-9" />
+    <rect
+       x="218.02815"
+       y="575.92975"
+       width="105.23482"
+       height="88.301025"
+       id="rect13268-5-63-5-4-3-4-0-2-2" />
+    <rect
+       x="218.02815"
+       y="575.92975"
+       width="105.23482"
+       height="88.301025"
+       id="rect13268-5-63-5-4-3-4-0-2-7-5" />
+    <rect
+       x="85.913757"
+       y="507.63525"
+       width="393.25925"
+       height="253.6368"
+       id="rect151987-25-7" />
+    <rect
+       x="85.913757"
+       y="507.63525"
+       width="393.25925"
+       height="253.6368"
+       id="rect151987-25-0-4" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Send-8-1-3-37-2-9-5-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path4282-7-9-6-3-8-0-4-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path11360-9" />
+    </marker>
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="fill:#00ff00;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1-8-4-8"
+       width="98.283073"
+       height="19.629772"
+       x="377.93094"
+       y="-49.965271"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.624831;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.624831, 1.24965;stroke-dashoffset:0;stroke-opacity:1"
        id="rect92685-0-0"
@@ -3840,7 +4030,7 @@
        inkscape:export-ydpi="200"><tspan
          x="218.02734"
          y="581.4815"
-         id="tspan115556">H_bin</tspan></text>
+         id="tspan13007">H_bin</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 57.018277,-21.113645 v -3.9324"
@@ -3943,15 +4133,15 @@
        inkscape:export-ydpi="200"><tspan
          x="251.46141"
          y="527.5279"
-         id="tspan115560"><tspan
+         id="tspan13011"><tspan
            style="font-weight:500;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;fill:#0000ff"
-           id="tspan115558">H_lo'=
+           id="tspan13009">H_lo'=
 </tspan></tspan><tspan
          x="202.98157"
          y="555.21272"
-         id="tspan115564"><tspan
+         id="tspan13015"><tspan
            style="font-weight:500;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;fill:#0000ff"
-           id="tspan115562">H_lo+H_shifts[i]
+           id="tspan13013">H_lo+H_shifts[i]
 </tspan></tspan></text>
     <text
        xml:space="preserve"
@@ -3965,9 +4155,9 @@
        inkscape:export-ydpi="200"><tspan
          x="231.58948"
          y="527.5279"
-         id="tspan115568"><tspan
+         id="tspan13019"><tspan
            style="font-weight:500;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;fill:#0000ff"
-           id="tspan115566">H_shifts[i]
+           id="tspan13017">H_shifts[i]
 </tspan></tspan></text>
     <text
        xml:space="preserve"
@@ -3981,15 +4171,15 @@
        inkscape:export-ydpi="200"><tspan
          x="251.5574"
          y="527.5279"
-         id="tspan115572"><tspan
+         id="tspan13023"><tspan
            style="font-weight:500;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;fill:#0000ff"
-           id="tspan115570">H_hi'=
+           id="tspan13021">H_hi'=
 </tspan></tspan><tspan
          x="203.37624"
          y="555.21272"
-         id="tspan115576"><tspan
+         id="tspan13027"><tspan
            style="font-weight:500;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;fill:#0000ff"
-           id="tspan115574">H_hi+H_shifts[i]
+           id="tspan13025">H_hi+H_shifts[i]
 </tspan></tspan></text>
     <rect
        style="fill:#00ff00;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -4122,9 +4312,9 @@
        inkscape:export-ydpi="200"><tspan
          x="218.02734"
          y="633.18284"
-         id="tspan115580"><tspan
+         id="tspan13031"><tspan
            style="font-style:normal;font-size:5.95374px;-inkscape-font-specification:'Ubuntu Medium'"
-           id="tspan115578">bin centers</tspan></tspan></text>
+           id="tspan13029">bin centers</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.94804992,0,0,0.94804992,-218.79488,-613.71697)"
@@ -4135,9 +4325,9 @@
        inkscape:export-ydpi="200"><tspan
          x="218.02734"
          y="633.18284"
-         id="tspan115584"><tspan
+         id="tspan13035"><tspan
            style="font-size:5.95374px"
-           id="tspan115582">original grid</tspan></tspan></text>
+           id="tspan13033">original grid</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.94804992,0,0,0.94804992,-218.48475,-579.03498)"
@@ -4148,9 +4338,9 @@
        inkscape:export-ydpi="200"><tspan
          x="218.02734"
          y="633.18284"
-         id="tspan115588"><tspan
+         id="tspan13039"><tspan
            style="font-size:5.95374px"
-           id="tspan115586">shifted grid</tspan></tspan></text>
+           id="tspan13037">shifted grid</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-33.399123,-162.44984)"
@@ -4163,9 +4353,9 @@
        inkscape:export-ydpi="200"><tspan
          x="259.99468"
          y="527.5279"
-         id="tspan115592"><tspan
+         id="tspan13043"><tspan
            style="font-weight:500;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;fill:#ff0000"
-           id="tspan115590">H_lo
+           id="tspan13041">H_lo
 </tspan></tspan></text>
     <text
        xml:space="preserve"
@@ -4179,9 +4369,9 @@
        inkscape:export-ydpi="200"><tspan
          x="260.38936"
          y="527.5279"
-         id="tspan115596"><tspan
+         id="tspan13047"><tspan
            style="font-weight:500;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;fill:#ff0000"
-           id="tspan115594">H_hi
+           id="tspan13045">H_hi
 </tspan></tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
@@ -4223,6 +4413,851 @@
        inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
        inkscape:export-xdpi="200"
        inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.473469;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.473469, 0.946931;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect92685-0-9"
+       width="228.94125"
+       height="85.310799"
+       x="432.68475"
+       y="191.64073"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#00ff00;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-6-9"
+       width="32.760994"
+       height="19.629772"
+       x="488.41327"
+       y="238.13066"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#00ff00;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-2-5-4"
+       width="32.760994"
+       height="19.629772"
+       x="521.17426"
+       y="238.13065"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:none;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-7-76-5"
+       width="32.760994"
+       height="19.629772"
+       x="553.93524"
+       y="238.13065"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#00ff00;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-2-9-9-9"
+       width="32.760994"
+       height="19.629772"
+       x="586.69629"
+       y="238.13062"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#00ff00;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-5-2-3"
+       width="32.760994"
+       height="19.629772"
+       x="619.45728"
+       y="238.13062"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Sstart-23-4-3-2-3-7);marker-end:url(#Arrow2Send-8-1-3-37-1-9)"
+       d="m 506.02417,200.70686 h 30.58218"
+       id="path4167-4-7-7-0-48-57"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:#000009;fill-opacity:1;stroke:#0000ff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Sstart-23-4-3-2-3-4-8);marker-end:url(#Arrow2Send-8-1-3-37-1-1-0)"
+       d="m 473.32753,255.24482 h 13.85829"
+       id="path4167-4-7-7-0-48-5-0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.94804992,0,0,0.94804992,306.86369,-353.3449)"
+       id="text13266-43-5-1-2-8-7-8"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:5.95374px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect13268-5-63-5-4-3-0-7);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         x="218.02734"
+         y="581.4815"
+         id="tspan13049">H_bin</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 504.89379,202.67369 v -3.9324"
+       id="path109678-9-1"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 472.1583,257.55435 V 225.02952"
+       id="path109678-9-4-9"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 537.65478,202.67368 v -3.9324"
+       id="path109678-3-1-9"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-6-7"
+       cx="504.79376"
+       cy="247.94554"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-7-4-7-8"
+       cx="603.07678"
+       cy="247.94553"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-4-6-2"
+       cx="635.83777"
+       cy="247.94553"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-7-3-5"
+       cx="537.55475"
+       cy="247.94554"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1.34228;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-7-9-40-3"
+       cx="564.71753"
+       cy="247.94554"
+       r="1.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1.34228;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-7-9-5-7-4"
+       cx="575.67743"
+       cy="247.94554"
+       r="1.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1.34228;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-7-9-6-5-9"
+       cx="570.3158"
+       cy="247.94554"
+       r="1.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,431.50112,126.16543)"
+       id="text151985-0"
+       style="font-style:normal;font-weight:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect151987-8);fill:#000000;fill-opacity:1;stroke:none"
+       x="72.81041"
+       y="0"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         x="251.46141"
+         y="527.5279"
+         id="tspan13053"><tspan
+           style="font-weight:500;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;fill:#0000ff"
+           id="tspan13051">H_lo'=
+</tspan></tspan><tspan
+         x="202.98157"
+         y="555.21272"
+         id="tspan13057"><tspan
+           style="font-weight:500;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;fill:#0000ff"
+           id="tspan13055">H_lo+H_shifts[i]
+</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,394.42118,123.95502)"
+       id="text151985-4-2"
+       style="font-style:normal;font-weight:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect151987-2-9);fill:#000000;fill-opacity:1;stroke:none"
+       x="72.81041"
+       y="0"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         x="231.58948"
+         y="527.5279"
+         id="tspan13061"><tspan
+           style="font-weight:500;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;fill:#0000ff"
+           id="tspan13059">H_shifts[i]
+</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,563.13237,125.76062)"
+       id="text151985-1-0"
+       style="font-style:normal;font-weight:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect151987-4-1);fill:#000000;fill-opacity:1;stroke:none"
+       x="72.81041"
+       y="0"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         x="251.5574"
+         y="527.5279"
+         id="tspan13065"><tspan
+           style="font-weight:500;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;fill:#0000ff"
+           id="tspan13063">H_hi'=
+</tspan></tspan><tspan
+         x="203.37624"
+         y="555.21272"
+         id="tspan13069"><tspan
+           style="font-weight:500;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;fill:#0000ff"
+           id="tspan13067">H_hi+H_shifts[i]
+</tspan></tspan></text>
+    <rect
+       style="fill:#00ff00;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1"
+       width="32.760994"
+       height="19.629772"
+       x="472.15829"
+       y="203.77649"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#00ff00;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-2-55-9"
+       width="32.760994"
+       height="19.629772"
+       x="504.91928"
+       y="203.77649"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-7-0-6"
+       cx="521.2998"
+       cy="213.59138"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:none;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-7-1-2"
+       width="32.760994"
+       height="19.629772"
+       x="537.68024"
+       y="203.77649"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#00ff00;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-2-9-6-1"
+       width="32.760994"
+       height="19.629772"
+       x="570.44128"
+       y="203.77649"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-7-4-0-2"
+       cx="586.82178"
+       cy="213.59135"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#00ff00;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-5-28-0"
+       width="32.760994"
+       height="19.629772"
+       x="603.20233"
+       y="203.77649"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-4-8-7"
+       cx="619.58282"
+       cy="213.59135"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.34228;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-7-9-4-3"
+       cx="548.46252"
+       cy="213.59138"
+       r="1.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.34228;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-7-9-5-9-1"
+       cx="559.42249"
+       cy="213.59138"
+       r="1.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.34228;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-7-9-6-8-1"
+       cx="554.06079"
+       cy="213.59138"
+       r="1.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-9-9"
+       cx="488.53879"
+       cy="213.59138"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-9-9-8"
+       cx="427.07254"
+       cy="-40.150387"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#00ff00;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1-8-7"
+       width="98.283073"
+       height="19.629772"
+       x="377.931"
+       y="22.274483"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-9-9-8-5"
+       cx="427.07254"
+       cy="32.089371"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#00ff00;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1-8-7-9"
+       width="98.283073"
+       height="19.629772"
+       x="476.21408"
+       y="22.274481"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-9-9-8-5-7"
+       cx="525.35559"
+       cy="32.089371"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#00ff00;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1-8-7-8"
+       width="98.283073"
+       height="19.629772"
+       x="574.49713"
+       y="22.274479"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-9-9-8-5-5"
+       cx="623.63867"
+       cy="32.089367"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#ffff00;fill-opacity:0.52549022;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1-8-7-3"
+       width="98.283073"
+       height="19.629772"
+       x="410.69211"
+       y="46.750515"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-9-9-8-5-3"
+       cx="459.83365"
+       cy="56.565403"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#ffff00;fill-opacity:0.52549022;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1-8-7-9-8"
+       width="98.283073"
+       height="19.629772"
+       x="508.97519"
+       y="46.750511"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-9-9-8-5-7-3"
+       cx="558.1167"
+       cy="56.565403"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#ffff00;fill-opacity:0.52549022;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1-8-7-8-7"
+       width="98.283073"
+       height="19.629772"
+       x="607.25818"
+       y="46.750511"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-9-9-8-5-5-9"
+       cx="656.39978"
+       cy="56.565399"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#00ffff;fill-opacity:0.52549022;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1-8-7-3-3"
+       width="98.283073"
+       height="19.629772"
+       x="443.45309"
+       y="71.645981"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-9-9-8-5-3-7"
+       cx="492.59464"
+       cy="81.460869"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#00ffff;fill-opacity:0.52549022;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1-8-7-9-8-8"
+       width="98.283073"
+       height="19.629772"
+       x="541.73615"
+       y="71.645973"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-9-9-8-5-7-3-7"
+       cx="590.87769"
+       cy="81.460869"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#00ffff;fill-opacity:0.52549022;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1-8-7-8-7-4"
+       width="98.283073"
+       height="19.629772"
+       x="640.01917"
+       y="71.645973"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-9-9-8-5-5-9-1"
+       cx="689.16077"
+       cy="81.460861"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#ffff00;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1-8-4"
+       width="98.283073"
+       height="19.629772"
+       x="410.69211"
+       y="-28.790194"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-9-9-8-6"
+       cx="459.83365"
+       cy="-18.975309"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:#00ffff;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1-8-4-7"
+       width="98.283073"
+       height="19.629772"
+       x="443.45306"
+       y="-7.5042782"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-9-9-8-6-6"
+       cx="492.5946"
+       cy="2.3106084"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Send-8-1-3-37-2-9-5)"
+       d="m 590.37047,201.90908 c 2.23782,2.85675 1.91303,7.32557 -1.35051,9.08842"
+       id="path4167-4-7-7-0-4-5-0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:none;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1-7"
+       width="32.760994"
+       height="19.629772"
+       x="410.69211"
+       y="-79.523132"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:none;fill-opacity:0.523884;stroke:#000000;stroke-width:0.50000001;stroke-miterlimit:4;stroke-dasharray:0.50000001,1.00000003;stroke-opacity:1;stroke-linecap:round;stroke-dashoffset:0"
+       id="rect846-87-6-0-6-2-9-1-7-9"
+       width="32.760994"
+       height="19.629772"
+       x="377.931"
+       y="-49.965271"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:none;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1-7-0"
+       width="32.760994"
+       height="19.629772"
+       x="410.69205"
+       y="30.335499"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:none;fill-opacity:0.523884;stroke:#000000;stroke-width:0.50000001;stroke-miterlimit:4;stroke-dasharray:0.50000001,1.00000003;stroke-opacity:1;stroke-linecap:round;stroke-dashoffset:0"
+       id="rect846-87-6-0-6-2-9-1-7-98"
+       width="32.760994"
+       height="19.629772"
+       x="443.45303"
+       y="-49.965271"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:none;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-2-55-9-0"
+       width="32.760994"
+       height="19.629772"
+       x="443.45309"
+       y="-79.523132"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-7-0-6-1"
+       cx="459.83362"
+       cy="-69.708237"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:none;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-7-1-2-0"
+       width="32.760994"
+       height="19.629772"
+       x="541.73615"
+       y="-79.523132"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:none;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-2-9-6-1-1"
+       width="32.760994"
+       height="19.629772"
+       x="476.21417"
+       y="-79.523132"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-7-4-0-2-3"
+       cx="492.59467"
+       cy="-69.708244"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:none;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-5-28-0-7"
+       width="32.760994"
+       height="19.629772"
+       x="508.97516"
+       y="-79.523132"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-4-8-7-7"
+       cx="525.35565"
+       cy="-69.70826"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:none;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-5-28-0-7-1-3"
+       width="32.760994"
+       height="19.629772"
+       x="574.49713"
+       y="-79.523132"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-4-8-7-7-0-7"
+       cx="590.87762"
+       cy="-69.70826"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.34228;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-7-9-4-3-2"
+       cx="552.51843"
+       cy="-69.708244"
+       r="1.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.34228;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-7-9-5-9-1-6"
+       cx="563.47827"
+       cy="-69.708244"
+       r="1.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.34228;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-7-9-6-8-1-4"
+       cx="558.11658"
+       cy="-69.708244"
+       r="1.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.23713;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path977-29-1-30-9-8-9-9-5"
+       cx="427.0726"
+       cy="-69.708237"
+       r="2.5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.94804992,0,0,0.94804992,369.65236,-399.28046)"
+       id="text13266-43-5-1-2-8-40-6-5"
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:61.398px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect13268-5-63-5-4-3-4-0-9);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         x="218.02734"
+         y="633.18284"
+         id="tspan13073"><tspan
+           style="font-style:normal;font-size:5.95374px;-inkscape-font-specification:'Ubuntu Medium'"
+           id="tspan13071">bin centers</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.94804992,0,0,0.94804992,229.08063,-389.92963)"
+       id="text13266-43-5-1-2-8-40-6-9-6"
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:61.398px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect13268-5-63-5-4-3-4-0-2-2);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         x="218.02734"
+         y="633.18284"
+         id="tspan13077"><tspan
+           style="font-size:5.95374px"
+           id="tspan13075">original grid</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.94804992,0,0,0.94804992,229.39076,-355.24764)"
+       id="text13266-43-5-1-2-8-40-6-9-7-7"
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:61.398px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect13268-5-63-5-4-3-4-0-2-7-5);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         x="218.02734"
+         y="633.18284"
+         id="tspan13081"><tspan
+           style="font-size:5.95374px"
+           id="tspan13079">shifted grid</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,414.47639,61.337499)"
+       id="text151985-5-7"
+       style="font-style:normal;font-weight:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect151987-25-7);fill:#000000;fill-opacity:1;stroke:none"
+       x="72.81041"
+       y="0"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         x="259.99468"
+         y="527.5279"
+         id="tspan13085"><tspan
+           style="font-weight:500;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;fill:#ff0000"
+           id="tspan13083">H_lo
+</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,544.8783,61.419589)"
+       id="text151985-5-5-4"
+       style="font-style:normal;font-weight:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect151987-25-0-4);fill:#000000;fill-opacity:1;stroke:none"
+       x="72.81041"
+       y="0"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         x="260.38936"
+         y="527.5279"
+         id="tspan13089"><tspan
+           style="font-weight:500;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;fill:#ff0000"
+           id="tspan13087">H_hi
+</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 504.91928,236.99809 V 224.41222"
+       id="path109678-9-4-7-0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 537.68441,236.99809 V 224.41222"
+       id="path109678-9-4-7-4-6"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 570.44129,236.97037 V 224.3845"
+       id="path109678-9-4-7-6-4"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 603.20642,236.97037 V 224.3845"
+       id="path109678-9-4-7-4-3-7"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 635.96331,237.0122 V 224.42633"
+       id="path109678-9-4-7-8-4"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
     <text
        xml:space="preserve"
        transform="matrix(0,-0.94804992,0.94804992,0,-580.76878,369.21303)"
@@ -4233,7 +5268,7 @@
        inkscape:export-ydpi="100"><tspan
          x="218.02734"
          y="580.09355"
-         id="tspan115598">K_bin</tspan></text>
+         id="tspan13091">K_bin</tspan></text>
     <rect
        style="fill:#00ff00;fill-opacity:0.432414;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect846-87-6-0-6-2-9-0-2-3-8-23"
@@ -6441,9 +7476,9 @@
        inkscape:export-ydpi="100"><tspan
          x="218.02734"
          y="580.09355"
-         id="tspan115602"><tspan
+         id="tspan13095"><tspan
            style="fill:#ff0000"
-           id="tspan115600">H_lo</tspan></tspan></text>
+           id="tspan13093">H_lo</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.94804992,0,0,0.94804992,-232.09052,-380.83913)"
@@ -6454,7 +7489,7 @@
        inkscape:export-ydpi="100"><tspan
          x="218.02734"
          y="580.09355"
-         id="tspan115604">H_bin</tspan></text>
+         id="tspan13097">H_bin</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.94804992,0,0,0.94804992,-214.53757,-415.69737)"
@@ -6465,7 +7500,7 @@
        inkscape:export-ydpi="100"><tspan
          x="218.02734"
          y="580.09355"
-         id="tspan115606">H_step</tspan></text>
+         id="tspan13099">H_step</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0,0.94804992,-0.94804992,0,559.56785,-70.278763)"
@@ -6476,7 +7511,7 @@
        inkscape:export-ydpi="100"><tspan
          x="218.02734"
          y="580.09355"
-         id="tspan115608">K_step</tspan></text>
+         id="tspan13101">K_step</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Sstart-23-4-3-2-3-2-8-1-49-5-1);marker-end:url(#Arrow2Send-8-1-3-37-1-7-7-1-5-2-9)"
        d="m 68.189985,195.37099 h 15.01431"
@@ -6503,7 +7538,7 @@
        inkscape:export-ydpi="100"><tspan
          x="218.02734"
          y="580.09355"
-         id="tspan115610">H_step</tspan></text>
+         id="tspan13103">H_step</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0,0.94804992,-0.94804992,0,637.07124,-12.224609)"
@@ -6514,7 +7549,7 @@
        inkscape:export-ydpi="100"><tspan
          x="218.02734"
          y="580.09355"
-         id="tspan115612">K_step</tspan></text>
+         id="tspan13105">K_step</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.94804992,0,0,0.94804992,-176.3743,-366.68099)"
@@ -6525,9 +7560,9 @@
        inkscape:export-ydpi="100"><tspan
          x="218.02734"
          y="580.09355"
-         id="tspan115616"><tspan
+         id="tspan13109"><tspan
            style="fill:#ff0000"
-           id="tspan115614">H_hi</tspan></tspan></text>
+           id="tspan13107">H_hi</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0,-0.94804992,0.94804992,0,-580.55879,353.20839)"
@@ -6538,9 +7573,9 @@
        inkscape:export-ydpi="100"><tspan
          x="218.02734"
          y="580.09355"
-         id="tspan115620"><tspan
+         id="tspan13113"><tspan
            style="fill:#ff0000"
-           id="tspan115618">K_hi</tspan></tspan></text>
+           id="tspan13111">K_hi</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0,-0.94804992,0.94804992,0,-580.79537,383.52702)"
@@ -6551,9 +7586,9 @@
        inkscape:export-ydpi="100"><tspan
          x="218.02734"
          y="580.09355"
-         id="tspan115624"><tspan
+         id="tspan13117"><tspan
            style="fill:#ff0000"
-           id="tspan115622">K_lo</tspan></tspan></text>
+           id="tspan13115">K_lo</tspan></tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Send-8-1-3-37-2-9-8-1)"
        d="m 38.503565,133.54213 c 2.23782,2.85674 1.91303,7.32555 -1.35051,9.0884"
@@ -6588,7 +7623,7 @@
        inkscape:export-ydpi="100"><tspan
          x="218.02734"
          y="580.09355"
-         id="tspan115626">bin centers</tspan></text>
+         id="tspan13119">bin centers</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.94804992,0,0,0.94804992,-142.72981,-365.55147)"
@@ -6599,9 +7634,9 @@
        inkscape:export-ydpi="100"><tspan
          x="218.02734"
          y="580.09355"
-         id="tspan115630"><tspan
+         id="tspan13123"><tspan
            style="font-style:normal;-inkscape-font-specification:'Ubuntu Medium'"
-           id="tspan115628">H_shift[n]=n x H_step/H_bin</tspan></tspan></text>
+           id="tspan13121">H_shift[n]=n x H_step/H_bin</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.94804992,0,0,0.94804992,-41.383065,-365.68782)"
@@ -6612,9 +7647,9 @@
        inkscape:export-ydpi="100"><tspan
          x="218.02734"
          y="580.09355"
-         id="tspan115634"><tspan
+         id="tspan13127"><tspan
            style="font-style:normal;-inkscape-font-specification:'Ubuntu Medium'"
-           id="tspan115632">K_shift[n]=n x K_step/K_bin</tspan></tspan></text>
+           id="tspan13125">K_shift[n]=n x K_step/K_bin</tspan></tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Send-8-1-3-37-2-9-8-1-3)"
        d="m 133.85458,133.80355 c 2.23782,2.85674 1.91303,7.32556 -1.35051,9.08841"
@@ -6633,7 +7668,7 @@
        inkscape:export-ydpi="100"><tspan
          x="218.02734"
          y="580.09355"
-         id="tspan115636">bin centers</tspan></text>
+         id="tspan13129">bin centers</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send-8-1-3-37-1-7-7-1-5-7-6)"
        d="m 59.104955,143.09759 h 6.48675"
@@ -6796,9 +7831,9 @@
        inkscape:export-ydpi="100"><tspan
          x="1329.7188"
          y="522.89292"
-         id="tspan115640"><tspan
+         id="tspan13133"><tspan
            style="font-weight:500;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium'"
-           id="tspan115638">a)</tspan></tspan></text>
+           id="tspan13131">a)</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-297.78711,47.176825)"
@@ -6809,9 +7844,9 @@
        inkscape:export-ydpi="100"><tspan
          x="1329.7188"
          y="522.89292"
-         id="tspan115644"><tspan
+         id="tspan13137"><tspan
            style="font-weight:500;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium'"
-           id="tspan115642">b)</tspan></tspan></text>
+           id="tspan13135">b)</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-207.0996,47.050946)"
@@ -6822,9 +7857,9 @@
        inkscape:export-ydpi="100"><tspan
          x="1329.7188"
          y="522.89292"
-         id="tspan115648"><tspan
+         id="tspan13141"><tspan
            style="font-weight:500;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium'"
-           id="tspan115646">c)</tspan></tspan></text>
+           id="tspan13139">c)</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-388.93272,107.04457)"
@@ -6835,9 +7870,9 @@
        inkscape:export-ydpi="100"><tspan
          x="1329.7188"
          y="522.89292"
-         id="tspan115652"><tspan
+         id="tspan13145"><tspan
            style="font-weight:500;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium'"
-           id="tspan115650">d)</tspan></tspan></text>
+           id="tspan13143">d)</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-297.83932,107.16501)"
@@ -6848,9 +7883,9 @@
        inkscape:export-ydpi="100"><tspan
          x="1329.7188"
          y="522.89292"
-         id="tspan115656"><tspan
+         id="tspan13149"><tspan
            style="font-weight:500;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium'"
-           id="tspan115654">e)</tspan></tspan></text>
+           id="tspan13147">e)</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-207.15181,107.03913)"
@@ -6861,8 +7896,95 @@
        inkscape:export-ydpi="100"><tspan
          x="1329.7188"
          y="522.89292"
-         id="tspan115660"><tspan
+         id="tspan13153"><tspan
            style="font-weight:500;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium'"
-           id="tspan115658">f)</tspan></tspan></text>
+           id="tspan13151">f)</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 427.07253,-43.593764 0,-22.538479"
+       id="path4087"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 459.8258,-23.088893 0,-43.04335"
+       id="path4087-0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 492.76415,-1.9431164 0,-64.1891266"
+       id="path4087-9"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:none;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1-7-9-4"
+       width="32.760994"
+       height="19.629772"
+       x="410.69211"
+       y="-28.790194"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:none;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1-7-0-3"
+       width="32.760994"
+       height="19.629772"
+       x="443.45316"
+       y="9.1604233"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:none;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1-7-98-7"
+       width="32.760994"
+       height="19.629772"
+       x="476.21414"
+       y="-28.790194"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:none;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1-7-9-4-1"
+       width="32.760994"
+       height="19.629772"
+       x="443.45306"
+       y="-7.5042763"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <rect
+       style="fill:none;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1-7-0-3-3"
+       width="32.760994"
+       height="19.629772"
+       x="476.21411"
+       y="-12.125495"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:none;fill-opacity:0.523884;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect846-87-6-0-6-2-9-1-7-98-7-8"
+       width="32.760994"
+       height="19.629772"
+       x="508.9751"
+       y="-7.5042763"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/phonon_explorer_binning/binning.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 377.93093,-19.354078 30.84922,0"
+       id="path11233"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-0)"
+       d="m 378.04306,1.9555479 63.66592,0"
+       id="path11233-7"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>
