@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="crystal.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:zoom="0.49260384"
+     inkscape:cx="726.75033"
+     inkscape:cy="559.27295"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path31612" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Send"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2) rotate(180) translate(6,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path31600" />
+    </marker>
+    <rect
+       x="1409.744"
+       y="107.7422"
+       width="279.45409"
+       height="227.17292"
+       id="rect16386" />
+    <rect
+       x="927.65182"
+       y="-46.563787"
+       width="482.0922"
+       height="154.30598"
+       id="rect15390" />
+    <rect
+       x="202.4478"
+       y="6.6927514"
+       width="465.97885"
+       height="154.64696"
+       id="rect13440" />
+    <rect
+       x="202.4478"
+       y="6.6927514"
+       width="465.97885"
+       height="154.64696"
+       id="rect13440-1" />
+    <rect
+       x="202.4478"
+       y="6.6927514"
+       width="465.97885"
+       height="154.64696"
+       id="rect13440-2" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path31612-6" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect33273"
+       width="438.60632"
+       height="184.03633"
+       x="-21.129894"
+       y="33.800278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:#d6d6d6;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 265.16179,163.16711 22.9547,22.95471 -22.95472,22.95473 -22.95473,-22.95473 z"
+       id="path4175-90-5-8-1-7-0"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#0037ff;fill-opacity:1;stroke:none;stroke-width:0.933271;stroke-linecap:round;stroke-linejoin:round"
+       id="path846"
+       cx="39.45644"
+       cy="140.21265"
+       r="4.0907335"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#0037ff;fill-opacity:1;stroke:none;stroke-width:0.933271;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9"
+       cx="85.365685"
+       cy="140.21265"
+       r="4.0907335"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#0037ff;fill-opacity:1;stroke:none;stroke-width:0.933271;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-1"
+       cx="39.45644"
+       cy="186.12193"
+       r="4.0907335"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#0037ff;fill-opacity:1;stroke:none;stroke-width:0.933271;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-5"
+       cx="85.365685"
+       cy="186.12193"
+       r="4.0907335"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#0037ff;fill-opacity:1;stroke:none;stroke-width:0.933271;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-57"
+       cx="131.27496"
+       cy="140.21265"
+       r="4.0907335"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#0037ff;fill-opacity:1;stroke:none;stroke-width:0.933271;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-5-9"
+       cx="131.27496"
+       cy="186.12193"
+       r="4.0907335"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#0037ff;fill-opacity:1;stroke:none;stroke-width:0.933271;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-4"
+       cx="39.456455"
+       cy="94.303398"
+       r="4.0907335"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#0037ff;fill-opacity:1;stroke:none;stroke-width:0.933271;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-59"
+       cx="85.365685"
+       cy="94.303398"
+       r="4.0907335"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#0037ff;fill-opacity:1;stroke:none;stroke-width:0.933271;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-57-0"
+       cx="131.27496"
+       cy="94.303398"
+       r="4.0907335"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;stroke:#0037ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5,1;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 108.32031,48.644123 V 186.37192"
+       id="path3961-0-7-1"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;stroke:#0037ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 154.22959,48.519121 V 186.24692"
+       id="path3961-0-7-1-0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;stroke:#0037ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5,1;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 62.411078,48.64412 v 137.7278"
+       id="path3961-0-7-1-5"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;stroke:#0037ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5,1;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 39.706411,117.25802 H 177.43421"
+       id="path3961-0-7-1-9"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;stroke:#0037ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 39.581411,71.34877 H 177.30921"
+       id="path3961-0-7-1-9-2"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;stroke:#0037ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5,1;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 39.706412,163.16726 H 177.43421"
+       id="path3961-0-7-1-9-0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 62.411078,117.25802 h 45.909232 v 45.90924 H 62.411062 Z"
+       id="path4175"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.00000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.00000006,2.00000006;stroke-opacity:1;stroke-dashoffset:0"
+       d="M 39.456457,140.21263 85.365686,94.303393 131.27492,140.21264 85.36569,186.12189 Z"
+       id="path4175-9"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#0037ff;fill-opacity:1;stroke:none;stroke-width:0.933271;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-5-5"
+       cx="265.16177"
+       cy="186.12183"
+       r="4.0907335"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;stroke:#0037ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 288.11639,48.644021 V 186.37182"
+       id="path3961-0-7-1-93"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;stroke:#0037ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 334.02567,48.519019 V 186.24682"
+       id="path3961-0-7-1-0-7"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;stroke:#0037ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 242.20716,48.644018 V 186.37182"
+       id="path3961-0-7-1-5-8"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;stroke:#0037ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 219.50249,117.25792 h 137.7278"
+       id="path3961-0-7-1-9-7"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;stroke:#0037ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 219.37749,71.348668 h 137.7278"
+       id="path3961-0-7-1-9-2-4"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;stroke:#0037ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.5, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 219.50249,163.16716 h 137.7278"
+       id="path3961-0-7-1-9-0-1"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 242.20716,117.25792 h 45.90923 v 45.90924 h -45.90925 z"
+       id="path4175-90"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 242.33216,117.25792 h 45.90923 v 45.90924 h -45.90925 z"
+       id="path4175-90-5"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:#d6d6d6;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 265.16178,117.25782 22.95471,22.95471 -22.95472,22.95473 -22.95473,-22.95473 z"
+       id="path4175-90-5-8"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-7"
+       cx="265.16177"
+       cy="163.16725"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#0037ff;fill-opacity:1;stroke:none;stroke-width:0.933271;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597"
+       cx="265.16177"
+       cy="140.21254"
+       r="4.0907335"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:#d6d6d6;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 219.25253,163.16711 22.95471,22.95471 -22.95472,22.95473 -22.95473,-22.95473 z"
+       id="path4175-90-5-8-1"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:#d6d6d6;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 311.07106,163.16711 22.9547,22.95471 -22.95472,22.95473 -22.95473,-22.95473 z"
+       id="path4175-90-5-8-1-7"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-38-9"
+       cx="334.02579"
+       cy="186.12181"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:#d6d6d6;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 311.07105,117.25783 22.95471,22.95471 -22.95472,22.95473 -22.95473,-22.95473 z"
+       id="path4175-90-5-8-1-3"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-38-2"
+       cx="334.02579"
+       cy="140.21252"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:#d6d6d6;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 311.07105,71.348578 22.95471,22.95471 -22.95472,22.954732 -22.95473,-22.954732 z"
+       id="path4175-90-5-8-1-37"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-38-1"
+       cx="334.02576"
+       cy="94.303291"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-4-0-2"
+       cx="311.07104"
+       cy="71.348595"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:#d6d6d6;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 265.16178,71.348576 22.95471,22.95471 -22.95472,22.954734 -22.95473,-22.954734 z"
+       id="path4175-90-5-8-1-2"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-38-0"
+       cx="288.11652"
+       cy="94.303284"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-4-0-21"
+       cx="265.1618"
+       cy="71.348587"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:#d6d6d6;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 219.25254,71.348578 242.20725,94.303288 219.25253,117.25802 196.2978,94.303288 Z"
+       id="path4175-90-5-8-1-75"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-38-17"
+       cx="242.20723"
+       cy="94.303276"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-4-0-41"
+       cx="219.25253"
+       cy="71.348587"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:#d6d6d6;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 219.25253,117.25802 22.95471,22.95471 -22.95472,22.95473 -22.95473,-22.95473 z"
+       id="path4175-90-5-8-1-71"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-4-0-7"
+       cx="219.2525"
+       cy="117.25803"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#0037ff;fill-opacity:1;stroke:none;stroke-width:0.933271;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-7"
+       cx="219.2525"
+       cy="140.21254"
+       r="4.0907335"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#0037ff;fill-opacity:1;stroke:none;stroke-width:0.933271;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-1-8"
+       cx="219.2525"
+       cy="186.12183"
+       r="4.0907335"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#0037ff;fill-opacity:1;stroke:none;stroke-width:0.933271;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-57-3"
+       cx="311.07104"
+       cy="140.21254"
+       r="4.0907335"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#0037ff;fill-opacity:1;stroke:none;stroke-width:0.933271;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-5-9-3"
+       cx="311.07104"
+       cy="186.12183"
+       r="4.0907335"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#0037ff;fill-opacity:1;stroke:none;stroke-width:0.933271;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-4-8"
+       cx="219.25252"
+       cy="94.303299"
+       r="4.0907335"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#0037ff;fill-opacity:1;stroke:none;stroke-width:0.933271;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-59-3"
+       cx="265.16177"
+       cy="94.303299"
+       r="4.0907335"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#0037ff;fill-opacity:1;stroke:none;stroke-width:0.933271;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-57-0-7"
+       cx="311.07104"
+       cy="94.303299"
+       r="4.0907335"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-3"
+       cx="242.20702"
+       cy="140.21252"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-4-0"
+       cx="219.25252"
+       cy="163.16711"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-4-0-9"
+       cx="311.07108"
+       cy="163.16711"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-4-0-4"
+       cx="311.07108"
+       cy="117.25784"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-38-9-4"
+       cx="288.11652"
+       cy="186.12181"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-38"
+       cx="242.20723"
+       cy="186.12181"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-4"
+       cx="265.16177"
+       cy="117.25782"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-4-08"
+       cx="196.29779"
+       cy="94.303291"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-4-5"
+       cx="196.29778"
+       cy="140.21272"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-4-1"
+       cx="196.29778"
+       cy="186.12181"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-4-6"
+       cx="219.25252"
+       cy="209.07654"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-4-62"
+       cx="265.16177"
+       cy="209.07654"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-4-19"
+       cx="311.07104"
+       cy="209.07654"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8"
+       cx="288.11649"
+       cy="140.21252"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-7-6"
+       cx="406.28717"
+       cy="151.85564"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#0037ff;fill-opacity:1;stroke:none;stroke-width:0.933271;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-4"
+       cx="406.28717"
+       cy="128.90094"
+       r="4.0907335"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <circle
+       style="fill:#ff0019;fill-opacity:1;stroke:none;stroke-width:0.760155;stroke-linecap:round;stroke-linejoin:round"
+       id="path846-9-597-8-8-3-8"
+       cx="383.33243"
+       cy="128.90092"
+       r="3.3319278"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,13.618721,34.721341)"
+       id="text13438"
+       style="font-style:normal;font-weight:normal;font-size:32px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect13440);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100"><tspan
+         x="202.44727"
+         y="35.005859"
+         id="tspan33719">crystal lattice</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-100.47782,150.514)"
+       id="text13438-0"
+       style="font-style:normal;font-weight:normal;font-size:32px;line-height:1;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect13440-1);fill:#000000;fill-opacity:1;stroke:none"
+       x="69.03125"
+       y="0"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100"><tspan
+         x="364.19434"
+         y="31.005859"
+         id="tspan33721">primitive
+</tspan><tspan
+         x="376.90527"
+         y="63.005859"
+         id="tspan33723">unitcell</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-16.300084,48.012759)"
+       id="text15388"
+       style="font-style:normal;font-weight:normal;font-size:32px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect15390);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100"><tspan
+         x="927.65234"
+         y="-18.251953"
+         id="tspan33725">lattice with a basis</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,11.052753,80.386334)"
+       id="text16384"
+       style="font-style:normal;font-weight:normal;font-size:32px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect16386);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100"><tspan
+         x="1409.7441"
+         y="136.05469"
+         id="tspan33727">basis</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-104.7636,107.133)"
+       id="text13438-2"
+       style="font-style:normal;font-weight:normal;font-size:32px;line-height:1;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect13440-2);fill:#000000;fill-opacity:1;stroke:none"
+       x="100.69531"
+       y="0"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100"><tspan
+         x="332.3584"
+         y="31.005859"
+         id="tspan33729">conventional
+</tspan><tspan
+         x="376.90527"
+         y="63.005859"
+         id="tspan33731">unitcell</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 19.187828,168.64881 c 13.811065,10.53188 35.616479,15.68093 61.67113,-4.98407"
+       id="path31503"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-4)"
+       d="M 39.940525,111.79987 C 53.51318,101.66266 60.247826,106.53341 67.072899,111.2057"
+       id="path31503-3"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/lattice.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+  </g>
+</svg>
