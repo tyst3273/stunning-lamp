@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.linalg import eigh
 
-def solve():
+def solve(nb=2):
 
     nk = 100
     k = np.linspace(-1/2,1/2,nk,endpoint=False)
@@ -22,7 +22,6 @@ def solve():
     KE = np.zeros((nG,nG))
     PE = np.zeros((nG,nG),dtype=complex)
 
-    nb = 2
     ek = np.zeros((nk,nb))
     wk = np.zeros((nk,nb,nG),dtype=complex)
 
