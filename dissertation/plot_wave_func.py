@@ -209,5 +209,7 @@ ax[1].set_yticklabels([])
 ax[0].axis([0,nc,-1.5,13])
 ax[1].axis([0,nc,-1.5,13])
 
+ax[0].annotate('(a)',fontsize='large',xy=(0.01,0.025),xycoords='axes fraction')
+ax[1].annotate('(b)',fontsize='large',xy=(0.01,0.025),xycoords='axes fraction')
 plt.savefig(f'e_bands_wavefunctions.pdf',dpi=100,bbox_inches='tight')
 #plt.show()
