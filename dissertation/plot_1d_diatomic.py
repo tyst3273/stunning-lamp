@@ -86,7 +86,7 @@ for ii in range(3):
         ax[ii].set_ylim(0,1.25)
         ax[ii].set_xlim(-1.5,1.5)
 
-        ax[ii].set_xlabel('i [unitcell label]',fontsize='x-large')
+        ax[ii].set_xlabel(r'k [$2\pi/a$]',fontsize='x-large')
 
 ax[1].set_yticklabels([])
 ax[2].set_yticklabels([])
@@ -139,5 +139,5 @@ plt.savefig('1d_harmonic_disp.png',dpi=300,bbox_inches='tight')
 
 """
 
-plt.show()
+#plt.show()
 
