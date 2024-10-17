@@ -31,7 +31,7 @@ Gy = 0
 exp_iQr = np.real(np.exp(2j*np.pi*(Gx*x+Gy*y)))
 ax[0,0].imshow(exp_iQr.T,cmap='coolwarm',aspect='auto',
                 interpolation='none',origin='lower',extent=extent)
-ax[0,0].set_title(r'$\bm{Q}$'+f'=({Gx},{Gy})',fontsize='large',y=0.975)
+ax[0,0].set_title(r'$\bm{G}$'+f'=({Gx},{Gy})',fontsize='large',y=0.975)
 Fq = np.abs(np.sum(b*np.exp(2j*np.pi*(Gx*tau_x+Gy*tau_y))))
 print(Fq)
 
@@ -40,7 +40,7 @@ Gy = 0
 exp_iQr = np.real(np.exp(2j*np.pi*(Gx*x+Gy*y)))
 ax[0,1].imshow(exp_iQr.T,cmap='coolwarm',aspect='auto',
                 interpolation='none',origin='lower',extent=extent)
-ax[0,1].set_title(r'$\bm{Q}$'+f'=({Gx},{Gy})',fontsize='large',y=0.975)
+ax[0,1].set_title(r'$\bm{G}$'+f'=({Gx},{Gy})',fontsize='large',y=0.975)
 Fq = np.abs(np.sum(b*np.exp(2j*np.pi*(Gx*tau_x+Gy*tau_y))))
 print(Fq)
 
@@ -49,7 +49,7 @@ Gy = 0
 exp_iQr = np.real(np.exp(2j*np.pi*(Gx*x+Gy*y)))
 ax[0,2].imshow(exp_iQr.T,cmap='coolwarm',aspect='auto',
                 interpolation='none',origin='lower',extent=extent)
-ax[0,2].set_title(r'$\bm{Q}$'+f'=({Gx},{Gy})',fontsize='large',y=0.975)
+ax[0,2].set_title(r'$\bm{G}$'+f'=({Gx},{Gy})',fontsize='large',y=0.975)
 Fq = np.abs(np.sum(b*np.exp(2j*np.pi*(Gx*tau_x+Gy*tau_y))))
 print(Fq)
 
@@ -58,7 +58,7 @@ Gy = 1
 exp_iQr = np.real(np.exp(2j*np.pi*(Gx*x+Gy*y)))
 ax[1,0].imshow(exp_iQr.T,cmap='coolwarm',aspect='auto',
                 interpolation='none',origin='lower',extent=extent)
-ax[1,0].set_title(r'$\bm{Q}$'+f'=({Gx},{Gy})',fontsize='large',y=0.975)
+ax[1,0].set_title(r'$\bm{G}$'+f'=({Gx},{Gy})',fontsize='large',y=0.975)
 Fq = np.abs(np.sum(b*np.exp(2j*np.pi*(Gx*tau_x+Gy*tau_y))))
 print(Fq)
 
@@ -67,7 +67,7 @@ Gy = 2
 exp_iQr = np.real(np.exp(2j*np.pi*(Gx*x+Gy*y)))
 ax[1,1].imshow(exp_iQr.T,cmap='coolwarm',aspect='auto',
                 interpolation='none',origin='lower',extent=extent)
-ax[1,1].set_title(r'$\bm{Q}$'+f'=({Gx},{Gy})',fontsize='large',y=0.975)
+ax[1,1].set_title(r'$\bm{G}$'+f'=({Gx},{Gy})',fontsize='large',y=0.975)
 Fq = np.abs(np.sum(b*np.exp(2j*np.pi*(Gx*tau_x+Gy*tau_y))))
 print(Fq)
 
@@ -76,7 +76,7 @@ Gy = 1
 exp_iQr = np.real(np.exp(2j*np.pi*(Gx*x+Gy*y)))
 ax[1,2].imshow(exp_iQr.T,cmap='coolwarm',aspect='auto',
                 interpolation='none',origin='lower',extent=extent)
-ax[1,2].set_title(r'$\bm{Q}$'+f'=({Gx},{Gy})',fontsize='large',y=0.975)
+ax[1,2].set_title(r'$\bm{G}$'+f'=({Gx},{Gy})',fontsize='large',y=0.975)
 Fq = np.abs(np.sum(b*np.exp(2j*np.pi*(Gx*tau_x+Gy*tau_y))))
 print(Fq)
 
