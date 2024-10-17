@@ -28,9 +28,9 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:snap-global="true"
-     inkscape:zoom="0.25449099"
-     inkscape:cx="-149.31767"
-     inkscape:cy="1538.3649"
+     inkscape:zoom="0.50898198"
+     inkscape:cx="276.04121"
+     inkscape:cy="1407.7119"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
      inkscape:window-x="0"
@@ -1471,9 +1471,9 @@
        inkscape:export-ydpi="300"><tspan
          x="432.4913"
          y="59.72293"
-         id="tspan32316"><tspan
+         id="tspan2900"><tspan
            style="font-weight:bold;fill:#000000"
-           id="tspan32314">r''</tspan></tspan></text>
+           id="tspan2898">r''</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-14.159995,92.622769)"
@@ -1484,9 +1484,9 @@
        inkscape:export-ydpi="300"><tspan
          x="437.8246"
          y="59.72293"
-         id="tspan32320"><tspan
+         id="tspan2904"><tspan
            style="font-weight:bold;fill:#000000"
-           id="tspan32318">r'</tspan></tspan></text>
+           id="tspan2902">r'</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-77.191754,55.132472)"
@@ -1497,11 +1497,11 @@
        inkscape:export-ydpi="300"><tspan
          x="436.22461"
          y="59.72293"
-         id="tspan32326"><tspan
+         id="tspan2910"><tspan
            style="font-weight:bold"
-           id="tspan32322">k</tspan><tspan
+           id="tspan2906">k</tspan><tspan
            style="font-size:65%;baseline-shift:sub"
-           id="tspan32324">in</tspan></tspan></text>
+           id="tspan2908">in</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458142,0.00100529,-0.00100529,0.26458142,-54.794226,43.735147)"
@@ -1512,21 +1512,21 @@
        inkscape:export-ydpi="300"><tspan
          x="404.49145"
          y="59.72293"
-         id="tspan32342"><tspan
+         id="tspan2926"><tspan
            style="font-weight:bold"
-           id="tspan32328">Q</tspan><tspan
+           id="tspan2912">Q</tspan><tspan
            style="font-weight:bold"
-           id="tspan32330">=</tspan><tspan
+           id="tspan2914">=</tspan><tspan
            style="font-weight:bold"
-           id="tspan32332">k</tspan><tspan
+           id="tspan2916">k</tspan><tspan
            style="font-weight:bold;font-size:65%;baseline-shift:sub"
-           id="tspan32334">in</tspan><tspan
+           id="tspan2918">in</tspan><tspan
            style="font-weight:bold"
-           id="tspan32336">-</tspan><tspan
+           id="tspan2920">-</tspan><tspan
            style="font-weight:bold"
-           id="tspan32338">k</tspan><tspan
+           id="tspan2922">k</tspan><tspan
            style="font-weight:bold;font-size:65%;baseline-shift:sub"
-           id="tspan32340">out</tspan></tspan></text>
+           id="tspan2924">out</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.13330834,0.22854589,-0.22854589,0.13330834,108.47756,49.129611)"
@@ -1537,33 +1537,33 @@
        inkscape:export-ydpi="100"><tspan
          x="520.49559"
          y="59.72293"
-         id="tspan32348"><tspan
+         id="tspan2932"><tspan
            style="font-weight:bold;fill:#ff0000"
-           id="tspan32344">Q</tspan><tspan
+           id="tspan2928">Q</tspan><tspan
            style="fill:#ff1000"
-           id="tspan32346">=|k|
+           id="tspan2930">=|k|
 </tspan></tspan><tspan
          x="435.16271"
          y="81.056227"
-         id="tspan32368"><tspan
+         id="tspan2952"><tspan
            style="fill:#ff1000"
-           id="tspan32350">[(1-cos(</tspan><tspan
+           id="tspan2934">[(1-cos(</tspan><tspan
            style="fill:#ff1000"
-           id="tspan32352">Θ</tspan><tspan
+           id="tspan2936">Θ</tspan><tspan
            style="fill:#ff1000"
-           id="tspan32354">))</tspan><tspan
+           id="tspan2938">))</tspan><tspan
            style="font-weight:bold"
-           id="tspan32356">x-</tspan><tspan
+           id="tspan2940">x-</tspan><tspan
            style="fill:#ff1000"
-           id="tspan32358">sin(</tspan><tspan
+           id="tspan2942">sin(</tspan><tspan
            style="fill:#ff1000"
-           id="tspan32360">Θ</tspan><tspan
+           id="tspan2944">Θ</tspan><tspan
            style="fill:#ff1000"
-           id="tspan32362">)</tspan><tspan
+           id="tspan2946">)</tspan><tspan
            style="font-weight:bold"
-           id="tspan32364">y</tspan><tspan
+           id="tspan2948">y</tspan><tspan
            style="fill:#ff1000"
-           id="tspan32366">]</tspan></tspan></text>
+           id="tspan2950">]</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458142,0.00100529,-0.00100529,0.26458142,-51.694844,204.34846)"
@@ -1574,15 +1574,15 @@
        inkscape:export-ydpi="100"><tspan
          x="409.55809"
          y="59.72293"
-         id="tspan32378"><tspan
+         id="tspan2962"><tspan
    style="font-weight:bold;baseline-shift:baseline"
-   id="tspan32370">k</tspan><tspan
+   id="tspan2954">k</tspan><tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan32372">in</tspan><tspan
+   id="tspan2956">in</tspan><tspan
    style="font-weight:bold;baseline-shift:baseline"
-   id="tspan32374">=</tspan>|k|<tspan
+   id="tspan2958">=</tspan>|k|<tspan
    style="font-weight:bold;baseline-shift:baseline"
-   id="tspan32376">x</tspan></tspan></text>
+   id="tspan2960">x</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.2518237,0.08117366,-0.08117366,0.2518237,-8.4641944,85.123279)"
@@ -1593,19 +1593,19 @@
        inkscape:export-ydpi="100"><tspan
          x="504.0556"
          y="59.72293"
-         id="tspan32384"><tspan
+         id="tspan2968"><tspan
    style="font-weight:bold"
-   id="tspan32380">k</tspan><tspan
+   id="tspan2964">k</tspan><tspan
    style="font-weight:bold;font-size:65%;baseline-shift:sub"
-   id="tspan32382">out</tspan>=|k|
+   id="tspan2966">out</tspan>=|k|
 </tspan><tspan
          x="455.7892"
          y="81.056227"
-         id="tspan32390">(cos(Θ)<tspan
+         id="tspan2974">(cos(Θ)<tspan
    style="font-weight:bold"
-   id="tspan32386">x</tspan>+sin(Θ)<tspan
+   id="tspan2970">x</tspan>+sin(Θ)<tspan
    style="font-weight:bold"
-   id="tspan32388">y</tspan></tspan></text>
+   id="tspan2972">y</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-83.232748,39.731186)"
@@ -1616,11 +1616,11 @@
        inkscape:export-ydpi="300"><tspan
          x="432.75796"
          y="59.72293"
-         id="tspan32396"><tspan
+         id="tspan2980"><tspan
            style="font-weight:bold"
-           id="tspan32392">k</tspan><tspan
+           id="tspan2976">k</tspan><tspan
            style="font-weight:bold;font-size:65%;baseline-shift:sub"
-           id="tspan32394">out</tspan></tspan></text>
+           id="tspan2978">out</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,54.297755,39.511263)"
@@ -1631,9 +1631,9 @@
        inkscape:export-ydpi="300"><tspan
          x="443.15791"
          y="59.72293"
-         id="tspan32400"><tspan
+         id="tspan2984"><tspan
            style="font-weight:bold;fill:#000000"
-           id="tspan32398">r</tspan></tspan></text>
+           id="tspan2982">r</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.20663731,-0.16524334,0.16524334,0.20663731,32.131211,142.56671)"
@@ -1644,9 +1644,9 @@
        inkscape:export-ydpi="300"><tspan
          x="427.15799"
          y="59.72293"
-         id="tspan32404"><tspan
+         id="tspan2988"><tspan
            style="font-weight:bold;fill:#000000"
-           id="tspan32402">r-r'</tspan></tspan></text>
+           id="tspan2986">r-r'</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.25702348,-0.06279545,0.06279545,0.25702348,8.6711369,75.191081)"
@@ -1657,9 +1657,9 @@
        inkscape:export-ydpi="300"><tspan
          x="421.82469"
          y="59.72293"
-         id="tspan32408"><tspan
+         id="tspan2992"><tspan
            style="font-weight:bold;fill:#000000"
-           id="tspan32406">r-r''</tspan></tspan></text>
+           id="tspan2990">r-r''</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-5.7723786,-32.908709)"
@@ -1670,19 +1670,19 @@
        inkscape:export-ydpi="300"><tspan
          x="170.3162"
          y="511.72488"
-         id="tspan32422">Ψ<tspan
+         id="tspan3006">Ψ<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan32410">in</tspan>(<tspan
+   id="tspan2994">in</tspan>(<tspan
    style="font-weight:bold"
-   id="tspan32412">r</tspan>) ~ e<tspan
+   id="tspan2996">r</tspan>) ~ e<tspan
    style="font-size:65%;baseline-shift:super"
-   id="tspan32414">i</tspan><tspan
+   id="tspan2998">i</tspan><tspan
    style="font-weight:bold;font-size:65%;baseline-shift:super"
-   id="tspan32416">k</tspan><tspan
+   id="tspan3000">k</tspan><tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan32418">in</tspan><tspan
+   id="tspan3002">in</tspan><tspan
    style="font-weight:bold;font-size:65%;baseline-shift:super"
-   id="tspan32420">∙r</tspan></tspan></text>
+   id="tspan3004">∙r</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458269,5.8327861e-4,-5.8327861e-4,0.26458269,-133.56789,278.18869)"
@@ -1693,13 +1693,13 @@
        inkscape:export-ydpi="300"><tspan
          x="210.84932"
          y="511.72488"
-         id="tspan32430"> ~e<tspan
+         id="tspan3014"> ~e<tspan
    style="font-size:65%;baseline-shift:super"
-   id="tspan32424">i</tspan><tspan
+   id="tspan3008">i</tspan><tspan
    style="font-weight:bold;font-size:65%;baseline-shift:super"
-   id="tspan32426">Q∙</tspan><tspan
+   id="tspan3010">Q∙</tspan><tspan
    style="font-weight:bold;font-size:65%;baseline-shift:super"
-   id="tspan32428">τ</tspan></tspan></text>
+   id="tspan3012">τ</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.2070398,-0.16473876,0.16473876,0.2070398,2.8228531,30.482795)"
@@ -1710,17 +1710,17 @@
        inkscape:export-ydpi="300"><tspan
          x="171.16658"
          y="511.72488"
-         id="tspan32442">Ψ<tspan
+         id="tspan3026">Ψ<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan32432">out</tspan>(<tspan
+   id="tspan3016">out</tspan>(<tspan
    style="font-weight:bold"
-   id="tspan32434">r</tspan>) ~ e<tspan
+   id="tspan3018">r</tspan>) ~ e<tspan
    style="font-size:65%;baseline-shift:super"
-   id="tspan32436">ik</tspan><tspan
+   id="tspan3020">ik</tspan><tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan32438">out</tspan><tspan
+   id="tspan3022">out</tspan><tspan
    style="font-size:65%;baseline-shift:super"
-   id="tspan32440">|r-r'|</tspan>/|r-r'|</tspan></text>
+   id="tspan3024">|r-r'|</tspan>/|r-r'|</tspan></text>
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
@@ -1848,9 +1848,9 @@
        inkscape:export-ydpi="100"><tspan
          x="74.212594"
          y="549.0784"
-         id="tspan32446"><tspan
+         id="tspan3030"><tspan
            style="font-weight:bold;stroke:none"
-           id="tspan32444">Θ</tspan></tspan></text>
+           id="tspan3028">Θ</tspan></tspan></text>
     <circle
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.57633;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.15266, 1.15266;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="path285857-0"
@@ -2036,9 +2036,9 @@
        inkscape:export-ydpi="100"><tspan
          x="1096.4528"
          y="851.06277"
-         id="tspan32450"><tspan
+         id="tspan3034"><tspan
            style="font-weight:bold;stroke:none"
-           id="tspan32448">d</tspan></tspan></text>
+           id="tspan3032">d</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-66.836543,-27.74242)"
@@ -2049,13 +2049,13 @@
        inkscape:export-ydpi="100"><tspan
          x="1083.5197"
          y="997.33426"
-         id="tspan32458"><tspan
+         id="tspan3042"><tspan
            style="font-weight:bold"
-           id="tspan32452">Q=2</tspan><tspan
+           id="tspan3036">Q=2</tspan><tspan
            style="font-weight:bold"
-           id="tspan32454">π/</tspan><tspan
+           id="tspan3038">π/</tspan><tspan
            style="font-weight:bold"
-           id="tspan32456">d</tspan></tspan></text>
+           id="tspan3040">d</tspan></tspan></text>
     <g
        id="g11178"
        inkscape:label="bragg"
@@ -3528,9 +3528,9 @@
        inkscape:export-ydpi="300"><tspan
          x="628.36091"
          y="1484.5686"
-         id="tspan32462"><tspan
+         id="tspan3046"><tspan
            style="fill:#000000;stroke:none"
-           id="tspan32460">unitcell</tspan></tspan></text>
+           id="tspan3044">unitcell</tspan></tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#0005ff;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2128-9)"
        d="m -109.66999,467.61886 h 20.697936"
@@ -3597,11 +3597,11 @@
        inkscape:export-ydpi="300"><tspan
          x="-473.68262"
          y="1732.7249"
-         id="tspan32468"><tspan
+         id="tspan3052"><tspan
            style="font-weight:bold"
-           id="tspan32464">k</tspan><tspan
+           id="tspan3048">k</tspan><tspan
            style="font-size:65%;baseline-shift:sub"
-           id="tspan32466">in</tspan></tspan></text>
+           id="tspan3050">in</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,29.363462,-27.293014)"
@@ -3612,11 +3612,11 @@
        inkscape:export-ydpi="300"><tspan
          x="-473.68262"
          y="1732.7249"
-         id="tspan32474"><tspan
+         id="tspan3058"><tspan
            style="font-weight:bold"
-           id="tspan32470">k</tspan><tspan
+           id="tspan3054">k</tspan><tspan
            style="font-size:65%;baseline-shift:sub"
-           id="tspan32472">in</tspan></tspan></text>
+           id="tspan3056">in</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,66.015265,-21.440411)"
@@ -3627,11 +3627,11 @@
        inkscape:export-ydpi="300"><tspan
          x="-477.14926"
          y="1732.7249"
-         id="tspan32480"><tspan
+         id="tspan3064"><tspan
            style="font-weight:bold"
-           id="tspan32476">k</tspan><tspan
+           id="tspan3060">k</tspan><tspan
            style="font-size:65%;baseline-shift:sub"
-           id="tspan32478">out</tspan></tspan></text>
+           id="tspan3062">out</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,45.526024,5.9381689)"
@@ -3642,9 +3642,9 @@
        inkscape:export-ydpi="300"><tspan
          x="-466.74932"
          y="1732.7249"
-         id="tspan32484"><tspan
+         id="tspan3068"><tspan
            style="font-weight:bold;fill:#000000"
-           id="tspan32482">τ</tspan></tspan></text>
+           id="tspan3066">τ</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,17.496096,-39.170376)"
@@ -3655,11 +3655,11 @@
        inkscape:export-ydpi="300"><tspan
          x="-477.14926"
          y="1732.7249"
-         id="tspan32490"><tspan
+         id="tspan3074"><tspan
            style="font-weight:bold"
-           id="tspan32486">k</tspan><tspan
+           id="tspan3070">k</tspan><tspan
            style="font-size:65%;baseline-shift:sub"
-           id="tspan32488">out</tspan></tspan></text>
+           id="tspan3072">out</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,35.935989,-38.919094)"
@@ -3670,9 +3670,9 @@
        inkscape:export-ydpi="300"><tspan
          x="-466.74932"
          y="1732.7249"
-         id="tspan32494"><tspan
+         id="tspan3078"><tspan
            style="font-weight:bold"
-           id="tspan32492">Q</tspan></tspan></text>
+           id="tspan3076">Q</tspan></tspan></text>
     <path
        style="fill:none;stroke:#0007ff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -102.14874,458.83034 0.66343,-0.64635 0.67358,0.65728"
@@ -3706,8 +3706,8 @@
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker9506)"
-       d="m -54.982424,403.98151 c 5.176326,-7.16736 21.021341,-17.37743 35.786907,-16.78819"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart-3-4-3-5);marker-end:url(#marker9506)"
+       d="m -54.982424,403.98151 c 6.460682,-9.57705 18.484576,-17.2098 35.786907,-16.78819"
        id="path76650"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/bragg/bragg_interference.png"
@@ -3715,7 +3715,7 @@
        inkscape:export-ydpi="300" />
     <text
        xml:space="preserve"
-       transform="matrix(0.23716309,-0.11729453,0.11729453,0.23716309,-160.35874,297.65003)"
+       transform="matrix(0.24017184,-0.11100371,0.11100371,0.24017184,-157.52348,294.00052)"
        id="text31160-5-1"
        style="font-size:21.3333px;line-height:1;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;white-space:pre;shape-inside:url(#rect31162-8-0);fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.83465;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        inkscape:export-filename="/home/ty/research/repos/stunning-lamp/dissertation/bragg/bragg_interference.png"
@@ -3723,16 +3723,16 @@
        inkscape:export-ydpi="300"><tspan
          x="194.8494"
          y="511.72488"
-         id="tspan32506"><tspan
+         id="tspan3090"><tspan
            style="baseline-shift:baseline"
-           id="tspan32496"> Re[e</tspan><tspan
+           id="tspan3080"> Re[e</tspan><tspan
            style="font-size:65%;baseline-shift:super"
-           id="tspan32498">i</tspan><tspan
+           id="tspan3082">i</tspan><tspan
            style="font-weight:bold;font-size:65%;baseline-shift:super"
-           id="tspan32500">Q∙</tspan><tspan
+           id="tspan3084">Q∙</tspan><tspan
            style="font-weight:bold;font-size:65%;baseline-shift:super"
-           id="tspan32502">τ</tspan><tspan
+           id="tspan3086">τ</tspan><tspan
            style="baseline-shift:baseline"
-           id="tspan32504">]</tspan></tspan></text>
+           id="tspan3088">]</tspan></tspan></text>
   </g>
 </svg>
